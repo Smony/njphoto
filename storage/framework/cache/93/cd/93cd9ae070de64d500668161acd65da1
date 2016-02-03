@@ -1,0 +1,10 @@
+1454519639s:670:"a:6:{s:5:"mtime";i:1454512285;s:7:"content";s:260:"==
+<a href="#">
+    <button type="button" class="btn btn-default" id="navigate" style="margin-top: 0px;">
+        <a href="scripts:void();" class="btn-auth-group">Login</a> / <a href="scripts:void();" class="btn-auth-group">Register</a>
+    </button>
+</a>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:256:"<a href="#">
+    <button type="button" class="btn btn-default" id="navigate" style="margin-top: 0px;">
+        <a href="scripts:void();" class="btn-auth-group">Login</a> / <a href="scripts:void();" class="btn-auth-group">Register</a>
+    </button>
+</a>";}";
