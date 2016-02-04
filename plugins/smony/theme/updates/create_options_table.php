@@ -10,6 +10,7 @@ class CreateOptionsTable extends Migration
     {
         Schema::create('smony_theme_options', function($table)
         {
+            #Schema::dropIfExists('smony_theme_options');
             $table->engine = 'InnoDB';
             $table->increments('id');
             #$table->string('test');

@@ -1,7 +1,6 @@
 <?php namespace Smony\Theme;
 
 use Backend;
-use Cms;
 use System\Classes\PluginBase;
 
 /**
@@ -35,7 +34,7 @@ class Plugin extends PluginBase
         return []; // Remove this line to activate
 
         return [
-            'Smony\Theme\Components\MyComponent' => 'myComponent',
+            'Smony\Theme\Components\MyComponent' => 'options',
         ];
     }
 
@@ -63,15 +62,16 @@ class Plugin extends PluginBase
      */
     public function registerNavigation()
     {
-        return []; // Remove this line to activate
+        //return []; // Remove this line to activate
 
         return [
             'theme' => [
                 'label'       => 'theme',
-                'url'         => Cms::url('smony/theme/mycontroller'),
+                'url'         => Backend::url('smony/theme/themes'),
                 'icon'        => 'icon-leaf',
                 'permissions' => ['smony.theme.*'],
                 'order'       => 500,
+
             ],
         ];
     }
