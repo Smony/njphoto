@@ -18,7 +18,12 @@ class __TwigTemplate_fc68cf436f5b41b2b352f348710e3fd234f39ba0576b73b1aad62a7b3e6
         // line 1
         echo "<a href=\"#\">
     <button type=\"button\" class=\"btn btn-default\" id=\"navigate\" style=\"margin-top: 0px;\">
-        <a href=\"scripts:void();\" class=\"btn-auth-group\">Login</a> / <a href=\"scripts:void();\" class=\"btn-auth-group\">Register</a>
+        <a href=\"";
+        // line 3
+        echo $this->env->getExtension('CMS')->pageFilter("account");
+        echo "\" class=\"btn-auth-group\">Login</a> / <a href=\"";
+        echo $this->env->getExtension('CMS')->pageFilter("account");
+        echo "\" class=\"btn-auth-group\">Register</a>
     </button>
 </a>";
     }
@@ -28,13 +33,18 @@ class __TwigTemplate_fc68cf436f5b41b2b352f348710e3fd234f39ba0576b73b1aad62a7b3e6
         return "D:\\OpenServer\\domains\\october.nj.biz/themes/photonj/partials/singin.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  23 => 3,  19 => 1,);
     }
 }
 /* <a href="#">*/
 /*     <button type="button" class="btn btn-default" id="navigate" style="margin-top: 0px;">*/
-/*         <a href="scripts:void();" class="btn-auth-group">Login</a> / <a href="scripts:void();" class="btn-auth-group">Register</a>*/
+/*         <a href="{{ 'account'|page }}" class="btn-auth-group">Login</a> / <a href="{{ 'account'|page }}" class="btn-auth-group">Register</a>*/
 /*     </button>*/
 /* </a>*/

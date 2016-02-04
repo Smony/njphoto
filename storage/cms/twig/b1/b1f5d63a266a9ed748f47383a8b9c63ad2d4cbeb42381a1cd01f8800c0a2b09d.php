@@ -125,6 +125,21 @@ class __TwigTemplate_5e5315bfe5aac7604accd252cad933291eec0742122d72fa2d2bbc0f5d1
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.js", 1 => "assets/js/bootstrap.min.js"));
         // line 79
         echo "\"></script>
+
+    ";
+        // line 81
+        echo '<script src="'. Request::getBasePath()
+                .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
+        echo '<script src="'. Request::getBasePath()
+                    .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
+        echo '<link href="'. Request::getBasePath()
+                    .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
+        // line 82
+        echo "    ";
+        echo $this->env->getExtension('CMS')->assetsFunction('js');
+        echo $this->env->getExtension('CMS')->displayBlock('scripts');
+        // line 83
+        echo "
 </body>
 </html>";
     }
@@ -141,7 +156,7 @@ class __TwigTemplate_5e5315bfe5aac7604accd252cad933291eec0742122d72fa2d2bbc0f5d1
 
     public function getDebugInfo()
     {
-        return array (  127 => 79,  125 => 76,  112 => 65,  108 => 64,  101 => 59,  97 => 58,  94 => 57,  92 => 56,  85 => 51,  81 => 50,  53 => 24,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
+        return array (  142 => 83,  138 => 82,  131 => 81,  127 => 79,  125 => 76,  112 => 65,  108 => 64,  101 => 59,  97 => 58,  94 => 57,  92 => 56,  85 => 51,  81 => 50,  53 => 24,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -223,5 +238,9 @@ class __TwigTemplate_5e5315bfe5aac7604accd252cad933291eec0742122d72fa2d2bbc0f5d1
 /*             'assets/js/jquery.js',*/
 /*             'assets/js/bootstrap.min.js'*/
 /*         ]|theme }}"></script>*/
+/* */
+/*     {% framework extras %}*/
+/*     {% scripts %}*/
+/* */
 /* </body>*/
 /* </html>*/

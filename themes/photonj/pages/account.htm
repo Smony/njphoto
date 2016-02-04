@@ -1,0 +1,42 @@
+title = "Account"
+url = "/account"
+is_hidden = 0
+
+[account]
+redirect = "s"
+paramCode = "code"
+
+[session]
+security = "all"
+redirect = "s"
+==
+<div class="conteiner">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 ">
+
+            Account template
+
+            {% if user %}
+            <p>Hello {{ user.name }}</p>
+            {% else %}
+            <p>Nobody is logged in</p>
+            {% endif %}
+
+            {% if user %}
+            <a data-request="onLogout" data-request-data="redirect: 'good-bye'">Sign out</a>
+            {% endif %} 
+            
+            <hr />
+            
+            {% component 'account' %}
+            
+            <hr />
+            
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</div>
+
+{% framework extras %}
+{% scripts %}

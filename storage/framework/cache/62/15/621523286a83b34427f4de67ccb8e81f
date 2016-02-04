@@ -1,4 +1,4 @@
-1454519639s:6081:"a:6:{s:5:"mtime";i:1454518197;s:7:"content";s:2960:"description = "Default layout"
+1454582530s:6183:"a:6:{s:5:"mtime";i:1454579809;s:7:"content";s:3011:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -79,8 +79,12 @@
             'assets/js/jquery.js',
             'assets/js/bootstrap.min.js'
         ]|theme }}"></script>
+
+    {% framework extras %}
+    {% scripts %}
+
 </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2924:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2975:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -159,5 +163,9 @@
             'assets/js/jquery.js',
             'assets/js/bootstrap.min.js'
         ]|theme }}"></script>
+
+    {% framework extras %}
+    {% scripts %}
+
 </body>
 </html>";}";
