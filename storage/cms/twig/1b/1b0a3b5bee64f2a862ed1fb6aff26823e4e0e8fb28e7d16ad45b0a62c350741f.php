@@ -22,8 +22,13 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
             template test
             
             <hr />
-        
-            <hr />
+                ";
+        // line 7
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("carousel"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 8
+        echo "            <hr />
            
         </p>
     </div>
@@ -35,9 +40,14 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
         return "D:\\OpenServer\\domains\\october.nj.biz/themes/photonj/pages/test.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  31 => 8,  27 => 7,  19 => 1,);
     }
 }
 /* <div class="conteiner">*/
@@ -46,7 +56,7 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 /*             template test*/
 /*             */
 /*             <hr />*/
-/*         */
+/*                 {% component 'carousel' %}*/
 /*             <hr />*/
 /*            */
 /*         </p>*/
