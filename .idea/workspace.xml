@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20409a66-3168-43e4-8b7c-ee79d6c1fdc9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/app/uploads/public/56b/4b1/717/56b4b1717fa13877743405.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6eb2bc93b91f0786a1fbcd43ba836444eb4649ef" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" afterPath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/11/89/test.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/11/89/test.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/68/09/404.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/68/09/404.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/82/35/subscribers.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/82/35/subscribers.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" afterPath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" afterPath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" afterPath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" afterPath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/23/d5/23d59403b6d4620c484514923f96c4c1" afterPath="$PROJECT_DIR$/storage/framework/cache/23/d5/23d59403b6d4620c484514923f96c4c1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" afterPath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4a/c8/4ac86d3fd4ae767679a7040ba449ecd0" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/c8/4ac86d3fd4ae767679a7040ba449ecd0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" afterPath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" afterPath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" />
@@ -24,6 +40,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/a7/da/a7dad813c9736f9ad29865d0e24526fb" afterPath="$PROJECT_DIR$/storage/framework/cache/a7/da/a7dad813c9736f9ad29865d0e24526fb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b8/0e/b80e59731b7722d79f00f068da276ab0" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/0e/b80e59731b7722d79f00f068da276ab0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ba/70/ba70b3adf2a471bd6908208596f1629b" afterPath="$PROJECT_DIR$/storage/framework/cache/ba/70/ba70b3adf2a471bd6908208596f1629b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c2/f1/c2f182c08897d9f02fdffda92e7e6fc6" afterPath="$PROJECT_DIR$/storage/framework/cache/c2/f1/c2f182c08897d9f02fdffda92e7e6fc6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/cc/7d/cc7d9981e9e664d14676c69237bb01ad" afterPath="$PROJECT_DIR$/storage/framework/cache/cc/7d/cc7d9981e9e664d14676c69237bb01ad" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d1/50/d150cef53f223811d145fc14af388bfa" afterPath="$PROJECT_DIR$/storage/framework/cache/d1/50/d150cef53f223811d145fc14af388bfa" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d2/ee/d2eef7d7528ce2cb9c9c33bfbe4df9c9" afterPath="$PROJECT_DIR$/storage/framework/cache/d2/ee/d2eef7d7528ce2cb9c9c33bfbe4df9c9" />
@@ -31,7 +48,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" afterPath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" afterPath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" afterPath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/6eb2bc93b91f0786a1fbcd43ba836444eb4649ef" afterPath="$PROJECT_DIR$/storage/framework/sessions/6eb2bc93b91f0786a1fbcd43ba836444eb4649ef" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/pages/account.htm" afterPath="$PROJECT_DIR$/themes/photonj/pages/account.htm" />
     </list>
     <ignored path="october.nj.biz.iws" />
@@ -57,8 +73,28 @@
       <file leaf-file-name="account.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42419356">
-              <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.7005494">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/components/carousel/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Carousel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/components/Carousel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.846153">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,7 +103,7 @@
       <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/smony/theme/Plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.846153">
+            <state vertical-scroll-proportion="0.0">
               <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="e#30#42#0#PHP" expanded="true" />
@@ -79,7 +115,7 @@
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/photonj/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-53.615383">
+            <state vertical-scroll-proportion="0.0">
               <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="83" selection-end-column="17" />
               <folding />
             </state>
@@ -89,7 +125,7 @@
       <file leaf-file-name="singin.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/photonj/partials/singin.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="128" selection-start-line="6" selection-start-column="128" selection-end-line="6" selection-end-column="128" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#!!top" expanded="true" />
@@ -101,7 +137,7 @@
       <file leaf-file-name="navigation.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/photonj/partials/navigation.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="13" />
               <folding />
             </state>
@@ -388,37 +424,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="october.nj.biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="october.nj.biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,6 +439,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohsin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,13 +530,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24626866" sideWeight="0.4918033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489339" sideWeight="0.4918033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27056277" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15367965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24248926" sideWeight="0.5081967" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -797,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#44#60#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="42" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,9 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="91" column="10" selection-start-line="65" selection-start-column="0" selection-end-line="91" selection-end-column="10" />
-          <folding>
-            <element signature="e#32#44#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/smony/theme/Plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.846153">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="e#30#42#0#PHP" expanded="true" />
@@ -889,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/photonj/layouts/default.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-53.615383">
+        <state vertical-scroll-proportion="0.0">
           <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="83" selection-end-column="17" />
           <folding />
         </state>
@@ -897,7 +898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/photonj/partials/navigation.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="13" />
           <folding />
         </state>
@@ -905,7 +906,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/photonj/partials/singin.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="128" selection-start-line="6" selection-start-column="128" selection-end-line="6" selection-end-column="128" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#!!top" expanded="true" />
@@ -913,10 +914,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/components/carousel/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/components/Carousel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.846153">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42419356">
-          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.7005494">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

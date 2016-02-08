@@ -4,7 +4,7 @@ layout = "default"
 is_hidden = 0
 
 [account]
-redirect = "s"
+redirect = "account-users"
 paramCode = "code"
 
 [session]
@@ -31,6 +31,22 @@ redirect = "s"
             <hr />
             
             {% component 'account' %}
+
+            {% if user %}
+            <hr />
+            <div class="row">
+                <p>users</p>{{ user.name }}
+
+            </div>
+
+            {% else %}
+            <hr />
+            <div class="row">
+                <p>masters</p>
+
+            </div>
+            {% endif %}
+            
             
             <hr />
             

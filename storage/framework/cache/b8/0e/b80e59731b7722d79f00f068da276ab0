@@ -1,10 +1,10 @@
-1454683425s:1984:"a:6:{s:5:"mtime";i:1454680037;s:7:"content";s:881:"title = "Account"
+1454950324s:2645:"a:6:{s:5:"mtime";i:1454949717;s:7:"content";s:1210:"title = "Account"
 url = "/account"
 layout = "default"
 is_hidden = 0
 
 [account]
-redirect = "s"
+redirect = "account-users"
 paramCode = "code"
 
 [session]
@@ -31,6 +31,22 @@ redirect = "s"
             <hr />
             
             {% component 'account' %}
+
+            {% if user %}
+            <hr />
+            <div class="row">
+                <p>users</p>{{ user.name }}
+
+            </div>
+
+            {% else %}
+            <hr />
+            <div class="row">
+                <p>masters</p>
+
+            </div>
+            {% endif %}
+            
             
             <hr />
             
@@ -40,7 +56,7 @@ redirect = "s"
 </div>
 
 {% framework extras %}
-{% scripts %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:2:{s:7:"account";a:2:{s:8:"redirect";s:1:"s";s:9:"paramCode";s:4:"code";}s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:1:"s";}}}s:4:"code";N;s:6:"markup";s:709:"<div class="conteiner">
+{% scripts %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:2:{s:7:"account";a:2:{s:8:"redirect";s:13:"account-users";s:9:"paramCode";s:4:"code";}s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:1:"s";}}}s:4:"code";N;s:6:"markup";s:1026:"<div class="conteiner">
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
@@ -60,6 +76,22 @@ redirect = "s"
             <hr />
             
             {% component 'account' %}
+
+            {% if user %}
+            <hr />
+            <div class="row">
+                <p>users</p>{{ user.name }}
+
+            </div>
+
+            {% else %}
+            <hr />
+            <div class="row">
+                <p>masters</p>
+
+            </div>
+            {% endif %}
+            
             
             <hr />
             
