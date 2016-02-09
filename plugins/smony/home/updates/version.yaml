@@ -2,3 +2,6 @@
 1.0.2:
   - Run table migrations
   - create_themes_table.php
+1.0.3:
+  - Run table migrations
+  - create_coffees_table.php

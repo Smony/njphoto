@@ -9,8 +9,8 @@ class Theme extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'Theme Component',
-            'description' => 'No description provided yet...'
+            'name'        => 'Contact',
+            'description' => 'Contacts site...'
         ];
     }
 

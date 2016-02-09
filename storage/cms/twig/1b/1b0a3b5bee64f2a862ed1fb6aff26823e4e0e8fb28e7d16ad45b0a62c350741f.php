@@ -32,7 +32,7 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
                 ";
         // line 14
         $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('CMS')->componentFunction("home"        , $context['__cms_component_params']        );
+        echo $this->env->getExtension('CMS')->componentFunction("contact"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
         // line 15
         echo "            <hr />
@@ -70,7 +70,7 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 /* */
 /*             */
 /*             <hr />*/
-/*                 {% component 'home' %}*/
+/*                 {% component 'contact' %}*/
 /*             <hr />*/
 /*            */
 /*         </p>*/

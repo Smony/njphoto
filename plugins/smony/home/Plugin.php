@@ -18,9 +18,9 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'home',
-            'description' => 'No description provided yet...',
+            'description' => 'home page...',
             'author'      => 'Smony',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-desktop'
         ];
     }
 
@@ -77,9 +77,25 @@ class Plugin extends PluginBase
                         'icon'        => 'icon-list-alt',
                         'url'         => \Backend::url('smony/home/theme'),
                     ],
+                    'coffee-items' => [
+                        'label'       => 'Coffee items',
+                        'icon'        => 'icon-coffee',
+                        'url'         => \Backend::url('smony/home/coffee'),
+                    ],
+                    'if-you-items' => [
+                        'label'       => 'If you items',
+                        'icon'        => 'icon-columns',
+                        'url'         => \Backend::url('smony/home/if-you-items'),
+                    ],
+                    'how-it-works' => [
+                        'label'       => 'How it works',
+                        'icon'        => 'icon-files-o',
+                        'url'         => \Backend::url('smony/home/how-it-works'),
+                    ],
 
                 ]
             ]
+
         ];
     }
 

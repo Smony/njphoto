@@ -4,9 +4,6 @@
 
 
 columns:
-    id:
-        label: ID
-        searchable: true
     name_site:
         label: Title
     phone_number:

@@ -1,6 +1,2 @@
-1455034076s:331:"a:2:{s:5:"mtime";i:1455029008;s:7:"content";s:277:"
-{% for item in theme.getTheme %} <!--Вызывем метод getPosts в нашем компоненте и проходимся циклом по полученынм запиям!-->
-<h4>{{ item.phone_number }}</h4> <!--Выводим заголовок!-->
-
-{% endfor %}
-";}";
+1455034359s:109:"a:2:{s:5:"mtime";i:1455033757;s:7:"content";s:56:"<h1>Contact component</h1>
+<p>Contact component text</p>";}";
