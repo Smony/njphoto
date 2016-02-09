@@ -20,14 +20,21 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
     <div class=\"row\">
         <p>
             template test
+
+
+
+
+
+
+
             
             <hr />
                 ";
-        // line 7
+        // line 14
         $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('CMS')->componentFunction("carousel"        , $context['__cms_component_params']        );
+        echo $this->env->getExtension('CMS')->componentFunction("home"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 8
+        // line 15
         echo "            <hr />
            
         </p>
@@ -47,16 +54,23 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 
     public function getDebugInfo()
     {
-        return array (  31 => 8,  27 => 7,  19 => 1,);
+        return array (  38 => 15,  34 => 14,  19 => 1,);
     }
 }
 /* <div class="conteiner">*/
 /*     <div class="row">*/
 /*         <p>*/
 /*             template test*/
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
 /*             */
 /*             <hr />*/
-/*                 {% component 'carousel' %}*/
+/*                 {% component 'home' %}*/
 /*             <hr />*/
 /*            */
 /*         </p>*/

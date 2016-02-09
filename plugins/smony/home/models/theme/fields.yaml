@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name_site:
+        label: Name site
+    phone_number:
+        label: Phone number
+    email:
+        label: Emeil
+    address:
+        label: Address
+
