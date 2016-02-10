@@ -36,6 +36,7 @@ class Plugin extends PluginBase
         return [
             'Smony\Home\Components\Theme' => 'home',
             'Smony\Home\Components\Coffee' => 'homeCoffee',
+            'Smony\Home\Components\Work' => 'work',
         ];
     }
 

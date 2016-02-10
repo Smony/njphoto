@@ -1,7 +1,9 @@
-1455114507s:790:"a:6:{s:5:"mtime";i:1455113379;s:7:"content";s:305:"title = "test"
+1455119915s:895:"a:6:{s:5:"mtime";i:1455119307;s:7:"content";s:354:"title = "test"
 url = "/test"
 layout = "default"
 is_hidden = 0
+
+[work]
 ==
 <div class="conteiner">
     <div class="row">
@@ -9,34 +11,26 @@ is_hidden = 0
             template test
 
 
+        <hr />
+            {% for work in work.getWorks %}
+            <h4>{{ work.title }}</h4><br />
+            {% endfor %}
+        <hr />
 
-
-                
-
-
-            
-            <hr />
-                
-            <hr />
-           
         </p>
     </div>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:235:"<div class="conteiner">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:4:"work";a:0:{}}}s:4:"code";N;s:6:"markup";s:274:"<div class="conteiner">
     <div class="row">
         <p>
             template test
 
 
+        <hr />
+            {% for work in work.getWorks %}
+            <h4>{{ work.title }}</h4><br />
+            {% endfor %}
+        <hr />
 
-
-                
-
-
-            
-            <hr />
-                
-            <hr />
-           
         </p>
     </div>
 </div>";}";

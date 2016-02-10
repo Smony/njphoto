@@ -2,6 +2,8 @@ title = "test"
 url = "/test"
 layout = "default"
 is_hidden = 0
+
+[work]
 ==
 <div class="conteiner">
     <div class="row">
@@ -9,16 +11,12 @@ is_hidden = 0
             template test
 
 
+        <hr />
+            {% for work in work.getWorks %}
+            <h4>{{ work.title }}</h4><br />
+            {% endfor %}
+        <hr />
 
-
-                
-
-
-            
-            <hr />
-                
-            <hr />
-           
         </p>
     </div>
 </div>
