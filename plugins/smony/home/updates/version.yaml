@@ -3,5 +3,8 @@
   - Run table migrations
   - create_themes_table.php
 1.0.3:
-  - Run table migrations
+  - Create coffees table
   - create_coffees_table.php
+1.0.4:
+  - Create works table
+  - create_works_table.php

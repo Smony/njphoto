@@ -35,6 +35,7 @@ class Plugin extends PluginBase
 
         return [
             'Smony\Home\Components\Theme' => 'home',
+            'Smony\Home\Components\Coffee' => 'homeCoffee',
         ];
     }
 
@@ -66,7 +67,7 @@ class Plugin extends PluginBase
 
         return [
             'home' => [
-                'label'       => 'home',
+                'label'       => 'Home page',
                 'url'         => Backend::url('smony/home/theme'),
                 'icon'        => 'icon-desktop',
                 #'permissions' => ['smony.home.*'],
@@ -82,17 +83,25 @@ class Plugin extends PluginBase
                         'icon'        => 'icon-coffee',
                         'url'         => \Backend::url('smony/home/coffee'),
                     ],
+                    'how-it-works' => [
+                        'label'       => 'How it works',
+                        'icon'        => 'icon-files-o',
+                        'url'         => \Backend::url('smony/home/work')
+                    ]
+
+
+ /*/
                     'if-you-items' => [
                         'label'       => 'If you items',
                         'icon'        => 'icon-columns',
-                        'url'         => \Backend::url('smony/home/if-you-items'),
+                        'url'         => \Backend::url('smony/home/ifyouitems'),
                     ],
                     'how-it-works' => [
                         'label'       => 'How it works',
                         'icon'        => 'icon-files-o',
-                        'url'         => \Backend::url('smony/home/how-it-works'),
-                    ],
-
+                        'url'         => \Backend::url('smony/home/works')
+                    ]
+*/
                 ]
             ]
 

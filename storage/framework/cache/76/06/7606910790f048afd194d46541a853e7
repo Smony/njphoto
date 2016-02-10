@@ -1,9 +1,7 @@
-1455041758s:852:"a:6:{s:5:"mtime";i:1455033720;s:7:"content";s:332:"title = "test"
+1455114507s:790:"a:6:{s:5:"mtime";i:1455113379;s:7:"content";s:305:"title = "test"
 url = "/test"
 layout = "default"
 is_hidden = 0
-
-[home contact]
 ==
 <div class="conteiner">
     <div class="row">
@@ -13,17 +11,17 @@ is_hidden = 0
 
 
 
-
+                
 
 
             
             <hr />
-                {% component 'contact' %}
+                
             <hr />
            
         </p>
     </div>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:12:"home contact";a:0:{}}}s:4:"code";N;s:6:"markup";s:244:"<div class="conteiner">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:235:"<div class="conteiner">
     <div class="row">
         <p>
             template test
@@ -31,12 +29,12 @@ is_hidden = 0
 
 
 
-
+                
 
 
             
             <hr />
-                {% component 'contact' %}
+                
             <hr />
            
         </p>
