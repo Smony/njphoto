@@ -2,63 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20409a66-3168-43e4-8b7c-ee79d6c1fdc9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/app/media/slider/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/app/media/slider/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/app/uploads/public/56b/b4d/1fe/56bb4d1fe5005125466189.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/8e/8e6bdb0e6aadc536ba8830614fb0da32fb1e8a881182fa298cec73052e1ab2b0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/c2/c23e0d156d2a24ba34cf49ec4300964134afbe56053ae554585f71f0c33384dd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/da/da80e1241606212044c915916e661f8ba0557a4c85d5d3e28a15ed7c079e1352.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/ac/09/ac091a88a262919299bb4af7f5fa96ed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/882de37dfc282b2b20beb04cbd66422328490faa" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/10/28/account-users.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/11/89/test.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/08/08062182b6ebf5481f1ea780a29ae6a96576b44714e9e7838073f4ef40936dcd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/11/117294a07909a05ae0ee0dbdc98a085378e5fcbe749b439b44763252a980e900.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/1b/1b0a3b5bee64f2a862ed1fb6aff26823e4e0e8fb28e7d16ad45b0a62c350741f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/56/564252a7693462a132987a79146cfc5ac297ae0e05bb38365f531f1968986187.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/77/7736601023d1fb4aa201065367b7e9fbee68c167ed4614bb4edf242af2138b4b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/97/97ea2efe0038ab66e402a654204a8e3124e850a668cf6d58a6ef26618e53282f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/9c/9ccf01d44115572e418ac6707d662084785ef9e83e5aea2c3bce32ff091a8279.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/cc/ccddf6bf95bff07572bfd3921e2708734a28c61d7d539bdbb84387c070f29325.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/cf/cf7a9530c876cfcffc91fc3c9e06deb7e4b67842844f4345bd72e8f0a45a4da4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/e3/e335d6edd2711e842526397174d4d5b90d7b46720b61a6ea15a0376304b41f2b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/ed/ed0103f97c4d4a4527d195f437bd94388ca193baa2d46b67500e3b1c79de5cd1.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/assets/css/october.css" afterPath="$PROJECT_DIR$/modules/backend/assets/css/october.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/assets/less/layout/fancylayout.less" afterPath="$PROJECT_DIR$/modules/backend/assets/less/layout/fancylayout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/assets/less/october.less" afterPath="$PROJECT_DIR$/modules/backend/assets/less/october.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/traits/InspectableContainer.php" afterPath="$PROJECT_DIR$/modules/backend/traits/InspectableContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/build-min.js" afterPath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/build-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/table.js" afterPath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.autocomplete.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.autocomplete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.base.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dictionary.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dictionary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dropdown.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.set.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.externalparametereditor.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.externalparametereditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.surface.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.surface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/less/inspector.less" afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/inspector.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/less/popover.less" afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/popover.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/storm-min.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/storm-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/storm.css" afterPath="$PROJECT_DIR$/modules/system/assets/ui/storm.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/storm.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/storm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm" afterPath="$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/smony/home/components/Work.php" afterPath="$PROJECT_DIR$/plugins/smony/home/components/Work.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/11/89/test.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/11/89/test.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/68/09/404.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/68/09/404.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/82/35/subscribers.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/82/35/subscribers.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" afterPath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/1b/1b0a3b5bee64f2a862ed1fb6aff26823e4e0e8fb28e7d16ad45b0a62c350741f.php" afterPath="$PROJECT_DIR$/storage/cms/twig/1b/1b0a3b5bee64f2a862ed1fb6aff26823e4e0e8fb28e7d16ad45b0a62c350741f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/cc/ccddf6bf95bff07572bfd3921e2708734a28c61d7d539bdbb84387c070f29325.php" afterPath="$PROJECT_DIR$/storage/cms/twig/cc/ccddf6bf95bff07572bfd3921e2708734a28c61d7d539bdbb84387c070f29325.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" afterPath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" afterPath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" afterPath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" afterPath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/23/d5/23d59403b6d4620c484514923f96c4c1" afterPath="$PROJECT_DIR$/storage/framework/cache/23/d5/23d59403b6d4620c484514923f96c4c1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/36/0f/360f2fbc479f3104b6f9fd501f668fff" afterPath="$PROJECT_DIR$/storage/framework/cache/36/0f/360f2fbc479f3104b6f9fd501f668fff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" afterPath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4a/c8/4ac86d3fd4ae767679a7040ba449ecd0" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/c8/4ac86d3fd4ae767679a7040ba449ecd0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" afterPath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
@@ -66,79 +42,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" afterPath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/61/2c/612c2464de3ccb65903b9760573f1796" afterPath="$PROJECT_DIR$/storage/framework/cache/61/2c/612c2464de3ccb65903b9760573f1796" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" afterPath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" afterPath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/76/06/7606910790f048afd194d46541a853e7" afterPath="$PROJECT_DIR$/storage/framework/cache/76/06/7606910790f048afd194d46541a853e7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7a/6c/7a6c520e67fa8046630c8a1a9fcf96a1" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/6c/7a6c520e67fa8046630c8a1a9fcf96a1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7a/ab/7aab106ced8c4d65f1f2244c2591f3af" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/ab/7aab106ced8c4d65f1f2244c2591f3af" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7c/d8/7cd8bf128813be90d5c6f277d46d6f0d" afterPath="$PROJECT_DIR$/storage/framework/cache/7c/d8/7cd8bf128813be90d5c6f277d46d6f0d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/8d/31/8d3187a28505ba2d3c689b9c15aab310" afterPath="$PROJECT_DIR$/storage/framework/cache/8d/31/8d3187a28505ba2d3c689b9c15aab310" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/93/cd/93cd9ae070de64d500668161acd65da1" afterPath="$PROJECT_DIR$/storage/framework/cache/93/cd/93cd9ae070de64d500668161acd65da1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/95/ed/95ed929c76970ae8312d81aa2701e9ef" afterPath="$PROJECT_DIR$/storage/framework/cache/95/ed/95ed929c76970ae8312d81aa2701e9ef" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/9c/2a/9c2ab907afc5f3620ff583122af51a23" afterPath="$PROJECT_DIR$/storage/framework/cache/9c/2a/9c2ab907afc5f3620ff583122af51a23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/a7/da/a7dad813c9736f9ad29865d0e24526fb" afterPath="$PROJECT_DIR$/storage/framework/cache/a7/da/a7dad813c9736f9ad29865d0e24526fb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" afterPath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b8/0e/b80e59731b7722d79f00f068da276ab0" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/0e/b80e59731b7722d79f00f068da276ab0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ba/70/ba70b3adf2a471bd6908208596f1629b" afterPath="$PROJECT_DIR$/storage/framework/cache/ba/70/ba70b3adf2a471bd6908208596f1629b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c0/55/c0551c22b1258d2aec87bbb1bda49a40" afterPath="$PROJECT_DIR$/storage/framework/cache/c0/55/c0551c22b1258d2aec87bbb1bda49a40" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/cc/7d/cc7d9981e9e664d14676c69237bb01ad" afterPath="$PROJECT_DIR$/storage/framework/cache/cc/7d/cc7d9981e9e664d14676c69237bb01ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d1/50/d150cef53f223811d145fc14af388bfa" afterPath="$PROJECT_DIR$/storage/framework/cache/d1/50/d150cef53f223811d145fc14af388bfa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d2/ee/d2eef7d7528ce2cb9c9c33bfbe4df9c9" afterPath="$PROJECT_DIR$/storage/framework/cache/d2/ee/d2eef7d7528ce2cb9c9c33bfbe4df9c9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f3/ba/f3bad89ba1892ab2604f0c5c17f2ca11" afterPath="$PROJECT_DIR$/storage/framework/cache/f3/ba/f3bad89ba1892ab2604f0c5c17f2ca11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" afterPath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" afterPath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" afterPath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/ce04d5b1d17c5ddec9b58e2a9cf00366ee018925" afterPath="$PROJECT_DIR$/storage/framework/sessions/ce04d5b1d17c5ddec9b58e2a9cf00366ee018925" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/pages/account.htm" afterPath="$PROJECT_DIR$/themes/photonj/pages/account.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/pages/test.htm" afterPath="$PROJECT_DIR$/themes/photonj/pages/test.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/composer.json" afterPath="$PROJECT_DIR$/vendor/composer/installers/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/OxidInstaller.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/OxidInstaller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Factory.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Factory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/View.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/README.md" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/composer.json" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/AbstractField.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/AbstractField.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/CronExpression.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/CronExpression.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/DayOfWeekField.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/DayOfWeekField.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/HoursField.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/HoursField.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/MinutesField.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/src/Cron/MinutesField.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/tests/Cron/CronExpressionTest.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/tests/Cron/CronExpressionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/tests/Cron/HoursFieldTest.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/tests/Cron/HoursFieldTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/tests/Cron/MonthFieldTest.php" afterPath="$PROJECT_DIR$/vendor/mtdowling/cron-expression/tests/Cron/MonthFieldTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/october/rain/composer.json" afterPath="$PROJECT_DIR$/vendor/october/rain/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/october/rain/tests/Router/RouterTest.php" afterPath="$PROJECT_DIR$/vendor/october/rain/tests/Router/RouterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/ERRATA.md" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/ERRATA.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/README.md" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/byte_safe_strings.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/byte_safe_strings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_mcrypt.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_mcrypt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_openssl.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_openssl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/README.md" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/README.md" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/TestListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/TestListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" afterPath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/composer.json" afterPath="$PROJECT_DIR$/vendor/twig/twig/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/deprecated.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/deprecated.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/templates.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/templates.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h" afterPath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Name.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test/Defined.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test/Defined.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed/with_extends.test" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/embed/with_extends.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined.test" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined.test" />
     </list>
     <ignored path="october.nj.biz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,18 +83,18 @@
       <file leaf-file-name="account.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38511327">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.6159251">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <file leaf-file-name="update.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3846154">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -323,8 +243,8 @@
         <option value="$PROJECT_DIR$/plugins/smony/home/components/Work.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/themes/photonj/pages/test.htm" />
-        <option value="$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm" />
         <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm" />
         <option value="$PROJECT_DIR$/themes/photonj/pages/account.htm" />
       </list>
     </option>
@@ -543,28 +463,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="october.nj.biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="october.nj.biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -638,17 +536,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.8467262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.84199584" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2896406" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.1532738" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49154335" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.15800416" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -848,7 +746,7 @@
         <state vertical-scroll-proportion="-24.846153">
           <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
-            <element signature="e#29#41#0#PHP" expanded="true" />
+            <element signature="e#29#41#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -962,16 +860,8 @@
         <state vertical-scroll-proportion="0.5873786">
           <caret line="51" column="42" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="42" />
           <folding>
-            <element signature="e#33#45#0#PHP" expanded="true" />
+            <element signature="e#33#45#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,10 +953,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38511327">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.6159251">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,6 @@
+plugin:
+    name: 'smony.test::lang.plugin.name'
+    description: 'smony.test::lang.plugin.description'
+    author: Smony
+    icon: oc-icon-text-height
+    homepage: ''

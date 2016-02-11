@@ -21,6 +21,14 @@ location = "storage/app/media/vasya"
 
             Account template
 
+            <form enctype="multipart/form-data" action="../upload.php" method="post">
+                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
+                Загружаемый файл: <input type="file" name="uploadfile">
+                <input type="submit" value="Загрузить выбранный файл">
+            </form>
+
+
+
             {% if user %}
             <p>Hello {{ user.name }}</p>
             {% else %}
@@ -35,11 +43,15 @@ location = "storage/app/media/vasya"
             
             {% component 'account' %}
 
+
+
+
             {% if user %}
             <hr />
 
             <div class="row">
                 <p>users</p>{{ user.name }}
+
                 <hr />
                 {% component 'Gallery' %}
                 <hr />

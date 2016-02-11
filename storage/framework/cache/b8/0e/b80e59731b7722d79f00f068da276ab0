@@ -1,4 +1,4 @@
-1455203636s:2926:"a:6:{s:5:"mtime";i:1455203031;s:7:"content";s:1343:"title = "Account"
+1455210668s:3670:"a:6:{s:5:"mtime";i:1455207286;s:7:"content";s:1715:"title = "Account"
 url = "/account"
 layout = "default"
 is_hidden = 0
@@ -21,6 +21,14 @@ location = "storage/app/media/vasya"
 
             Account template
 
+            <form enctype="multipart/form-data" action="../upload.php" method="post">
+                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
+                Загружаемый файл: <input type="file" name="uploadfile">
+                <input type="submit" value="Загрузить выбранный файл">
+            </form>
+
+
+
             {% if user %}
             <p>Hello {{ user.name }}</p>
             {% else %}
@@ -40,6 +48,7 @@ location = "storage/app/media/vasya"
 
             <div class="row">
                 <p>users</p>{{ user.name }}
+
                 <hr />
                 {% component 'Gallery' %}
                 <hr />
@@ -63,12 +72,20 @@ location = "storage/app/media/vasya"
 </div>
 
 {% framework extras %}
-{% scripts %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:3:{s:7:"account";a:2:{s:8:"redirect";s:13:"account-users";s:9:"paramCode";s:4:"code";}s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:1:"s";}s:7:"Gallery";a:1:{s:8:"location";s:23:"storage/app/media/vasya";}}}s:4:"code";N;s:6:"markup";s:1108:"<div class="conteiner">
+{% scripts %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:3:{s:7:"account";a:2:{s:8:"redirect";s:13:"account-users";s:9:"paramCode";s:4:"code";}s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:1:"s";}s:7:"Gallery";a:1:{s:8:"location";s:23:"storage/app/media/vasya";}}}s:4:"code";N;s:6:"markup";s:1480:"<div class="conteiner">
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
 
             Account template
+
+            <form enctype="multipart/form-data" action="../upload.php" method="post">
+                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
+                Загружаемый файл: <input type="file" name="uploadfile">
+                <input type="submit" value="Загрузить выбранный файл">
+            </form>
+
+
 
             {% if user %}
             <p>Hello {{ user.name }}</p>
@@ -89,6 +106,7 @@ location = "storage/app/media/vasya"
 
             <div class="row">
                 <p>users</p>{{ user.name }}
+
                 <hr />
                 {% component 'Gallery' %}
                 <hr />
