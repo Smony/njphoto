@@ -10,6 +10,9 @@ paramCode = "code"
 [session]
 security = "all"
 redirect = "s"
+
+[Gallery]
+location = "storage/app/media/vasya"
 ==
 <div class="conteiner">
     <div class="row">
@@ -34,21 +37,25 @@ redirect = "s"
 
             {% if user %}
             <hr />
+
             <div class="row">
                 <p>users</p>{{ user.name }}
+                <hr />
+                {% component 'Gallery' %}
+                <hr />
 
             </div>
 
             {% else %}
             <hr />
             <div class="row">
-                <p>masters</p>
+                <!--<p>masters</p>-->
 
             </div>
             {% endif %}
             
             
-            <hr />
+
             
         </div>
         <div class="col-lg-1"></div>

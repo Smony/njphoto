@@ -21,22 +21,25 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
         <p>
             template test
 
-
-        <hr />
+            ";
+        // line 6
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("Gallery"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 7
+        echo "        <hr />
             ";
         // line 8
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute($context["work"], "getWorks", array()));
-        foreach ($context['_seq'] as $context["_key"] => $context["work"]) {
-            // line 9
-            echo "            <h4>";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["work"], "title", array()), "html", null, true);
-            echo "</h4><br />
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("filelist"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 9
+        echo "        <br />
             ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['work'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 10
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("home"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
         // line 11
         echo "        <hr />
 
@@ -57,7 +60,7 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 
     public function getDebugInfo()
     {
-        return array (  41 => 11,  32 => 9,  28 => 8,  19 => 1,);
+        return array (  44 => 11,  40 => 10,  37 => 9,  33 => 8,  30 => 7,  26 => 6,  19 => 1,);
     }
 }
 /* <div class="conteiner">*/
@@ -65,11 +68,11 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 /*         <p>*/
 /*             template test*/
 /* */
-/* */
+/*             {% component 'Gallery' %}*/
 /*         <hr />*/
-/*             {% for work in work.getWorks %}*/
-/*             <h4>{{ work.title }}</h4><br />*/
-/*             {% endfor %}*/
+/*             {% component 'filelist' %}*/
+/*         <br />*/
+/*             {% component 'home' %}*/
 /*         <hr />*/
 /* */
 /*         </p>*/

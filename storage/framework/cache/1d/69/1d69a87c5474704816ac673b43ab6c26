@@ -1,4 +1,4 @@
-1455112078s:1003:"a:2:{s:5:"mtime";i:1454591926;s:7:"content";s:949:"{{ form_ajax('onUpdate', { model: user }) }}
+1455203637s:1138:"a:2:{s:5:"mtime";i:1455195438;s:7:"content";s:1083:"{{ form_ajax('onUpdate', { model: user }) }}
 
     <div class="form-group">
         <label for="accountName">Full Name</label>
@@ -19,7 +19,10 @@
         <label for="accountPasswordConfirm">Confirm New Password</label>
         <input name="password_confirmation" type="password" class="form-control" id="accountPasswordConfirm">
     </div>
-
+<div class="form-group">
+    <label for="accountPasswordConfirm">File items</label>
+    <input type="file" name="filename"><br>
+</div>
     <button type="submit" class="btn btn-default">Save</button>
 
 {{ form_close() }}";}";

@@ -44,11 +44,14 @@ class __TwigTemplate_c711ad8cbc679004e423a9257e25459bf9b1152567c49a3a9fb8d6cc672
         <label for=\"accountPasswordConfirm\">Confirm New Password</label>
         <input name=\"password_confirmation\" type=\"password\" class=\"form-control\" id=\"accountPasswordConfirm\">
     </div>
-
+<div class=\"form-group\">
+    <label for=\"accountPasswordConfirm\">File items</label>
+    <input type=\"file\" name=\"filename\"><br>
+</div>
     <button type=\"submit\" class=\"btn btn-default\">Save</button>
 
 ";
-        // line 25
+        // line 28
         echo call_user_func_array($this->env->getFunction('form_close')->getCallable(), array("close"));
     }
 
@@ -64,7 +67,7 @@ class __TwigTemplate_c711ad8cbc679004e423a9257e25459bf9b1152567c49a3a9fb8d6cc672
 
     public function getDebugInfo()
     {
-        return array (  52 => 25,  34 => 10,  26 => 5,  19 => 1,);
+        return array (  55 => 28,  34 => 10,  26 => 5,  19 => 1,);
     }
 }
 /* {{ form_ajax('onUpdate', { model: user }) }}*/
@@ -88,7 +91,10 @@ class __TwigTemplate_c711ad8cbc679004e423a9257e25459bf9b1152567c49a3a9fb8d6cc672
 /*         <label for="accountPasswordConfirm">Confirm New Password</label>*/
 /*         <input name="password_confirmation" type="password" class="form-control" id="accountPasswordConfirm">*/
 /*     </div>*/
-/* */
+/* <div class="form-group">*/
+/*     <label for="accountPasswordConfirm">File items</label>*/
+/*     <input type="file" name="filename"><br>*/
+/* </div>*/
 /*     <button type="submit" class="btn btn-default">Save</button>*/
 /* */
 /* {{ form_close() }}*/

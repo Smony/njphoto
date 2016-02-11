@@ -3,18 +3,21 @@ url = "/test"
 layout = "default"
 is_hidden = 0
 
-[work]
+[home]
+
+[filelist]
+id = 1
 ==
 <div class="conteiner">
     <div class="row">
         <p>
             template test
 
-
+            
         <hr />
-            {% for work in work.getWorks %}
-            <h4>{{ work.title }}</h4><br />
-            {% endfor %}
+            {% component 'filelist' %}
+        <br />
+            {% component 'home' %}
         <hr />
 
         </p>

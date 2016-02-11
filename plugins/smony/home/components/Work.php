@@ -2,7 +2,10 @@
 
 
 use Cms\Classes\ComponentBase;
-use Smony\Home\Models\Works;
+
+#use Smony\Home\Models\Work;
+
+
 class Work extends ComponentBase
 {
 

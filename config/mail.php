@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'noreply@domain.tld', 'name' => 'OctoberCMS'],
+    'from' => ['address' => 'vladymyr@symonchuk.com', 'name' => 'Smony'],
 
     /*
     |--------------------------------------------------------------------------
