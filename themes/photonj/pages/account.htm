@@ -11,9 +11,6 @@ paramCode = "code"
 security = "all"
 redirect = "s"
 
-[Gallery]
-location = "storage/app/media/vasya"
-
 [imageUploader]
 placeholderText = "Click or drag images to upload"
 maxSize = 5
@@ -31,9 +28,12 @@ function onInit()
     $this->imageUploader->bindModel('photoTest', new \Rainlab\User\Models\User);
 
 
+    //var_dump($this->page);
+
+//Auth::user->id
 //echo '<pre>';
-  //      print_r($this->page['user']);
- //       echo '</pre>';
+    //print_r(Auth::user->id);
+       // echo '</pre>';
 //die();
 
 }
@@ -46,7 +46,7 @@ function onInit()
 
             Account
 
-            {% if user %}
+            {% if user.name %}
             <p>Hello {{ user.name }}</p>
             {% else %}
             <p>Nobody is logged in</p>

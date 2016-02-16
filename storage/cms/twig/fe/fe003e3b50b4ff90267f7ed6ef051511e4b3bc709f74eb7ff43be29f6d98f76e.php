@@ -32,7 +32,7 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
         <p  class=\"contact\">
             <img src=\"";
         // line 12
-        echo "assets/img/phone.jpg";
+        echo $this->env->getExtension('CMS')->themeFilter("assets/img/phone.jpg");
         echo "\">
             123
         </p>
@@ -40,7 +40,7 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
         <p  class=\"contact\">
             <img src=\"";
         // line 17
-        echo "assets/img/e-mail.jpg";
+        echo $this->env->getExtension('CMS')->themeFilter("assets/img/e-mail.jpg");
         echo "\">
             123456
         </p>
@@ -48,7 +48,7 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
         <p  class=\"contact\">
             <img src=\"";
         // line 22
-        echo "assets/img/map.jpg";
+        echo $this->env->getExtension('CMS')->themeFilter("assets/img/map.jpg");
         echo "\">
             1234
         </p>
@@ -130,17 +130,17 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 /*         </p>*/
 /* */
 /*         <p  class="contact">*/
-/*             <img src="{{ 'assets/img/phone.jpg' }}">*/
+/*             <img src="{{ 'assets/img/phone.jpg'|theme }}">*/
 /*             123*/
 /*         </p>*/
 /* */
 /*         <p  class="contact">*/
-/*             <img src="{{ 'assets/img/e-mail.jpg' }}">*/
+/*             <img src="{{ 'assets/img/e-mail.jpg'|theme }}">*/
 /*             123456*/
 /*         </p>*/
 /* */
 /*         <p  class="contact">*/
-/*             <img src="{{ 'assets/img/map.jpg' }}">*/
+/*             <img src="{{ 'assets/img/map.jpg'|theme }}">*/
 /*             1234*/
 /*         </p>*/
 /* */

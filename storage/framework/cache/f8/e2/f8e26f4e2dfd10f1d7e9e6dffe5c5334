@@ -1,4 +1,4 @@
-1455622478s:23932:"a:7:{s:5:"mtime";i:1454517847;s:7:"content";s:7915:"<div class="row" style="text-align: center; margin-right: 0px;  margin-left: 0px;">
+1455638828s:24016:"a:7:{s:5:"mtime";i:1455632412;s:7:"content";s:7943:"<div class="row" style="text-align: center; margin-right: 0px;  margin-left: 0px;">
 
     <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3" style="
     padding-left: 6vw;
@@ -54,7 +54,7 @@
 
                 <div class="col-xs-1"></div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">Temperature, Tint, Exposure, Recovery, Fill Light, Blacks, Brightness, Contrast, Clarity, Vibrance, Saturation  and Tone Curves .</p>
                 </div>
                 <div class="col-xs-1"></div>
@@ -96,7 +96,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">We look through your event and narrow the images down to all the good photos while removing images that are out-of-focus, over/underexposed, someone has their eyes closed or bad expressions.</p>
                 </div>
                 <div class="col-xs-1"> </div>
@@ -146,7 +146,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">We edit your images to make them stand out from the rest. These are great for your websites, portfolio, blogs, etc. Either tell us which images you would want us to edit, or have us choose the best images. </p>
                 </div>
                 <div class="col-xs-1"> </div>
@@ -189,7 +189,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text" style="font-size:1.3em;
                                                          ">Sign up now &amp; send your first 50 images for free trial</p>
                 </div>
@@ -204,7 +204,7 @@
     <div class="col-xs-hidden col-md-hidden col-lg-2"></div>
 
 
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:7915:"<div class="row" style="text-align: center; margin-right: 0px;  margin-left: 0px;">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:7943:"<div class="row" style="text-align: center; margin-right: 0px;  margin-left: 0px;">
 
     <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3" style="
     padding-left: 6vw;
@@ -260,7 +260,7 @@
 
                 <div class="col-xs-1"></div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">Temperature, Tint, Exposure, Recovery, Fill Light, Blacks, Brightness, Contrast, Clarity, Vibrance, Saturation  and Tone Curves .</p>
                 </div>
                 <div class="col-xs-1"></div>
@@ -302,7 +302,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">We look through your event and narrow the images down to all the good photos while removing images that are out-of-focus, over/underexposed, someone has their eyes closed or bad expressions.</p>
                 </div>
                 <div class="col-xs-1"> </div>
@@ -352,7 +352,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">We edit your images to make them stand out from the rest. These are great for your websites, portfolio, blogs, etc. Either tell us which images you would want us to edit, or have us choose the best images. </p>
                 </div>
                 <div class="col-xs-1"> </div>
@@ -395,7 +395,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text" style="font-size:1.3em;
                                                          ">Sign up now &amp; send your first 50 images for free trial</p>
                 </div>
@@ -410,7 +410,7 @@
     <div class="col-xs-hidden col-md-hidden col-lg-2"></div>
 
 
-</div>";s:13:"parsed-markup";s:7915:"<div class="row" style="text-align: center; margin-right: 0px;  margin-left: 0px;">
+</div>";s:13:"parsed-markup";s:7943:"<div class="row" style="text-align: center; margin-right: 0px;  margin-left: 0px;">
 
     <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3" style="
     padding-left: 6vw;
@@ -466,7 +466,7 @@
 
                 <div class="col-xs-1"></div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">Temperature, Tint, Exposure, Recovery, Fill Light, Blacks, Brightness, Contrast, Clarity, Vibrance, Saturation  and Tone Curves .</p>
                 </div>
                 <div class="col-xs-1"></div>
@@ -508,7 +508,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">We look through your event and narrow the images down to all the good photos while removing images that are out-of-focus, over/underexposed, someone has their eyes closed or bad expressions.</p>
                 </div>
                 <div class="col-xs-1"> </div>
@@ -558,7 +558,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text">We edit your images to make them stand out from the rest. These are great for your websites, portfolio, blogs, etc. Either tell us which images you would want us to edit, or have us choose the best images. </p>
                 </div>
                 <div class="col-xs-1"> </div>
@@ -601,7 +601,7 @@
 
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10" style="width: 100%;">
-                    <img class="" src="{{ 'assets/img/fon.jpg' }}" style="width: inherit;">
+                    <img class="" src="themes/photonj/assets/img/fon.jpg" style="width: inherit;">
                     <p class="container-text" style="font-size:1.3em;
                                                          ">Sign up now &amp; send your first 50 images for free trial</p>
                 </div>

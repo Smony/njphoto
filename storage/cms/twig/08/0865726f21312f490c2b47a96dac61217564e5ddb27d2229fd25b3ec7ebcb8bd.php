@@ -25,7 +25,7 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 
             ";
         // line 8
-        if ((isset($context["user"]) ? $context["user"] : null)) {
+        if ($this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array())) {
             // line 9
             echo "            <p>Hello ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
@@ -98,7 +98,7 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 /* */
 /*             Account*/
 /* */
-/*             {% if user %}*/
+/*             {% if user.name %}*/
 /*             <p>Hello {{ user.name }}</p>*/
 /*             {% else %}*/
 /*             <p>Nobody is logged in</p>*/

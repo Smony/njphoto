@@ -273,6 +273,7 @@ class Account extends ComponentBase
 
         $user->fill(post());
 
+        #$user->title = '123';
 
         $user->save(null, post('_session_key'));
 

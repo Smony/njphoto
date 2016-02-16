@@ -1,4 +1,4 @@
-1455627425s:1122:"a:2:{s:5:"mtime";i:1455626821;s:7:"content";s:1067:"{{ form_ajax('onUpdate', { model: user }) }}
+1455642253s:1326:"a:2:{s:5:"mtime";i:1455639095;s:7:"content";s:1271:"{{ form_ajax('onUpdate', { model: user }) }}
 
     <div class="form-group">
         <label for="accountName">Full Name</label>
@@ -20,11 +20,22 @@
         <input name="password_confirmation" type="password" class="form-control" id="accountPasswordConfirm">
     </div>
 
-    <div class="form-group">
-        <label>Upload images</label>
-        {% component 'imageUploader' %}
-    </div>
 
-    <button type="submit" class="btn btn-default">Save</button>
+        {% if user.name.id != 'test' %}
+        <div class="form-group">
+            <label>Upload images</label>
+                {% component 'imageUploader' %} <!-- include plugin uploader -->
+        </div>
+        {% else %}
+
+        <div class="row">
+
+            <p>images all</p>
+
+        </div>
+
+        {% endif %}
+
+<button type="submit" class="btn btn-default">Save</button>
 
 {{ form_close() }}";}";

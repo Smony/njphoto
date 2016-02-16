@@ -243,7 +243,7 @@ class User extends UserBase
 
     /**
      * Returns the date this user was last seen.
-     * @return Carbon\Carbon
+     * @return CarbonCarbon
      */
     public function getLastSeen()
     {
