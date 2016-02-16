@@ -4,7 +4,7 @@ layout = "default"
 is_hidden = 0
 
 [account]
-redirect = "account-users"
+redirect = "account"
 paramCode = "code"
 
 [session]
@@ -13,6 +13,24 @@ redirect = "s"
 
 [Gallery]
 location = "storage/app/media/vasya"
+
+[imageUploader]
+placeholderText = "Click or drag images to upload"
+maxSize = 5
+fileTypes = ".gif,.jpg,.jpeg,.png"
+previewWidth = 100
+previewHeight = 100
+previewMode = "auto"
+previewFluid = 0
+==
+<?php
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photo', new \Responsiv\Uploader\Models\Photo);
+}
+?>
 ==
 <div class="conteiner">
     <div class="row">
@@ -21,11 +39,7 @@ location = "storage/app/media/vasya"
 
             Account template
 
-            <form enctype="multipart/form-data" action="../upload.php" method="post">
-                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
-                Загружаемый файл: <input type="file" name="uploadfile">
-                <input type="submit" value="Загрузить выбранный файл">
-            </form>
+         
 
 
 
@@ -36,7 +50,7 @@ location = "storage/app/media/vasya"
             {% endif %}
 
             {% if user %}
-            <a data-request="onLogout" data-request-data="redirect: '/good-by'">Sign out</a>
+            <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
             {% endif %} 
             
             <hr />
@@ -53,9 +67,10 @@ location = "storage/app/media/vasya"
                 <p>users</p>{{ user.name }}
 
                 <hr />
-                {% component 'Gallery' %}
+                
+                {% component 'imageUploader' %}
+                
                 <hr />
-
             </div>
 
             {% else %}

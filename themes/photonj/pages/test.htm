@@ -5,17 +5,34 @@ is_hidden = 0
 
 [home]
 
-[filelist]
-id = 1
+[imageUploader]
+placeholderText = "Click or drag images to upload"
+maxSize = 5
+fileTypes = ".gif,.jpg,.jpeg,.png"
+previewWidth = 100
+previewHeight = 100
+previewMode = "auto"
+previewFluid = 0
+==
+<?php
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photo', new \Responsiv\Uploader\Models\Photo);
+}
+?>
 ==
 <div class="conteiner">
     <div class="row">
         <p>
             template test
 
-            
+
         <hr />
-            {% component 'filelist' %}
+            <form>
+                {% component 'imageUploader' %}
+            </form>
         <br />
             {% component 'home' %}
         <hr />

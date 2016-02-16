@@ -1,10 +1,10 @@
-1455210668s:3670:"a:6:{s:5:"mtime";i:1455207286;s:7:"content";s:1715:"title = "Account"
+1455618271s:3921:"a:6:{s:5:"mtime";i:1455617666;s:7:"content";s:1808:"title = "Account"
 url = "/account"
 layout = "default"
 is_hidden = 0
 
 [account]
-redirect = "account-users"
+redirect = "account"
 paramCode = "code"
 
 [session]
@@ -13,6 +13,24 @@ redirect = "s"
 
 [Gallery]
 location = "storage/app/media/vasya"
+
+[imageUploader]
+placeholderText = "Click or drag images to upload"
+maxSize = 5
+fileTypes = ".gif,.jpg,.jpeg,.png"
+previewWidth = 100
+previewHeight = 100
+previewMode = "auto"
+previewFluid = 0
+==
+<?php
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photo', new \Responsiv\Uploader\Models\Photo);
+}
+?>
 ==
 <div class="conteiner">
     <div class="row">
@@ -21,11 +39,7 @@ location = "storage/app/media/vasya"
 
             Account template
 
-            <form enctype="multipart/form-data" action="../upload.php" method="post">
-                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
-                Загружаемый файл: <input type="file" name="uploadfile">
-                <input type="submit" value="Загрузить выбранный файл">
-            </form>
+         
 
 
 
@@ -36,12 +50,15 @@ location = "storage/app/media/vasya"
             {% endif %}
 
             {% if user %}
-            <a data-request="onLogout" data-request-data="redirect: '/good-by'">Sign out</a>
+            <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
             {% endif %} 
             
             <hr />
             
             {% component 'account' %}
+
+
+
 
             {% if user %}
             <hr />
@@ -50,9 +67,10 @@ location = "storage/app/media/vasya"
                 <p>users</p>{{ user.name }}
 
                 <hr />
-                {% component 'Gallery' %}
+                
+                {% component 'imageUploader' %}
+                
                 <hr />
-
             </div>
 
             {% else %}
@@ -72,18 +90,21 @@ location = "storage/app/media/vasya"
 </div>
 
 {% framework extras %}
-{% scripts %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:3:{s:7:"account";a:2:{s:8:"redirect";s:13:"account-users";s:9:"paramCode";s:4:"code";}s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:1:"s";}s:7:"Gallery";a:1:{s:8:"location";s:23:"storage/app/media/vasya";}}}s:4:"code";N;s:6:"markup";s:1480:"<div class="conteiner">
+{% scripts %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:4:{s:7:"account";a:2:{s:8:"redirect";s:7:"account";s:9:"paramCode";s:4:"code";}s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:1:"s";}s:7:"Gallery";a:1:{s:8:"location";s:23:"storage/app/media/vasya";}s:13:"imageUploader";a:7:{s:15:"placeholderText";s:30:"Click or drag images to upload";s:7:"maxSize";s:1:"5";s:9:"fileTypes";s:20:".gif,.jpg,.jpeg,.png";s:12:"previewWidth";s:3:"100";s:13:"previewHeight";s:3:"100";s:11:"previewMode";s:4:"auto";s:12:"previewFluid";s:1:"0";}}}s:4:"code";s:199:"
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photo', new \Responsiv\Uploader\Models\Photo);
+}
+";s:6:"markup";s:1166:"<div class="conteiner">
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
 
             Account template
 
-            <form enctype="multipart/form-data" action="../upload.php" method="post">
-                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
-                Загружаемый файл: <input type="file" name="uploadfile">
-                <input type="submit" value="Загрузить выбранный файл">
-            </form>
+         
 
 
 
@@ -94,12 +115,15 @@ location = "storage/app/media/vasya"
             {% endif %}
 
             {% if user %}
-            <a data-request="onLogout" data-request-data="redirect: '/good-by'">Sign out</a>
+            <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
             {% endif %} 
             
             <hr />
             
             {% component 'account' %}
+
+
+
 
             {% if user %}
             <hr />
@@ -108,9 +132,10 @@ location = "storage/app/media/vasya"
                 <p>users</p>{{ user.name }}
 
                 <hr />
-                {% component 'Gallery' %}
+                
+                {% component 'imageUploader' %}
+                
                 <hr />
-
             </div>
 
             {% else %}

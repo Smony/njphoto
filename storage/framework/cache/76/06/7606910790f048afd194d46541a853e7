@@ -1,35 +1,61 @@
-1455210669s:931:"a:6:{s:5:"mtime";i:1455197226;s:7:"content";s:364:"title = "test"
+1455617817s:1839:"a:6:{s:5:"mtime";i:1455616349;s:7:"content";s:793:"title = "test"
 url = "/test"
 layout = "default"
 is_hidden = 0
 
 [home]
 
-[filelist]
-id = 1
+[imageUploader]
+placeholderText = "Click or drag images to upload"
+maxSize = 5
+fileTypes = ".gif,.jpg,.jpeg,.png"
+previewWidth = 100
+previewHeight = 100
+previewMode = "auto"
+previewFluid = 0
+==
+<?php
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photo', new \Responsiv\Uploader\Models\Photo);
+}
+?>
 ==
 <div class="conteiner">
     <div class="row">
         <p>
             template test
 
-            
+
         <hr />
-            {% component 'filelist' %}
+            <form>
+                {% component 'imageUploader' %}
+            </form>
         <br />
             {% component 'home' %}
         <hr />
 
         </p>
     </div>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:2:{s:4:"home";a:0:{}s:8:"filelist";a:1:{s:2:"id";s:1:"1";}}}s:4:"code";N;s:6:"markup";s:262:"<div class="conteiner">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:2:{s:4:"home";a:0:{}s:13:"imageUploader";a:7:{s:15:"placeholderText";s:30:"Click or drag images to upload";s:7:"maxSize";s:1:"5";s:9:"fileTypes";s:20:".gif,.jpg,.jpeg,.png";s:12:"previewWidth";s:3:"100";s:13:"previewHeight";s:3:"100";s:11:"previewMode";s:4:"auto";s:12:"previewFluid";s:1:"0";}}}s:4:"code";s:199:"
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photo', new \Responsiv\Uploader\Models\Photo);
+}
+";s:6:"markup";s:300:"<div class="conteiner">
     <div class="row">
         <p>
             template test
 
-            
+
         <hr />
-            {% component 'filelist' %}
+            <form>
+                {% component 'imageUploader' %}
+            </form>
         <br />
             {% component 'home' %}
         <hr />
