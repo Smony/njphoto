@@ -272,7 +272,11 @@ class Account extends ComponentBase
         }
 
         $user->fill(post());
-        $user->save();
+
+
+        $user->save(null, post('_session_key'));
+
+        //user->save();
 
         /*
          * Password has changed, reauthenticate the user

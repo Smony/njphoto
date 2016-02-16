@@ -249,4 +249,8 @@ class User extends UserBase
     {
         return $this->last_login ?: $this->created_at;
     }
+
+    public $attachMany = [
+        'photoTest' => ['System\Models\File']
+    ];
 }

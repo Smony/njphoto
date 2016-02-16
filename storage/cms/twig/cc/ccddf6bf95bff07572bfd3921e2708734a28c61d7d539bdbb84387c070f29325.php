@@ -45,10 +45,20 @@ class __TwigTemplate_c711ad8cbc679004e423a9257e25459bf9b1152567c49a3a9fb8d6cc672
         <input name=\"password_confirmation\" type=\"password\" class=\"form-control\" id=\"accountPasswordConfirm\">
     </div>
 
+    <div class=\"form-group\">
+        <label>Upload images</label>
+        ";
+        // line 25
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("imageUploader"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 26
+        echo "    </div>
+
     <button type=\"submit\" class=\"btn btn-default\">Save</button>
 
 ";
-        // line 25
+        // line 30
         echo call_user_func_array($this->env->getFunction('form_close')->getCallable(), array("close"));
     }
 
@@ -64,7 +74,7 @@ class __TwigTemplate_c711ad8cbc679004e423a9257e25459bf9b1152567c49a3a9fb8d6cc672
 
     public function getDebugInfo()
     {
-        return array (  52 => 25,  34 => 10,  26 => 5,  19 => 1,);
+        return array (  62 => 30,  56 => 26,  52 => 25,  34 => 10,  26 => 5,  19 => 1,);
     }
 }
 /* {{ form_ajax('onUpdate', { model: user }) }}*/
@@ -87,6 +97,11 @@ class __TwigTemplate_c711ad8cbc679004e423a9257e25459bf9b1152567c49a3a9fb8d6cc672
 /*     <div class="form-group">*/
 /*         <label for="accountPasswordConfirm">Confirm New Password</label>*/
 /*         <input name="password_confirmation" type="password" class="form-control" id="accountPasswordConfirm">*/
+/*     </div>*/
+/* */
+/*     <div class="form-group">*/
+/*         <label>Upload images</label>*/
+/*         {% component 'imageUploader' %}*/
 /*     </div>*/
 /* */
 /*     <button type="submit" class="btn btn-default">Save</button>*/
