@@ -19,19 +19,27 @@ class __TwigTemplate_5bbcc53064ec04b3dd5f632d371cceeb75b7b69dcfb40167a6b78fc06a8
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("slider_main.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
-        // line 2
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('CMS')->contentFunction("how_it_works.htm"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        // line 3
+        echo " <!--INCLUDE SLIDER MAIN PAGE -->
+
+
+";
+        // line 4
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("work"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        echo "  <!--INCLUDE WORK ITEMS -->
+
+
+";
+        // line 7
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("If_you_items.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
-        // line 4
+        // line 8
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("coffee_items.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
-        // line 5
+        // line 9
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("plan.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
@@ -49,11 +57,15 @@ class __TwigTemplate_5bbcc53064ec04b3dd5f632d371cceeb75b7b69dcfb40167a6b78fc06a8
 
     public function getDebugInfo()
     {
-        return array (  35 => 5,  31 => 4,  27 => 3,  23 => 2,  19 => 1,);
+        return array (  43 => 9,  39 => 8,  35 => 7,  27 => 4,  19 => 1,);
     }
 }
-/* {% content "slider_main.htm" %}*/
-/* {% content "how_it_works.htm" %}*/
+/* {% content "slider_main.htm" %} <!--INCLUDE SLIDER MAIN PAGE -->*/
+/* */
+/* */
+/* {% component 'work' %}  <!--INCLUDE WORK ITEMS -->*/
+/* */
+/* */
 /* {% content "If_you_items.htm" %}*/
 /* {% content "coffee_items.htm" %}*/
 /* {% content "plan.htm" %}*/

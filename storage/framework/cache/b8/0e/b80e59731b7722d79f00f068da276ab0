@@ -1,4 +1,4 @@
-1455642229s:3079:"a:6:{s:5:"mtime";i:1455640652;s:7:"content";s:1395:"title = "Account"
+1455705768s:3079:"a:6:{s:5:"mtime";i:1455646793;s:7:"content";s:1395:"title = "Account"
 url = "/account"
 layout = "default"
 is_hidden = 0
@@ -25,10 +25,10 @@ function onInit()
 {
     //$this->imageUploader->bindModel('files', Project::find(1));
     //new Project;
-    //$this->imageUploader->bindModel('photoTest', new \Rainlab\User\Models\User);
+    $this->imageUploader->bindModel('photoTest', new \Rainlab\User\Models\User);
 
 
-    var_dump($this->page);
+    //var_dump($this->page);
 
 //Auth::user->id
 //echo '<pre>';
@@ -72,10 +72,10 @@ function onInit()
 {
     //$this->imageUploader->bindModel('files', Project::find(1));
     //new Project;
-    //$this->imageUploader->bindModel('photoTest', new \Rainlab\User\Models\User);
+    $this->imageUploader->bindModel('photoTest', new \Rainlab\User\Models\User);
 
 
-    var_dump($this->page);
+    //var_dump($this->page);
 
 //Auth::user->id
 //echo '<pre>';

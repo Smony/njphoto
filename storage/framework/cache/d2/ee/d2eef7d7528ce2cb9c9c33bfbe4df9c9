@@ -1,4 +1,4 @@
-1455638828s:3877:"a:7:{s:5:"mtime";i:1454515669;s:7:"content";s:1230:"<div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">
+1455702344s:2431:"a:7:{s:5:"mtime";i:1455701578;s:7:"content";s:749:"<div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">
 
     <p class="how_it_works"> title </p>
     <div class="under_how_it_works">
@@ -8,23 +8,17 @@
     <div class="row" style="margin-right: 0px;  margin-left: 0px";>
         <div class="col-xs-hidden col-sm-hidden col-md-1"></div>
 
+        {% for post in work.works %}
         <div class="col-xs-12 col-md-2" >
             <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> You upload   your pictures </p>
+            <p class="under_plasecholder_sircl" style="word-wrap: break-word;">{{ post.title }}</p>
         </div>
-        <div class="col-xs-12 col-md-2" >
-            <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> We do our work   & upload edited photos </p>
-        </div>
-        <div class="col-xs-12 col-md-2" >
-            <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> You review it   & give your feedback   if needed </p>
-        </div>
+        {% endfor %}
 
         <div class="col-xs-hidden col-sm-hidden col-md-1" ></div>
     </div>
     <span class="indent"></span>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1230:"<div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:749:"<div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">
 
     <p class="how_it_works"> title </p>
     <div class="under_how_it_works">
@@ -34,23 +28,17 @@
     <div class="row" style="margin-right: 0px;  margin-left: 0px";>
         <div class="col-xs-hidden col-sm-hidden col-md-1"></div>
 
+        {% for post in work.works %}
         <div class="col-xs-12 col-md-2" >
             <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> You upload   your pictures </p>
+            <p class="under_plasecholder_sircl" style="word-wrap: break-word;">{{ post.title }}</p>
         </div>
-        <div class="col-xs-12 col-md-2" >
-            <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> We do our work   & upload edited photos </p>
-        </div>
-        <div class="col-xs-12 col-md-2" >
-            <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> You review it   & give your feedback   if needed </p>
-        </div>
+        {% endfor %}
 
         <div class="col-xs-hidden col-sm-hidden col-md-1" ></div>
     </div>
     <span class="indent"></span>
-</div>";s:13:"parsed-markup";s:1230:"<div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">
+</div>";s:13:"parsed-markup";s:749:"<div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">
 
     <p class="how_it_works"> title </p>
     <div class="under_how_it_works">
@@ -60,18 +48,12 @@
     <div class="row" style="margin-right: 0px;  margin-left: 0px";>
         <div class="col-xs-hidden col-sm-hidden col-md-1"></div>
 
+        {% for post in work.works %}
         <div class="col-xs-12 col-md-2" >
             <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> You upload   your pictures </p>
+            <p class="under_plasecholder_sircl" style="word-wrap: break-word;">{{ post.title }}</p>
         </div>
-        <div class="col-xs-12 col-md-2" >
-            <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> We do our work   & upload edited photos </p>
-        </div>
-        <div class="col-xs-12 col-md-2" >
-            <img class="img-responsive img-circle" src="12312312" alt="">
-            <p class="under_plasecholder_sircl" style="word-wrap: break-word;"> You review it   & give your feedback   if needed </p>
-        </div>
+        {% endfor %}
 
         <div class="col-xs-hidden col-sm-hidden col-md-1" ></div>
     </div>

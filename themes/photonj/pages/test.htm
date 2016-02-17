@@ -3,25 +3,7 @@ url = "/test"
 layout = "default"
 is_hidden = 0
 
-[home]
-
-[imageUploader]
-placeholderText = "Click or drag images to upload"
-maxSize = 5
-fileTypes = ".gif,.jpg,.jpeg,.png"
-previewWidth = 100
-previewHeight = 100
-previewMode = "auto"
-previewFluid = 0
-==
-<?php
-function onInit()
-{
-    //$this->imageUploader->bindModel('files', Project::find(1));
-    //new Project;
-    $this->imageUploader->bindModel('photo', new \Responsiv\Uploader\Models\Photo);
-}
-?>
+[work]
 ==
 <div class="conteiner">
     <div class="row">
@@ -30,11 +12,16 @@ function onInit()
 
 
         <hr />
-            <form>
-                {% component 'imageUploader' %}
-            </form>
-        <br />
-            {% component 'home' %}
+
+        {% for post in work.works %}
+
+            {{ post.id }}
+            {{ post.title }}
+            <img src="{{ post.attachments.path }}">
+
+            <br />
+        {% endfor %}
+
         <hr />
 
         </p>

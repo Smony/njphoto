@@ -1,6 +1,6 @@
 @media  (min-width : 200px) and (max-width : 320px) { 
 	.contact{
-		font-size: 1.9em;
+		font-size: 1.3em;
 		text-align: left;
 	}
 	
@@ -27,7 +27,7 @@
 
 @media  (min-width : 321px) and (max-width : 374px) { 
 	.contact{
-		font-size: 1.9em;
+		font-size: 1.3em;
 		text-align: left;
 	}
 	
@@ -683,12 +683,15 @@ p.contact > img{
 	font-weight: 400;
 	color: #FFFFFF !important;
     text-align: left;
+    height: 25px;
+    vertical-align: middle;
 }
 
 .MENU > li{
 	list-style: none;
 	color: white;
 	font-size: 1.4em;
+
     
 }
 
@@ -702,7 +705,7 @@ hr {
 .MENU_items > li > a:hover,
 .MENU_items > li > a:visited,
 .MENU_items > li > a:focus{
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-weight: 400;
 	color: #FFFFFF !important;
 	list-style: disc inside ;
@@ -718,4 +721,8 @@ hr {
 .copyright{
 	color: #808080;
 	font-size: 1.3em;
+}
+
+body{
+    overflow-x: hidden;
 }

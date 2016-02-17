@@ -23,22 +23,36 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 
 
         <hr />
-            <form>
-                ";
+
+        ";
         // line 9
-        $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('CMS')->componentFunction("imageUploader"        , $context['__cms_component_params']        );
-        unset($context['__cms_component_params']);
-        // line 10
-        echo "            </form>
-        <br />
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["work"]) ? $context["work"] : null), "works", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
+            // line 10
+            echo "
             ";
-        // line 12
-        $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('CMS')->componentFunction("home"        , $context['__cms_component_params']        );
-        unset($context['__cms_component_params']);
-        // line 13
-        echo "        <hr />
+            // line 11
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "id", array()), "html", null, true);
+            echo "
+            ";
+            // line 12
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", array()), "html", null, true);
+            echo "
+            <img src=\"";
+            // line 13
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], "attachments", array()), "path", array()), "html", null, true);
+            echo "\">
+
+            <br />
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 17
+        echo "
+        <hr />
 
         </p>
     </div>
@@ -57,7 +71,7 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 
     public function getDebugInfo()
     {
-        return array (  41 => 13,  37 => 12,  33 => 10,  29 => 9,  19 => 1,);
+        return array (  54 => 17,  44 => 13,  40 => 12,  36 => 11,  33 => 10,  29 => 9,  19 => 1,);
     }
 }
 /* <div class="conteiner">*/
@@ -67,11 +81,16 @@ class __TwigTemplate_0b3e3db3b047377f01bc8a98f12483deb7db9ee20a0b8852a958152d0c2
 /* */
 /* */
 /*         <hr />*/
-/*             <form>*/
-/*                 {% component 'imageUploader' %}*/
-/*             </form>*/
-/*         <br />*/
-/*             {% component 'home' %}*/
+/* */
+/*         {% for post in work.works %}*/
+/* */
+/*             {{ post.id }}*/
+/*             {{ post.title }}*/
+/*             <img src="{{ post.attachments.path }}">*/
+/* */
+/*             <br />*/
+/*         {% endfor %}*/
+/* */
 /*         <hr />*/
 /* */
 /*         </p>*/

@@ -3,18 +3,21 @@ url = "/"
 layout = "default"
 description = "Description text"
 is_hidden = 0
+
+[work]
 ==
 
-{% content "slider_main.htm" %}
-{% content "how_it_works.htm" %}
+{% content "slider_main.htm" %} <!--INCLUDE SLIDER MAIN PAGE -->
+
+
+{% component 'work' %}  <!--INCLUDE WORK ITEMS -->
+
+
 {% content "If_you_items.htm" %}
+
+
 {% content "coffee_items.htm" %}
+
+
+
 {% content "plan.htm" %}
-
-
-
-
-
-
-
-

@@ -1,25 +1,26 @@
-1455642229s:727:"a:6:{s:5:"mtime";i:1454518202;s:7:"content";s:279:"title = "Home"
+1455705457s:854:"a:6:{s:5:"mtime";i:1455703438;s:7:"content";s:330:"title = "Home"
 url = "/"
 layout = "default"
 description = "Description text"
 is_hidden = 0
+
+[work]
 ==
 
-{% content "slider_main.htm" %}
-{% content "how_it_works.htm" %}
+{% content "slider_main.htm" %} <!--INCLUDE SLIDER MAIN PAGE -->
+
+
+{% component 'work' %}  <!--INCLUDE WORK ITEMS -->
+
+
 {% content "If_you_items.htm" %}
 {% content "coffee_items.htm" %}
-{% content "plan.htm" %}
+{% content "plan.htm" %}";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:16:"Description text";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:4:"work";a:0:{}}}s:4:"code";N;s:6:"markup";s:218:"{% content "slider_main.htm" %} <!--INCLUDE SLIDER MAIN PAGE -->
 
 
+{% component 'work' %}  <!--INCLUDE WORK ITEMS -->
 
 
-
-
-
-
-";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:16:"Description text";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:159:"{% content "slider_main.htm" %}
-{% content "how_it_works.htm" %}
 {% content "If_you_items.htm" %}
 {% content "coffee_items.htm" %}
 {% content "plan.htm" %}";}";
