@@ -41,7 +41,7 @@ class __TwigTemplate_4211e201efd5c5a3518fdc86e222bfc819991184247d3af8fde3bd5e71a
             // line 11
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], "attachments", array()), "path", array()), "html", null, true);
             echo "\" alt=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", array()), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], "attachments", array()), "title", array()), "html", null, true);
             echo "\">
             <p class=\"under_plasecholder_sircl\" style=\"word-wrap: break-word;\">";
             // line 12
@@ -86,7 +86,7 @@ class __TwigTemplate_4211e201efd5c5a3518fdc86e222bfc819991184247d3af8fde3bd5e71a
 /* */
 /*         {% for post in work.works %}*/
 /*         <div class="col-xs-12 col-md-2" >*/
-/*             <img class="img-responsive img-circle" src="{{ post.attachments.path }}" alt="{{ post.title }}">*/
+/*             <img class="img-responsive img-circle" src="{{ post.attachments.path }}" alt="{{ post.attachments.title }}">*/
 /*             <p class="under_plasecholder_sircl" style="word-wrap: break-word;">{{ post.title }}</p>*/
 /*         </div>*/
 /*         {% endfor %}*/

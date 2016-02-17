@@ -4,6 +4,7 @@ layout = "default"
 is_hidden = 0
 
 [work]
+
 ==
 <div class="conteiner">
     <div class="row">
@@ -17,12 +18,24 @@ is_hidden = 0
 
             {{ post.id }}
             {{ post.title }}
-            <img src="{{ post.attachments.path }}">
-
+            {{ post.attachments.path }}
+            {{ post.attachments.title }}
+            {{ post.attachments.description }}
             <br />
         {% endfor %}
 
         <hr />
+
+
+
+
+        {% for social in home.getSocial %}
+
+        {{ social }}
+
+        <br />
+
+        {% endfor %}
 
         </p>
     </div>

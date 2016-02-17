@@ -18,10 +18,28 @@ class Theme extends ComponentBase
     {
         return [];
     }
-
+/*
     public function getTheme(){
         #return Theme::orderBy('id', 'desc')->get();
         return Theme::get();
     }
+*/
+    public function posts()
+    {
+        return ['First Post', 'Second Post', 'Third Third'];
+    }
 
+    public function getContact()
+    {
+        return Models\Theme::where('id', 1)
+            ->limit(1)
+            ->get();
+    }
+
+    public function getSocial()
+    {
+        return Models\Theme::where('id', 2)
+            ->limit(1)
+            ->get();
+    }
 }

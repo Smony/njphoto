@@ -18,4 +18,16 @@ class Coffee extends ComponentBase
         return [];
     }
 
+    public function posts()
+    {
+        return ['First Post', 'Second Post', 'Third Third'];
+    }
+
+    public function getCoffee()
+    {
+        return \Smony\Home\Models\Coffee::where('id', 1)
+            ->limit(1)
+            ->get();
+    }
+
 }

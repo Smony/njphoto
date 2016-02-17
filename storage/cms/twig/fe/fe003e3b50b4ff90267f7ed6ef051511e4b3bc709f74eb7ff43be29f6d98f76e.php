@@ -29,30 +29,53 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
             </a>
         </p>
 
+        ";
+        // line 11
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["home"]) ? $context["home"] : null), "getContact", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["contact"]) {
+            // line 12
+            echo "
         <p  class=\"contact\">
             <img src=\"";
-        // line 12
-        echo $this->env->getExtension('CMS')->themeFilter("assets/img/phone.jpg");
-        echo "\">
-            123
+            // line 14
+            echo $this->env->getExtension('CMS')->themeFilter("assets/img/phone.jpg");
+            echo "\">
+            ";
+            // line 15
+            echo twig_escape_filter($this->env, $this->getAttribute($context["contact"], "phone_number", array()), "html", null, true);
+            echo "
         </p>
 
         <p  class=\"contact\">
             <img src=\"";
-        // line 17
-        echo $this->env->getExtension('CMS')->themeFilter("assets/img/e-mail.jpg");
-        echo "\">
-            123456
+            // line 19
+            echo $this->env->getExtension('CMS')->themeFilter("assets/img/e-mail.jpg");
+            echo "\">
+            ";
+            // line 20
+            echo twig_escape_filter($this->env, $this->getAttribute($context["contact"], "email", array()), "html", null, true);
+            echo "
         </p>
 
         <p  class=\"contact\">
             <img src=\"";
-        // line 22
-        echo $this->env->getExtension('CMS')->themeFilter("assets/img/map.jpg");
-        echo "\">
-            1234
+            // line 24
+            echo $this->env->getExtension('CMS')->themeFilter("assets/img/map.jpg");
+            echo "\">
+            ";
+            // line 25
+            echo twig_escape_filter($this->env, $this->getAttribute($context["contact"], "address", array()), "html", null, true);
+            echo "
         </p>
 
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['contact'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 29
+        echo "
         <p  class=\"contact_social_networks\">
 
             <a href=\"#\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-facebook  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
@@ -92,11 +115,11 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
     <div class=\"col-xs-12 col-lg-2 footer_menu\">
 
         ";
-        // line 64
+        // line 68
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("navigation_footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 65
+        // line 69
         echo "
     </div>
 
@@ -116,7 +139,7 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 
     public function getDebugInfo()
     {
-        return array (  100 => 65,  96 => 64,  51 => 22,  43 => 17,  35 => 12,  26 => 6,  19 => 1,);
+        return array (  123 => 69,  119 => 68,  78 => 29,  68 => 25,  64 => 24,  57 => 20,  53 => 19,  46 => 15,  42 => 14,  38 => 12,  34 => 11,  26 => 6,  19 => 1,);
     }
 }
 /* <div class="col-xs-hidden col-lg-2"> </div>*/
@@ -129,20 +152,24 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 /*             </a>*/
 /*         </p>*/
 /* */
+/*         {% for contact in home.getContact %}*/
+/* */
 /*         <p  class="contact">*/
 /*             <img src="{{ 'assets/img/phone.jpg'|theme }}">*/
-/*             123*/
+/*             {{ contact.phone_number }}*/
 /*         </p>*/
 /* */
 /*         <p  class="contact">*/
 /*             <img src="{{ 'assets/img/e-mail.jpg'|theme }}">*/
-/*             123456*/
+/*             {{ contact.email }}*/
 /*         </p>*/
 /* */
 /*         <p  class="contact">*/
 /*             <img src="{{ 'assets/img/map.jpg'|theme }}">*/
-/*             1234*/
+/*             {{ contact.address }}*/
 /*         </p>*/
+/* */
+/*         {% endfor %}*/
 /* */
 /*         <p  class="contact_social_networks">*/
 /* */

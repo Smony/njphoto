@@ -1,5 +1,6 @@
-1455705768s:4152:"a:6:{s:5:"mtime";i:1455631621;s:7:"content";s:2005:"==
-    <div class="col-xs-hidden col-lg-2"> </div>
+1455716940s:4417:"a:6:{s:5:"mtime";i:1455716338;s:7:"content";s:2128:"[home]
+==
+<div class="col-xs-hidden col-lg-2"> </div>
 
     <div class="col-xs-12 col-lg-2">
 
@@ -9,20 +10,24 @@
             </a>
         </p>
 
+        {% for contact in home.getContact %}
+
         <p  class="contact">
             <img src="{{ 'assets/img/phone.jpg'|theme }}">
-            123
+            {{ contact.phone_number }}
         </p>
 
         <p  class="contact">
             <img src="{{ 'assets/img/e-mail.jpg'|theme }}">
-            123456
+            {{ contact.email }}
         </p>
 
         <p  class="contact">
             <img src="{{ 'assets/img/map.jpg'|theme }}">
-            1234
+            {{ contact.address }}
         </p>
+
+        {% endfor %}
 
         <p  class="contact_social_networks">
 
@@ -67,10 +72,7 @@
     </div>
 
 
-    <div class="col-xs-hidden col-lg-2"> </div>
-
-
-";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1991:"<div class="col-xs-hidden col-lg-2"> </div>
+    <div class="col-xs-hidden col-lg-2"> </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:1:{s:4:"home";a:0:{}}}s:4:"code";N;s:6:"markup";s:2116:"<div class="col-xs-hidden col-lg-2"> </div>
 
     <div class="col-xs-12 col-lg-2">
 
@@ -80,20 +82,24 @@
             </a>
         </p>
 
+        {% for contact in home.getContact %}
+
         <p  class="contact">
             <img src="{{ 'assets/img/phone.jpg'|theme }}">
-            123
+            {{ contact.phone_number }}
         </p>
 
         <p  class="contact">
             <img src="{{ 'assets/img/e-mail.jpg'|theme }}">
-            123456
+            {{ contact.email }}
         </p>
 
         <p  class="contact">
             <img src="{{ 'assets/img/map.jpg'|theme }}">
-            1234
+            {{ contact.address }}
         </p>
+
+        {% endfor %}
 
         <p  class="contact_social_networks">
 
