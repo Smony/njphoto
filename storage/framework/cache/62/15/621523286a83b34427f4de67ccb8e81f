@@ -1,4 +1,4 @@
-1455731497s:6183:"a:6:{s:5:"mtime";i:1454662869;s:7:"content";s:3011:"description = "Default layout"
+1455732026s:6265:"a:6:{s:5:"mtime";i:1455731422;s:7:"content";s:3052:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +22,10 @@
             'assets/css/navbar.css',
             'assets/css/slider.css',
             'assets/css/custom.css',
-            'assets/css/slider.css'
+            'assets/css/slider.css',
+            'assets/404/css/404.css'
         ]|theme }}" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -84,7 +86,7 @@
     {% scripts %}
 
 </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2975:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3016:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -106,8 +108,10 @@
             'assets/css/navbar.css',
             'assets/css/slider.css',
             'assets/css/custom.css',
-            'assets/css/slider.css'
+            'assets/css/slider.css',
+            'assets/404/css/404.css'
         ]|theme }}" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

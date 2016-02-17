@@ -19,28 +19,28 @@ class __TwigTemplate_5bbcc53064ec04b3dd5f632d371cceeb75b7b69dcfb40167a6b78fc06a8
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("carousel"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        echo "  <!-- INCLUDE SLIDER MAIN PAGE -->
+        echo "      <!-- INCLUDE SLIDER MAIN PAGE -->
 
 ";
         // line 3
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("work"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        echo "  <!--INCLUDE WORK ITEMS -->
+        echo "          <!--INCLUDE WORK ITEMS -->
 
 ";
         // line 5
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("item"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        echo "  <!--INCLUDE IF YOU ITEMS -->
+        echo "          <!--INCLUDE IF YOU ITEMS -->
 
 ";
         // line 7
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("homeCoffee"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        echo " <!-- INCLUDE COFFEE ITEMS -->
+        echo "    <!-- INCLUDE COFFEE ITEMS -->
 
 ";
         // line 9
@@ -64,12 +64,12 @@ class __TwigTemplate_5bbcc53064ec04b3dd5f632d371cceeb75b7b69dcfb40167a6b78fc06a8
         return array (  47 => 9,  40 => 7,  33 => 5,  26 => 3,  19 => 1,);
     }
 }
-/* {% component 'carousel' %}  <!-- INCLUDE SLIDER MAIN PAGE -->*/
+/* {% component 'carousel' %}      <!-- INCLUDE SLIDER MAIN PAGE -->*/
 /* */
-/* {% component 'work' %}  <!--INCLUDE WORK ITEMS -->*/
+/* {% component 'work' %}          <!--INCLUDE WORK ITEMS -->*/
 /* */
-/* {% component 'item' %}  <!--INCLUDE IF YOU ITEMS -->*/
+/* {% component 'item' %}          <!--INCLUDE IF YOU ITEMS -->*/
 /* */
-/* {% component 'homeCoffee' %} <!-- INCLUDE COFFEE ITEMS -->*/
+/* {% component 'homeCoffee' %}    <!-- INCLUDE COFFEE ITEMS -->*/
 /* */
 /* {% content "plan.htm" %}*/
