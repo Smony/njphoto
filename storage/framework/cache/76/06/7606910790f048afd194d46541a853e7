@@ -1,10 +1,7 @@
-1455724202s:1233:"a:6:{s:5:"mtime";i:1455716698;s:7:"content";s:524:"title = "test"
+1455731496s:700:"a:6:{s:5:"mtime";i:1455726919;s:7:"content";s:260:"title = "test"
 url = "/test"
 layout = "default"
 is_hidden = 0
-
-[work]
-
 ==
 <div class="conteiner">
     <div class="row">
@@ -14,15 +11,7 @@ is_hidden = 0
 
         <hr />
 
-        {% for post in work.works %}
-
-            {{ post.id }}
-            {{ post.title }}
-            {{ post.attachments.path }}
-            {{ post.attachments.title }}
-            {{ post.attachments.description }}
-            <br />
-        {% endfor %}
+            test
 
         <hr />
 
@@ -33,7 +22,7 @@ is_hidden = 0
 
         </p>
     </div>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:4:"work";a:0:{}}}s:4:"code";N;s:6:"markup";s:442:"<div class="conteiner">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:190:"<div class="conteiner">
     <div class="row">
         <p>
             template test
@@ -41,15 +30,7 @@ is_hidden = 0
 
         <hr />
 
-        {% for post in work.works %}
-
-            {{ post.id }}
-            {{ post.title }}
-            {{ post.attachments.path }}
-            {{ post.attachments.title }}
-            {{ post.attachments.description }}
-            <br />
-        {% endfor %}
+            test
 
         <hr />
 

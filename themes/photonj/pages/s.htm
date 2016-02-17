@@ -8,16 +8,19 @@ is_hidden = 0
 
 [homeCoffee]
 
+[item]
+
+[home]
+
 [carousel]
 id = 1
 ==
-<!-- INCLUDE SLIDER MAIN PAGE -->
-{% component 'carousel' %}
+{% component 'carousel' %}      <!-- INCLUDE SLIDER MAIN PAGE -->
 
-{% component 'work' %}  <!--INCLUDE WORK ITEMS -->
+{% component 'work' %}          <!--INCLUDE WORK ITEMS -->
 
-{% content "If_you_items.htm" %}
+{% component 'item' %}          <!--INCLUDE IF YOU ITEMS -->
 
-{% component 'homeCoffee' %} <!-- INCLUDE COFFEE ITEMS -->
+{% component 'homeCoffee' %}    <!-- INCLUDE COFFEE ITEMS -->
 
 {% content "plan.htm" %}

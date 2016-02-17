@@ -37,6 +37,7 @@ class Plugin extends PluginBase
             'Smony\Home\Components\Coffee' => 'homeCoffee',
             'Smony\Home\Components\Work' => 'work',
             'Smony\Home\Components\Social' => 'social',
+            'Smony\Home\Components\Item' => 'item',
         ];
     }
 
@@ -93,21 +94,13 @@ class Plugin extends PluginBase
                         'label'       => 'Social',
                         'icon'        => 'icon-share-alt',
                         'url'         => \Backend::url('smony/home/social'),
-                    ]
-
-
- /*/
+                    ],
                     'if-you-items' => [
                         'label'       => 'If you items',
                         'icon'        => 'icon-columns',
-                        'url'         => \Backend::url('smony/home/ifyouitems'),
-                    ],
-                    'how-it-works' => [
-                        'label'       => 'How it works',
-                        'icon'        => 'icon-files-o',
-                        'url'         => \Backend::url('smony/home/works')
+                        'url'         => \Backend::url('smony/home/item')
                     ]
-*/
+
                 ]
             ]
 

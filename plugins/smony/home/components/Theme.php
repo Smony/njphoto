@@ -42,4 +42,12 @@ class Theme extends ComponentBase
             ->limit(1)
             ->get();
     }
+
+    public function getContactSite()
+    {
+        return Models\Theme::where('id', 1)
+            ->limit(1)
+            ->get();
+    }
+
 }

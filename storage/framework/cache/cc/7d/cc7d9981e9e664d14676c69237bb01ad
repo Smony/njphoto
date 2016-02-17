@@ -1,4 +1,4 @@
-1455721197s:384:"a:2:{s:5:"mtime";i:1455293489;s:7:"content";s:330:"{% if not user.is_activated %}
+1455730518s:384:"a:2:{s:5:"mtime";i:1455293489;s:7:"content";s:330:"{% if not user.is_activated %}
 
     <h3>Your email address has not yet been verified.</h3>
     <p>

@@ -4,8 +4,10 @@
 
 
 columns:
-    name_site:
-        label: Title
+    title_site:
+        label: Title site
+    description_site:
+        label: Description site
     phone_number:
         label: Phone number
     email:

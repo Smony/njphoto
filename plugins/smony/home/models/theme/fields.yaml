@@ -6,6 +6,10 @@ fields:
     name_site:
         label: Name site
         disabled: true
+    title_site:
+        label: Title site
+    description_site:
+        label: Description site
     phone_number:
         label: Phone number
     email:
