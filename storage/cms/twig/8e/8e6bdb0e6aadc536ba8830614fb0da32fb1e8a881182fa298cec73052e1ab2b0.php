@@ -16,34 +16,37 @@ class __TwigTemplate_5bbcc53064ec04b3dd5f632d371cceeb75b7b69dcfb40167a6b78fc06a8
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('CMS')->contentFunction("slider_main.htm"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        echo " <!--INCLUDE SLIDER MAIN PAGE -->
-
+        echo "<!-- INCLUDE SLIDER MAIN PAGE -->
 ";
+        // line 2
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("carousel"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
         // line 3
+        echo "
+";
+        // line 4
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("work"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
         echo "  <!--INCLUDE WORK ITEMS -->
 
 ";
-        // line 5
+        // line 6
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("If_you_items.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
-        // line 6
+        // line 7
         echo "
 ";
-        // line 7
+        // line 8
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("homeCoffee"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
         echo " <!-- INCLUDE COFFEE ITEMS -->
 
 ";
-        // line 9
+        // line 10
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('CMS')->contentFunction("plan.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
@@ -61,10 +64,11 @@ class __TwigTemplate_5bbcc53064ec04b3dd5f632d371cceeb75b7b69dcfb40167a6b78fc06a8
 
     public function getDebugInfo()
     {
-        return array (  47 => 9,  40 => 7,  37 => 6,  33 => 5,  26 => 3,  19 => 1,);
+        return array (  50 => 10,  43 => 8,  40 => 7,  36 => 6,  29 => 4,  26 => 3,  22 => 2,  19 => 1,);
     }
 }
-/* {% content "slider_main.htm" %} <!--INCLUDE SLIDER MAIN PAGE -->*/
+/* <!-- INCLUDE SLIDER MAIN PAGE -->*/
+/* {% component 'carousel' %}*/
 /* */
 /* {% component 'work' %}  <!--INCLUDE WORK ITEMS -->*/
 /* */

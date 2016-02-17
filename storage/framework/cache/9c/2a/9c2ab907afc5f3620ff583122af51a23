@@ -1,4 +1,4 @@
-1455720754s:946:"a:6:{s:5:"mtime";i:1455707659;s:7:"content";s:372:"title = "Home"
+1455723775s:998:"a:6:{s:5:"mtime";i:1455723174;s:7:"content";s:389:"title = "Home"
 url = "/"
 layout = "default"
 description = "Description text"
@@ -7,9 +7,12 @@ is_hidden = 0
 [work]
 
 [homeCoffee]
-==
 
-{% content "slider_main.htm" %} <!--INCLUDE SLIDER MAIN PAGE -->
+[carousel]
+id = 1
+==
+<!-- INCLUDE SLIDER MAIN PAGE -->
+{% component 'carousel' %}
 
 {% component 'work' %}  <!--INCLUDE WORK ITEMS -->
 
@@ -17,7 +20,8 @@ is_hidden = 0
 
 {% component 'homeCoffee' %} <!-- INCLUDE COFFEE ITEMS -->
 
-{% content "plan.htm" %}";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:16:"Description text";s:9:"is_hidden";s:1:"0";s:10:"components";a:2:{s:4:"work";a:0:{}s:10:"homeCoffee";a:0:{}}}s:4:"code";N;s:6:"markup";s:244:"{% content "slider_main.htm" %} <!--INCLUDE SLIDER MAIN PAGE -->
+{% content "plan.htm" %}";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:16:"Description text";s:9:"is_hidden";s:1:"0";s:10:"components";a:3:{s:4:"work";a:0:{}s:10:"homeCoffee";a:0:{}s:8:"carousel";a:1:{s:2:"id";s:1:"1";}}}s:4:"code";N;s:6:"markup";s:241:"<!-- INCLUDE SLIDER MAIN PAGE -->
+{% component 'carousel' %}
 
 {% component 'work' %}  <!--INCLUDE WORK ITEMS -->
 
