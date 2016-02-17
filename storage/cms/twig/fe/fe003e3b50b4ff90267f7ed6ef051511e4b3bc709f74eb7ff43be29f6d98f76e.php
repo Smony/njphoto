@@ -76,21 +76,45 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 29
         echo "
-        <p  class=\"contact_social_networks\">
 
-            <a href=\"#\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-facebook  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+        ";
+        // line 31
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute($context["social"], "getSocialLink", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["social"]) {
+            // line 32
+            echo "
+            <p  class=\"contact_social_networks\">
 
+                <a href=\"";
+            // line 35
+            echo twig_escape_filter($this->env, $this->getAttribute($context["social"], "facebook", array()), "html", null, true);
+            echo "\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-facebook  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            <a href=\"#\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-twitter  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href=\"";
+            // line 37
+            echo twig_escape_filter($this->env, $this->getAttribute($context["social"], "twitter", array()), "html", null, true);
+            echo "\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-twitter  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
+                <a href=\"";
+            // line 39
+            echo twig_escape_filter($this->env, $this->getAttribute($context["social"], "pinterest", array()), "html", null, true);
+            echo "\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-pinterest  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            <a href=\"#\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-pinterest  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href=\"";
+            // line 41
+            echo twig_escape_filter($this->env, $this->getAttribute($context["social"], "instagram", array()), "html", null, true);
+            echo "\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-instagram  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            <a href=\"#\" target=\"_blank\" class=\"social_networks\"><i class=\"fa fa-instagram  \"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+            </p>
 
-        </p>
-
-    </div>
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['social'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 46
+        echo "    </div>
 
     <div class=\"col-xs-12 col-lg-1\"> </div>
 
@@ -115,11 +139,11 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
     <div class=\"col-xs-12 col-lg-2 footer_menu\">
 
         ";
-        // line 68
+        // line 70
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("navigation_footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 69
+        // line 71
         echo "
     </div>
 
@@ -139,7 +163,7 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 
     public function getDebugInfo()
     {
-        return array (  123 => 69,  119 => 68,  78 => 29,  68 => 25,  64 => 24,  57 => 20,  53 => 19,  46 => 15,  42 => 14,  38 => 12,  34 => 11,  26 => 6,  19 => 1,);
+        return array (  147 => 71,  143 => 70,  117 => 46,  106 => 41,  101 => 39,  96 => 37,  91 => 35,  86 => 32,  82 => 31,  78 => 29,  68 => 25,  64 => 24,  57 => 20,  53 => 19,  46 => 15,  42 => 14,  38 => 12,  34 => 11,  26 => 6,  19 => 1,);
     }
 }
 /* <div class="col-xs-hidden col-lg-2"> </div>*/
@@ -171,20 +195,22 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 /* */
 /*         {% endfor %}*/
 /* */
-/*         <p  class="contact_social_networks">*/
 /* */
-/*             <a href="#" target="_blank" class="social_networks"><i class="fa fa-facebook  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
+/*         {% for social in social.getSocialLink %}*/
 /* */
+/*             <p  class="contact_social_networks">*/
 /* */
-/*             <a href="#" target="_blank" class="social_networks"><i class="fa fa-twitter  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
+/*                 <a href="{{ social.facebook }}" target="_blank" class="social_networks"><i class="fa fa-facebook  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
 /* */
+/*                 <a href="{{ social.twitter }}" target="_blank" class="social_networks"><i class="fa fa-twitter  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
 /* */
-/*             <a href="#" target="_blank" class="social_networks"><i class="fa fa-pinterest  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
+/*                 <a href="{{ social.pinterest }}" target="_blank" class="social_networks"><i class="fa fa-pinterest  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
 /* */
-/*             <a href="#" target="_blank" class="social_networks"><i class="fa fa-instagram  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
+/*                 <a href="{{ social.instagram }}" target="_blank" class="social_networks"><i class="fa fa-instagram  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;*/
 /* */
-/*         </p>*/
+/*             </p>*/
 /* */
+/*         {% endfor %}*/
 /*     </div>*/
 /* */
 /*     <div class="col-xs-12 col-lg-1"> </div>*/

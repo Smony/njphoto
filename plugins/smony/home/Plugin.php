@@ -31,12 +31,12 @@ class Plugin extends PluginBase
      */
     public function registerComponents()
     {
-        #return []; // Remove this line to activate
 
         return [
             'Smony\Home\Components\Theme' => 'home',
             'Smony\Home\Components\Coffee' => 'homeCoffee',
             'Smony\Home\Components\Work' => 'work',
+            'Smony\Home\Components\Social' => 'social',
         ];
     }
 
@@ -87,7 +87,12 @@ class Plugin extends PluginBase
                     'how-it-works' => [
                         'label'       => 'How it works',
                         'icon'        => 'icon-files-o',
-                        'url'         => \Backend::url('smony/home/work')
+                        'url'         => \Backend::url('smony/home/work'),
+                    ],
+                    'social' => [
+                        'label'       => 'Social',
+                        'icon'        => 'icon-share-alt',
+                        'url'         => \Backend::url('smony/home/social'),
                     ]
 
 

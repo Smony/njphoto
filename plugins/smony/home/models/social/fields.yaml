@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    facebook:
+        label: Facabook link
+    twitter:
+        label: Twitter link
+    pinterest:
+        label: Pinterest link
+    instagram:
+        label: Instagram link
+

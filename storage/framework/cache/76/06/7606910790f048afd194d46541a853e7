@@ -1,4 +1,4 @@
-1455716795s:1449:"a:6:{s:5:"mtime";i:1455716174;s:7:"content";s:632:"title = "test"
+1455720754s:1233:"a:6:{s:5:"mtime";i:1455716698;s:7:"content";s:524:"title = "test"
 url = "/test"
 layout = "default"
 is_hidden = 0
@@ -29,17 +29,11 @@ is_hidden = 0
 
 
 
-        {% for social in home.getSocial %}
 
-        {{ social }}
-
-        <br />
-
-        {% endfor %}
 
         </p>
     </div>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:4:"work";a:0:{}}}s:4:"code";N;s:6:"markup";s:550:"<div class="conteiner">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:4:"work";a:0:{}}}s:4:"code";N;s:6:"markup";s:442:"<div class="conteiner">
     <div class="row">
         <p>
             template test
@@ -62,13 +56,7 @@ is_hidden = 0
 
 
 
-        {% for social in home.getSocial %}
 
-        {{ social }}
-
-        <br />
-
-        {% endfor %}
 
         </p>
     </div>

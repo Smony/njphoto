@@ -5,6 +5,7 @@
 fields:
     name_site:
         label: Name site
+        disabled: true
     phone_number:
         label: Phone number
     email:

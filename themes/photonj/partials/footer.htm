@@ -1,4 +1,6 @@
 [home]
+
+[social]
 ==
 <div class="col-xs-hidden col-lg-2"> </div>
 
@@ -29,20 +31,22 @@
 
         {% endfor %}
 
-        <p  class="contact_social_networks">
 
-            <a href="#" target="_blank" class="social_networks"><i class="fa fa-facebook  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+        {% for social in social.getSocialLink %}
 
+            <p  class="contact_social_networks">
 
-            <a href="#" target="_blank" class="social_networks"><i class="fa fa-twitter  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="{{ social.facebook }}" target="_blank" class="social_networks"><i class="fa fa-facebook  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
+                <a href="{{ social.twitter }}" target="_blank" class="social_networks"><i class="fa fa-twitter  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            <a href="#" target="_blank" class="social_networks"><i class="fa fa-pinterest  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="{{ social.pinterest }}" target="_blank" class="social_networks"><i class="fa fa-pinterest  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            <a href="#" target="_blank" class="social_networks"><i class="fa fa-instagram  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="{{ social.instagram }}" target="_blank" class="social_networks"><i class="fa fa-instagram  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-        </p>
+            </p>
 
+        {% endfor %}
     </div>
 
     <div class="col-xs-12 col-lg-1"> </div>
