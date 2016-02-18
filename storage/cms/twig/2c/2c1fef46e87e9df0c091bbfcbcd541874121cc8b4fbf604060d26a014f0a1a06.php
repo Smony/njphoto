@@ -32,9 +32,9 @@ class __TwigTemplate_749a618d3b34ac7f3ce013461cb457e26db99907fad78042be657564944
                 </div>
                 <div class=\"col-xs-12 col-lg-3\"  style=\"padding-top: 8px; outline: none;\">
                     <input type=\"email\" class=\"form-control NEWSLETTER_form_control\" name=\"email\" placeholder=\"Enter your E-mail...\" required>
-                <div/>
-                <input type=\"hidden\" name=\"latitude\" id=\"latitude\">
-                <input type=\"hidden\" name=\"longitude\" id=\"longitude\">
+                    <div/>
+                    <input type=\"hidden\" name=\"latitude\" id=\"latitude\">
+                    <input type=\"hidden\" name=\"longitude\" id=\"longitude\">
             </form>
         </div>
 
@@ -77,9 +77,9 @@ class __TwigTemplate_749a618d3b34ac7f3ce013461cb457e26db99907fad78042be657564944
 /*                 </div>*/
 /*                 <div class="col-xs-12 col-lg-3"  style="padding-top: 8px; outline: none;">*/
 /*                     <input type="email" class="form-control NEWSLETTER_form_control" name="email" placeholder="Enter your E-mail..." required>*/
-/*                 <div/>*/
-/*                 <input type="hidden" name="latitude" id="latitude">*/
-/*                 <input type="hidden" name="longitude" id="longitude">*/
+/*                     <div/>*/
+/*                     <input type="hidden" name="latitude" id="latitude">*/
+/*                     <input type="hidden" name="longitude" id="longitude">*/
 /*             </form>*/
 /*         </div>*/
 /* */

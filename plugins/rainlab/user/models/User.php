@@ -243,14 +243,10 @@ class User extends UserBase
 
     /**
      * Returns the date this user was last seen.
-     * @return CarbonCarbon
+     * @return Carbon\Carbon
      */
     public function getLastSeen()
     {
         return $this->last_login ?: $this->created_at;
     }
-
-    public $attachMany = [
-        'photoTest' => ['System\Models\File']
-    ];
 }

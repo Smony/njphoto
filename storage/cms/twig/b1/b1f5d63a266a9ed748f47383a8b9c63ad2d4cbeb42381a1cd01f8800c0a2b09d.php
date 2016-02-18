@@ -93,22 +93,21 @@ class __TwigTemplate_5e5315bfe5aac7604accd252cad933291eec0742122d72fa2d2bbc0f5d1
         echo $this->env->getExtension('CMS')->pageFunction();
         // line 59
         echo "    
-    
     ";
-        // line 61
+        // line 60
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("formSubscribe"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 62
+        // line 61
         echo "
     <div class=\"row footer\" style=\"margin-right: 0px;  margin-left: 0px; padding-top: 25px; padding-bottom: 20px;\">
 
     ";
-        // line 65
+        // line 64
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 66
+        // line 65
         echo "
     </div>
 
@@ -121,28 +120,28 @@ class __TwigTemplate_5e5315bfe5aac7604accd252cad933291eec0742122d72fa2d2bbc0f5d1
     </div>
     <!-- Scripts -->
     <script src=\"";
-        // line 77
+        // line 76
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.js", 1 => "assets/js/bootstrap.min.js"));
-        // line 80
+        // line 79
         echo "\"></script>
 
     ";
-        // line 82
+        // line 81
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 83
+        // line 82
         echo "    ";
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
-        // line 84
+        // line 83
         echo "    ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 85
+        // line 84
         echo "
 </body>
 </html>";
@@ -160,7 +159,7 @@ class __TwigTemplate_5e5315bfe5aac7604accd252cad933291eec0742122d72fa2d2bbc0f5d1
 
     public function getDebugInfo()
     {
-        return array (  146 => 85,  142 => 84,  138 => 83,  131 => 82,  127 => 80,  125 => 77,  112 => 66,  108 => 65,  103 => 62,  99 => 61,  95 => 59,  93 => 58,  86 => 53,  82 => 52,  53 => 25,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
+        return array (  145 => 84,  141 => 83,  137 => 82,  130 => 81,  126 => 79,  124 => 76,  111 => 65,  107 => 64,  102 => 61,  98 => 60,  95 => 59,  93 => 58,  86 => 53,  82 => 52,  53 => 25,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -221,7 +220,6 @@ class __TwigTemplate_5e5315bfe5aac7604accd252cad933291eec0742122d72fa2d2bbc0f5d1
 /* */
 /* */
 /*     {% page %}*/
-/*     */
 /*     */
 /*     {% component 'formSubscribe' %}*/
 /* */

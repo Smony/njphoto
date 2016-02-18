@@ -118,32 +118,49 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 
     <div class=\"col-xs-12 col-lg-1\"> </div>
 
-    <div class=\"col-xs-12 col-lg-2 EMAIL_UPDATES\">
-        <p class=\"text-left\"> EMAIL UPDATES </p>
 
 
-        <input type=\"text\" class=\"form-control footer_form_control\" placeholder=\"Enter your e-mail\">
-        <input type=\"text\" class=\"form-control footer_form_control\" placeholder=\"Enter your name\">
-        <input type=\"text\" class=\"form-control footer_form_control_text\" placeholder=\"Enter your text\">
+
+        <div class=\"col-xs-12 col-lg-2 EMAIL_UPDATES\">
+            <p class=\"text-left\"> EMAIL UPDATES </p>
+
+            ";
+        // line 56
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("feedback"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 57
+        echo "    
+        </div>
+
+<!--
+        <div class=\"col-xs-12 col-lg-2 EMAIL_UPDATES\">
+            <p class=\"text-left\"> EMAIL UPDATES </p>
 
 
-        <a href=\"#\" class=\"send_button\">
-            &nbsp; SEND &nbsp;
-        </a>
+            <input type=\"text\" class=\"form-control footer_form_control\" placeholder=\"Enter your e-mail\">
+            <input type=\"text\" class=\"form-control footer_form_control\" placeholder=\"Enter your name\">
+            <input type=\"text\" class=\"form-control footer_form_control_text\" placeholder=\"Enter your text\">
 
 
-    </div>
+            <a href=\"#\" class=\"send_button\">
+                &nbsp; SEND &nbsp;
+            </a>
+
+
+        </div>
+-->
 
     <div class=\"col-xs-12 col-lg-1\"> </div>
 
     <div class=\"col-xs-12 col-lg-2 footer_menu\">
 
         ";
-        // line 70
+        // line 82
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("navigation_footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 71
+        // line 83
         echo "
     </div>
 
@@ -163,7 +180,7 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 
     public function getDebugInfo()
     {
-        return array (  147 => 71,  143 => 70,  117 => 46,  106 => 41,  101 => 39,  96 => 37,  91 => 35,  86 => 32,  82 => 31,  78 => 29,  68 => 25,  64 => 24,  57 => 20,  53 => 19,  46 => 15,  42 => 14,  38 => 12,  34 => 11,  26 => 6,  19 => 1,);
+        return array (  164 => 83,  160 => 82,  133 => 57,  129 => 56,  117 => 46,  106 => 41,  101 => 39,  96 => 37,  91 => 35,  86 => 32,  82 => 31,  78 => 29,  68 => 25,  64 => 24,  57 => 20,  53 => 19,  46 => 15,  42 => 14,  38 => 12,  34 => 11,  26 => 6,  19 => 1,);
     }
 }
 /* <div class="col-xs-hidden col-lg-2"> </div>*/
@@ -215,21 +232,33 @@ class __TwigTemplate_5d631f54e4b6573709dd6c973e82364a8766ff7bddfa24e6fc9f87f8557
 /* */
 /*     <div class="col-xs-12 col-lg-1"> </div>*/
 /* */
-/*     <div class="col-xs-12 col-lg-2 EMAIL_UPDATES">*/
-/*         <p class="text-left"> EMAIL UPDATES </p>*/
 /* */
 /* */
-/*         <input type="text" class="form-control footer_form_control" placeholder="Enter your e-mail">*/
-/*         <input type="text" class="form-control footer_form_control" placeholder="Enter your name">*/
-/*         <input type="text" class="form-control footer_form_control_text" placeholder="Enter your text">*/
+/* */
+/*         <div class="col-xs-12 col-lg-2 EMAIL_UPDATES">*/
+/*             <p class="text-left"> EMAIL UPDATES </p>*/
+/* */
+/*             {% component 'feedback' %}*/
+/*     */
+/*         </div>*/
+/* */
+/* <!--*/
+/*         <div class="col-xs-12 col-lg-2 EMAIL_UPDATES">*/
+/*             <p class="text-left"> EMAIL UPDATES </p>*/
 /* */
 /* */
-/*         <a href="#" class="send_button">*/
-/*             &nbsp; SEND &nbsp;*/
-/*         </a>*/
+/*             <input type="text" class="form-control footer_form_control" placeholder="Enter your e-mail">*/
+/*             <input type="text" class="form-control footer_form_control" placeholder="Enter your name">*/
+/*             <input type="text" class="form-control footer_form_control_text" placeholder="Enter your text">*/
 /* */
 /* */
-/*     </div>*/
+/*             <a href="#" class="send_button">*/
+/*                 &nbsp; SEND &nbsp;*/
+/*             </a>*/
+/* */
+/* */
+/*         </div>*/
+/* -->*/
 /* */
 /*     <div class="col-xs-12 col-lg-1"> </div>*/
 /* */
