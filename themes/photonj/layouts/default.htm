@@ -1,4 +1,11 @@
 description = "Default layout"
+
+[formSubscribe]
+urlToUnsubscribe = "unsubscribe"
+urlToProfile = "subscriber-profile"
+geo = "enabled"
+thanksMessage = "Thanks for subscribe!"
+errorMessage = "Email already exists!"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -58,10 +65,9 @@ description = "Default layout"
 
 
     {% page %}
-
-    {% partial "subscribers" %}
-
-
+    
+    
+    {% component 'formSubscribe' %}
 
     <div class="row footer" style="margin-right: 0px;  margin-left: 0px; padding-top: 25px; padding-bottom: 20px;">
 
@@ -83,6 +89,7 @@ description = "Default layout"
         ]|theme }}"></script>
 
     {% framework extras %}
+    {% framework %}
     {% scripts %}
 
 </body>

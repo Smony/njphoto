@@ -1,4 +1,11 @@
-1455732026s:6265:"a:6:{s:5:"mtime";i:1455731422;s:7:"content";s:3052:"description = "Default layout"
+1455791347s:6754:"a:6:{s:5:"mtime";i:1455790129;s:7:"content";s:3271:"description = "Default layout"
+
+[formSubscribe]
+urlToUnsubscribe = "unsubscribe"
+urlToProfile = "subscriber-profile"
+geo = "enabled"
+thanksMessage = "Thanks for subscribe!"
+errorMessage = "Email already exists!"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -58,10 +65,9 @@
 
 
     {% page %}
-
-    {% partial "subscribers" %}
-
-
+    
+    
+    {% component 'formSubscribe' %}
 
     <div class="row footer" style="margin-right: 0px;  margin-left: 0px; padding-top: 25px; padding-bottom: 20px;">
 
@@ -83,10 +89,11 @@
         ]|theme }}"></script>
 
     {% framework extras %}
+    {% framework %}
     {% scripts %}
 
 </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3016:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:1:{s:13:"formSubscribe";a:5:{s:16:"urlToUnsubscribe";s:11:"unsubscribe";s:12:"urlToProfile";s:18:"subscriber-profile";s:3:"geo";s:7:"enabled";s:13:"thanksMessage";s:21:"Thanks for subscribe!";s:12:"errorMessage";s:21:"Email already exists!";}}}s:4:"code";N;s:6:"markup";s:3047:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -144,10 +151,9 @@
 
 
     {% page %}
-
-    {% partial "subscribers" %}
-
-
+    
+    
+    {% component 'formSubscribe' %}
 
     <div class="row footer" style="margin-right: 0px;  margin-left: 0px; padding-top: 25px; padding-bottom: 20px;">
 
@@ -169,6 +175,7 @@
         ]|theme }}"></script>
 
     {% framework extras %}
+    {% framework %}
     {% scripts %}
 
 </body>

@@ -16,7 +16,9 @@ class __TwigTemplate_6e36b3959fbcd5fbbb9a4edd148dbc67c324739f81e0ef4917509358066
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"row NEWSLETTERSIGN-UP\" style=\"margin-right: 0px;  margin-left: 0px; border: 0;\">
+        echo "<!--
+
+<div class=\"row NEWSLETTERSIGN-UP\" style=\"margin-right: 0px;  margin-left: 0px; border: 0;\">
 
     <form method=\"POST\" action=\"\">
 
@@ -35,7 +37,9 @@ class __TwigTemplate_6e36b3959fbcd5fbbb9a4edd148dbc67c324739f81e0ef4917509358066
 
     </form>
 
-</div>";
+</div>
+
+-->";
     }
 
     public function getTemplateName()
@@ -48,6 +52,8 @@ class __TwigTemplate_6e36b3959fbcd5fbbb9a4edd148dbc67c324739f81e0ef4917509358066
         return array (  19 => 1,);
     }
 }
+/* <!--*/
+/* */
 /* <div class="row NEWSLETTERSIGN-UP" style="margin-right: 0px;  margin-left: 0px; border: 0;">*/
 /* */
 /*     <form method="POST" action="">*/
@@ -68,3 +74,5 @@ class __TwigTemplate_6e36b3959fbcd5fbbb9a4edd148dbc67c324739f81e0ef4917509358066
 /*     </form>*/
 /* */
 /* </div>*/
+/* */
+/* -->*/
