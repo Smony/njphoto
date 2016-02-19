@@ -1,4 +1,4 @@
-1455737053s:1326:"a:2:{s:5:"mtime";i:1455639095;s:7:"content";s:1271:"{{ form_ajax('onUpdate', { model: user }) }}
+1455879792s:1158:"a:2:{s:5:"mtime";i:1455871117;s:7:"content";s:1103:"{{ form_ajax('onUpdate', { model: user }) }}
 
     <div class="form-group">
         <label for="accountName">Full Name</label>
@@ -21,21 +21,13 @@
     </div>
 
 
-        {% if user.name.id != 'test' %}
-        <div class="form-group">
-            <label>Upload images</label>
-                {% component 'imageUploader' %} <!-- include plugin uploader -->
-        </div>
-        {% else %}
+    <div class="form-group">
+        <label>Upload images</label>
+        {% component 'imageUploader' %} <!-- include plugin uploader -->
+    </div>
 
-        <div class="row">
 
-            <p>images all</p>
 
-        </div>
-
-        {% endif %}
-
-<button type="submit" class="btn btn-default">Save</button>
+    <button type="submit" class="btn btn-default">Save</button>
 
 {{ form_close() }}";}";

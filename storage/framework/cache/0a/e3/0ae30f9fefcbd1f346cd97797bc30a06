@@ -1,11 +1,6 @@
-1455810416s:5461:"a:6:{s:5:"mtime";i:1455809811;s:7:"content";s:2631:"[home]
+1455876826s:5260:"a:6:{s:5:"mtime";i:1455813115;s:7:"content";s:2546:"[home]
 
 [social]
-
-[feedback]
-channelCode = "default"
-successMessage = "Success"
-redirectTo = "/"
 ==
 <div class="col-xs-hidden col-lg-2"> </div>
 
@@ -93,7 +88,7 @@ redirectTo = "/"
     </div>
 
 
-    <div class="col-xs-hidden col-lg-2"> </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:3:{s:4:"home";a:0:{}s:6:"social";a:0:{}s:8:"feedback";a:3:{s:11:"channelCode";s:7:"default";s:14:"successMessage";s:7:"Success";s:10:"redirectTo";s:1:"/";}}}s:4:"code";N;s:6:"markup";s:2522:"<div class="col-xs-hidden col-lg-2"> </div>
+    <div class="col-xs-hidden col-lg-2"> </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:2:{s:4:"home";a:0:{}s:6:"social";a:0:{}}}s:4:"code";N;s:6:"markup";s:2522:"<div class="col-xs-hidden col-lg-2"> </div>
 
     <div class="col-xs-12 col-lg-2">
 
