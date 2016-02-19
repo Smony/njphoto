@@ -14,6 +14,8 @@ return [
     | You can create a CMS page with route "/error" to set the contents
     | of this page. Otherwise a default error page is shown.
     |
+        testing
+
     */
 
     'debug' => true,
