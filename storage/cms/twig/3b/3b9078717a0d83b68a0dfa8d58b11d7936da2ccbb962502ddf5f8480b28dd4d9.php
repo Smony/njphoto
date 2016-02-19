@@ -62,36 +62,35 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 </head>
 <body>
 
-
     ";
-        // line 38
+        // line 37
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 39
+        // line 38
         echo "
     <!-- Scripts -->
     <script src=\"";
-        // line 41
+        // line 40
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.js", 1 => "assets/js/bootstrap.min.js"));
-        // line 44
+        // line 43
         echo "\"></script>
 
     ";
-        // line 46
+        // line 45
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 47
+        // line 46
         echo "    ";
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
-        // line 48
+        // line 47
         echo "    ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 49
+        // line 48
         echo "
 </body>
 </html>";
@@ -109,7 +108,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
     public function getDebugInfo()
     {
-        return array (  95 => 49,  91 => 48,  87 => 47,  80 => 46,  76 => 44,  74 => 41,  70 => 39,  68 => 38,  53 => 25,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
+        return array (  94 => 48,  90 => 47,  86 => 46,  79 => 45,  75 => 43,  73 => 40,  69 => 38,  67 => 37,  53 => 25,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -147,7 +146,6 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*     <![endif]-->*/
 /* </head>*/
 /* <body>*/
-/* */
 /* */
 /*     {% page %}*/
 /* */
