@@ -62,85 +62,36 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 </head>
 <body>
 
-<!-- Main navbar -->
-<div class=\"navbar navbar-inverse\">
-    <div class=\"navbar-header\">
-        <a class=\"navbar-brand\" href=\"";
-        // line 40
-        echo "/";
-        echo "\"><img src=\"";
-        echo $this->env->getExtension('CMS')->themeFilter("assets/admin/logo_light.png");
-        echo "\" alt=\"\"></a>
-                                                            
-        <ul class=\"nav navbar-nav pull-right visible-xs-block\">
-            <li><a data-toggle=\"collapse\" data-target=\"#navbar-mobile\"><i class=\"icon-tree5\"></i></a></li>
-        </ul>
-    </div>
-
-    <div class=\"navbar-collapse collapse\" id=\"navbar-mobile\">
-        <ul class=\"nav navbar-nav navbar-right\">
-
-            <li>
-                <a href=\"";
-        // line 51
-        echo "/";
-        echo "\">
-                    Login
-                </a>
-            </li>
-            <li>
-                <a href=\"";
-        // line 56
-        echo "/";
-        echo "\">
-                    Register
-                </a>
-            </li>
-
-            <li>
-                <a href=\"";
-        // line 62
-        echo "/";
-        echo "\">
-                    Logout
-                </a>
-            </li>
-
-        </ul>
-    </div>
-</div>
-<!-- /main navbar -->
-
 
     ";
-        // line 73
+        // line 38
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 74
+        // line 39
         echo "
     <!-- Scripts -->
     <script src=\"";
-        // line 76
+        // line 41
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.js", 1 => "assets/js/bootstrap.min.js"));
-        // line 79
+        // line 44
         echo "\"></script>
 
     ";
-        // line 81
+        // line 46
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 82
+        // line 47
         echo "    ";
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
-        // line 83
+        // line 48
         echo "    ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 84
+        // line 49
         echo "
 </body>
 </html>";
@@ -158,7 +109,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
     public function getDebugInfo()
     {
-        return array (  144 => 84,  140 => 83,  136 => 82,  129 => 81,  125 => 79,  123 => 76,  119 => 74,  117 => 73,  103 => 62,  94 => 56,  86 => 51,  70 => 40,  53 => 25,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
+        return array (  95 => 49,  91 => 48,  87 => 47,  80 => 46,  76 => 44,  74 => 41,  70 => 39,  68 => 38,  53 => 25,  50 => 16,  47 => 15,  43 => 14,  37 => 11,  33 => 10,  28 => 8,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -196,41 +147,6 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*     <![endif]-->*/
 /* </head>*/
 /* <body>*/
-/* */
-/* <!-- Main navbar -->*/
-/* <div class="navbar navbar-inverse">*/
-/*     <div class="navbar-header">*/
-/*         <a class="navbar-brand" href="{{ '/' }}"><img src="{{ 'assets/admin/logo_light.png'|theme }}" alt=""></a>*/
-/*                                                             */
-/*         <ul class="nav navbar-nav pull-right visible-xs-block">*/
-/*             <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>*/
-/*         </ul>*/
-/*     </div>*/
-/* */
-/*     <div class="navbar-collapse collapse" id="navbar-mobile">*/
-/*         <ul class="nav navbar-nav navbar-right">*/
-/* */
-/*             <li>*/
-/*                 <a href="{{ '/' }}">*/
-/*                     Login*/
-/*                 </a>*/
-/*             </li>*/
-/*             <li>*/
-/*                 <a href="{{ '/' }}">*/
-/*                     Register*/
-/*                 </a>*/
-/*             </li>*/
-/* */
-/*             <li>*/
-/*                 <a href="{{ '/' }}">*/
-/*                     Logout*/
-/*                 </a>*/
-/*             </li>*/
-/* */
-/*         </ul>*/
-/*     </div>*/
-/* </div>*/
-/* <!-- /main navbar -->*/
 /* */
 /* */
 /*     {% page %}*/
