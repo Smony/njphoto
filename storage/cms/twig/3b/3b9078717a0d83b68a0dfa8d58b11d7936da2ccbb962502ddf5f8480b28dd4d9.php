@@ -408,7 +408,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                             <li><a href=\"boxed_full.html\">Boxed full width</a></li>
                         </ul>
                     </li>
-                
+
                     <li><a href=\"changelog.html\"><i class=\"icon-list-unordered\"></i> <span>Changelog <span class=\"label bg-blue-400\">1.2</span></span></a></li>
                     <li><a href=\"../RTL/index.html\"><i class=\"icon-width\"></i> <span>RTL version</span></a></li>
                     <!-- /main -->
@@ -802,7 +802,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*                             <li><a href="boxed_full.html">Boxed full width</a></li>*/
 /*                         </ul>*/
 /*                     </li>*/
-/*                 */
+/* */
 /*                     <li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog <span class="label bg-blue-400">1.2</span></span></a></li>*/
 /*                     <li><a href="../RTL/index.html"><i class="icon-width"></i> <span>RTL version</span></a></li>*/
 /*                     <!-- /main -->*/
