@@ -21,41 +21,16 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
         <div class=\"col-lg-1\"></div>
         <div class=\"col-lg-10 \">
 
-            Account
 
-            ";
-        // line 8
-        if ($this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array())) {
-            // line 9
-            echo "            <p>Hello ";
-            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
-            echo "</p>
-            ";
-        } else {
-            // line 11
-            echo "            <p>Nobody is logged in</p>
-            ";
-        }
-        // line 13
-        echo "
-            ";
-        // line 14
-        if ((isset($context["user"]) ? $context["user"] : null)) {
-            // line 15
-            echo "            <a data-request=\"onLogout\" data-request-data=\"redirect: '/'\">Sign out</a>
-            ";
-        }
-        // line 16
-        echo " 
-            
-            <hr />
+
+
             
             ";
-        // line 20
+        // line 10
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("account"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 21
+        // line 11
         echo "            
             
 
@@ -66,14 +41,14 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 </div>
 
 ";
-        // line 30
+        // line 20
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 31
+        // line 21
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
     }
@@ -90,7 +65,7 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 
     public function getDebugInfo()
     {
-        return array (  77 => 31,  70 => 30,  59 => 21,  55 => 20,  49 => 16,  45 => 15,  43 => 14,  40 => 13,  36 => 11,  30 => 9,  28 => 8,  19 => 1,);
+        return array (  52 => 21,  45 => 20,  34 => 11,  30 => 10,  19 => 1,);
     }
 }
 /* <div class="conteiner">*/
@@ -98,19 +73,9 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 /*         <div class="col-lg-1"></div>*/
 /*         <div class="col-lg-10 ">*/
 /* */
-/*             Account*/
 /* */
-/*             {% if user.name %}*/
-/*             <p>Hello {{ user.name }}</p>*/
-/*             {% else %}*/
-/*             <p>Nobody is logged in</p>*/
-/*             {% endif %}*/
 /* */
-/*             {% if user %}*/
-/*             <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>*/
-/*             {% endif %} */
-/*             */
-/*             <hr />*/
+/* */
 /*             */
 /*             {% component 'account' %}*/
 /*             */

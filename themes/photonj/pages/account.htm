@@ -44,19 +44,9 @@ function onInit()
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
 
-            Account
 
-            {% if user.name %}
-            <p>Hello {{ user.name }}</p>
-            {% else %}
-            <p>Nobody is logged in</p>
-            {% endif %}
 
-            {% if user %}
-            <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
-            {% endif %} 
-            
-            <hr />
+
             
             {% component 'account' %}
             

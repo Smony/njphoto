@@ -248,7 +248,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                     <span class=\"visible-xs-inline-block position-right\">Messages</span>
                     <span class=\"badge bg-warning-400\">1</span>
                 </a>
-
+<!--
                 <div class=\"dropdown-menu dropdown-content width-350\">
                     <div class=\"dropdown-content-heading\">
                         Messages
@@ -284,7 +284,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                     <div class=\"dropdown-content-footer\">
                         <a href=\"#\" data-popup=\"tooltip\" title=\"All messages\"><i class=\"icon-menu display-block\"></i></a>
                     </div>
-                </div>
+                </div>-->
             </li>
             ";
         }
@@ -400,7 +400,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                     <li class=\"navigation-header\"><span>Main</span> <i class=\"icon-menu\" title=\"Main pages\"></i></li>
                     <li class=\"active\"><a href=\"";
             // line 294
-            echo "/";
+            echo $this->env->getExtension('CMS')->pageFilter("account");
             echo "\"><i class=\"icon-home4\"></i> <span>HOME</span></a></li>
                     <li>
                         <a href=\"#\"><i class=\"icon-stack2\"></i> <span>Files</span></a>
@@ -411,7 +411,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                         </ul>
                     </li>
 
-                    <li><a href=\"scripts:void();\"><i class=\"glyphicon glyphicon-comment\"></i> <span>Messages <span class=\"label bg-blue-400\">1</span></span></a></li>
+                    <li class=\"disabled\"><a href=\"scripts:void();\"><i class=\"glyphicon glyphicon-comment\"></i> <span>Messages <span class=\"label bg-blue-400\">1</span></span></a></li>
                     <li>
                         <a
                                 href=\"javascript:;\"
@@ -676,7 +676,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*                     <span class="visible-xs-inline-block position-right">Messages</span>*/
 /*                     <span class="badge bg-warning-400">1</span>*/
 /*                 </a>*/
-/* */
+/* <!--*/
 /*                 <div class="dropdown-menu dropdown-content width-350">*/
 /*                     <div class="dropdown-content-heading">*/
 /*                         Messages*/
@@ -709,7 +709,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*                     <div class="dropdown-content-footer">*/
 /*                         <a href="#" data-popup="tooltip" title="All messages"><i class="icon-menu display-block"></i></a>*/
 /*                     </div>*/
-/*                 </div>*/
+/*                 </div>-->*/
 /*             </li>*/
 /*             {% endif %}*/
 /* */
@@ -788,7 +788,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /* */
 /*                     <!-- Main -->*/
 /*                     <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>*/
-/*                     <li class="active"><a href="{{ '/' }}"><i class="icon-home4"></i> <span>HOME</span></a></li>*/
+/*                     <li class="active"><a href="{{ 'account'|page }}"><i class="icon-home4"></i> <span>HOME</span></a></li>*/
 /*                     <li>*/
 /*                         <a href="#"><i class="icon-stack2"></i> <span>Files</span></a>*/
 /*                         <ul>*/
@@ -798,7 +798,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*                         </ul>*/
 /*                     </li>*/
 /* */
-/*                     <li><a href="scripts:void();"><i class="glyphicon glyphicon-comment"></i> <span>Messages <span class="label bg-blue-400">1</span></span></a></li>*/
+/*                     <li class="disabled"><a href="scripts:void();"><i class="glyphicon glyphicon-comment"></i> <span>Messages <span class="label bg-blue-400">1</span></span></a></li>*/
 /*                     <li>*/
 /*                         <a*/
 /*                                 href="javascript:;"*/

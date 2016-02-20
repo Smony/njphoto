@@ -1,4 +1,4 @@
-1455985712s:3131:"a:6:{s:5:"mtime";i:1455894917;s:7:"content";s:1421:"title = "Account"
+1455989436s:2419:"a:6:{s:5:"mtime";i:1455985797;s:7:"content";s:1065:"title = "Account"
 url = "/account"
 layout = "admin"
 is_hidden = 0
@@ -44,19 +44,9 @@ function onInit()
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
 
-            Account
 
-            {% if user.name %}
-            <p>Hello {{ user.name }}</p>
-            {% else %}
-            <p>Nobody is logged in</p>
-            {% endif %}
 
-            {% if user %}
-            <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
-            {% endif %} 
-            
-            <hr />
+
             
             {% component 'account' %}
             
@@ -86,24 +76,14 @@ function onInit()
 //die();
 
 }
-";s:6:"markup";s:694:"<div class="conteiner">
+";s:6:"markup";s:338:"<div class="conteiner">
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
 
-            Account
 
-            {% if user.name %}
-            <p>Hello {{ user.name }}</p>
-            {% else %}
-            <p>Nobody is logged in</p>
-            {% endif %}
 
-            {% if user %}
-            <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
-            {% endif %} 
-            
-            <hr />
+
             
             {% component 'account' %}
             

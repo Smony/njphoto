@@ -182,7 +182,7 @@ description = "Admin layout"
                     <span class="visible-xs-inline-block position-right">Messages</span>
                     <span class="badge bg-warning-400">1</span>
                 </a>
-
+<!--
                 <div class="dropdown-menu dropdown-content width-350">
                     <div class="dropdown-content-heading">
                         Messages
@@ -215,7 +215,7 @@ description = "Admin layout"
                     <div class="dropdown-content-footer">
                         <a href="#" data-popup="tooltip" title="All messages"><i class="icon-menu display-block"></i></a>
                     </div>
-                </div>
+                </div>-->
             </li>
             {% endif %}
 
@@ -294,7 +294,7 @@ description = "Admin layout"
 
                     <!-- Main -->
                     <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
-                    <li class="active"><a href="{{ '/' }}"><i class="icon-home4"></i> <span>HOME</span></a></li>
+                    <li class="active"><a href="{{ 'account'|page }}"><i class="icon-home4"></i> <span>HOME</span></a></li>
                     <li>
                         <a href="#"><i class="icon-stack2"></i> <span>Files</span></a>
                         <ul>
@@ -304,7 +304,7 @@ description = "Admin layout"
                         </ul>
                     </li>
 
-                    <li><a href="scripts:void();"><i class="glyphicon glyphicon-comment"></i> <span>Messages <span class="label bg-blue-400">1</span></span></a></li>
+                    <li class="disabled"><a href="scripts:void();"><i class="glyphicon glyphicon-comment"></i> <span>Messages <span class="label bg-blue-400">1</span></span></a></li>
                     <li>
                         <a
                                 href="javascript:;"
