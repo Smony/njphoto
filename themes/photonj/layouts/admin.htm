@@ -268,9 +268,9 @@ description = "Admin layout"
                 <div class="media">
                     <a href="#" class="media-left"><img src="{{ 'assets/admin/images/placeholder.jpg'|theme }}" class="img-circle img-sm" alt=""></a>
                     <div class="media-body">
-                        <span class="media-heading text-semibold">Victoria Baker</span>
+                        <span class="media-heading text-semibold">{{ user.name }}</span>
                         <div class="text-size-mini text-muted">
-                            <i class="icon-pin text-size-small"></i> &nbsp;Santa Ana, CA
+                            <i class="glyphicon glyphicon-envelope text-size-small"></i> &nbsp;{{ user.email }}
                         </div>
                     </div>
 
@@ -294,32 +294,25 @@ description = "Admin layout"
 
                     <!-- Main -->
                     <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
-                    <li class="active"><a href="index.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+                    <li class="active"><a href="{{ '/' }}"><i class="icon-home4"></i> <span>HOME</span></a></li>
                     <li>
-                        <a href="#"><i class="icon-stack2"></i> <span>Page layouts</span></a>
+                        <a href="#"><i class="icon-stack2"></i> <span>Files</span></a>
                         <ul>
-                            <li><a href="layout_navbar_fixed.html">Fixed navbar</a></li>
-                            <li><a href="layout_navbar_sidebar_fixed.html">Fixed navbar &amp; sidebar</a></li>
-                            <li><a href="layout_sidebar_fixed_native.html">Fixed sidebar native scroll</a></li>
-                            <li><a href="layout_navbar_hideable.html">Hideable navbar</a></li>
-                            <li><a href="layout_navbar_hideable_sidebar.html">Hideable &amp; fixed sidebar</a></li>
-                            <li><a href="layout_footer_fixed.html">Fixed footer</a></li>
+                            <li><a href="scripts:void();">Files all</a></l
                             <li class="navigation-divider"></li>
-                            <li><a href="boxed_default.html">Boxed with default sidebar</a></li>
-                            <li><a href="boxed_mini.html">Boxed with mini sidebar</a></li>
-                            <li><a href="boxed_full.html">Boxed full width</a></li>
+                            <li><a href="scripts:void();">test</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog <span class="label bg-blue-400">1.2</span></span></a></li>
-                    <li><a href="../RTL/index.html"><i class="icon-width"></i> <span>RTL version</span></a></li>
+                    <li><a href="scripts:void();"><i class="glyphicon glyphicon-comment"></i> <span>Messages <span class="label bg-blue-400">1</span></span></a></li>
+                    <li>
+                        <a
+                                href="javascript:;"
+                                onclick="$('#accountDeactivateForm').toggle()"><i class="glyphicon glyphicon-circle-arrow-down"></i>
+                            <span>Deactivate account</span>
+                        </a>
+                    </li>
                     <!-- /main -->
-
-
-
-
-
-
 
                 </ul>
             </div>

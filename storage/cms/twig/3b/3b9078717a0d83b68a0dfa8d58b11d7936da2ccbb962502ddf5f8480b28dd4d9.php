@@ -366,9 +366,15 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
             echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
             echo "\" class=\"img-circle img-sm\" alt=\"\"></a>
                     <div class=\"media-body\">
-                        <span class=\"media-heading text-semibold\">Victoria Baker</span>
+                        <span class=\"media-heading text-semibold\">";
+            // line 268
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
+            echo "</span>
                         <div class=\"text-size-mini text-muted\">
-                            <i class=\"icon-pin text-size-small\"></i> &nbsp;Santa Ana, CA
+                            <i class=\"glyphicon glyphicon-envelope text-size-small\"></i> &nbsp;";
+            // line 270
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "email", array()), "html", null, true);
+            echo "
                         </div>
                     </div>
 
@@ -392,32 +398,28 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
                     <!-- Main -->
                     <li class=\"navigation-header\"><span>Main</span> <i class=\"icon-menu\" title=\"Main pages\"></i></li>
-                    <li class=\"active\"><a href=\"index.html\"><i class=\"icon-home4\"></i> <span>Dashboard</span></a></li>
+                    <li class=\"active\"><a href=\"";
+            // line 294
+            echo "/";
+            echo "\"><i class=\"icon-home4\"></i> <span>HOME</span></a></li>
                     <li>
-                        <a href=\"#\"><i class=\"icon-stack2\"></i> <span>Page layouts</span></a>
+                        <a href=\"#\"><i class=\"icon-stack2\"></i> <span>Files</span></a>
                         <ul>
-                            <li><a href=\"layout_navbar_fixed.html\">Fixed navbar</a></li>
-                            <li><a href=\"layout_navbar_sidebar_fixed.html\">Fixed navbar &amp; sidebar</a></li>
-                            <li><a href=\"layout_sidebar_fixed_native.html\">Fixed sidebar native scroll</a></li>
-                            <li><a href=\"layout_navbar_hideable.html\">Hideable navbar</a></li>
-                            <li><a href=\"layout_navbar_hideable_sidebar.html\">Hideable &amp; fixed sidebar</a></li>
-                            <li><a href=\"layout_footer_fixed.html\">Fixed footer</a></li>
+                            <li><a href=\"scripts:void();\">Files all</a></l
                             <li class=\"navigation-divider\"></li>
-                            <li><a href=\"boxed_default.html\">Boxed with default sidebar</a></li>
-                            <li><a href=\"boxed_mini.html\">Boxed with mini sidebar</a></li>
-                            <li><a href=\"boxed_full.html\">Boxed full width</a></li>
+                            <li><a href=\"scripts:void();\">test</a></li>
                         </ul>
                     </li>
 
-                    <li><a href=\"changelog.html\"><i class=\"icon-list-unordered\"></i> <span>Changelog <span class=\"label bg-blue-400\">1.2</span></span></a></li>
-                    <li><a href=\"../RTL/index.html\"><i class=\"icon-width\"></i> <span>RTL version</span></a></li>
+                    <li><a href=\"scripts:void();\"><i class=\"glyphicon glyphicon-comment\"></i> <span>Messages <span class=\"label bg-blue-400\">1</span></span></a></li>
+                    <li>
+                        <a
+                                href=\"javascript:;\"
+                                onclick=\"\$('#accountDeactivateForm').toggle()\"><i class=\"glyphicon glyphicon-circle-arrow-down\"></i>
+                            <span>Deactivate account</span>
+                        </a>
+                    </li>
                     <!-- /main -->
-
-
-
-
-
-
 
                 </ul>
             </div>
@@ -429,43 +431,43 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 <!-- /main sidebar -->
 ";
         } else {
-            // line 330
+            // line 323
             echo "
 ";
         }
-        // line 332
+        // line 325
         echo "
 
 
     ";
-        // line 335
+        // line 328
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 336
+        // line 329
         echo "
     <!-- Scripts -->
     <script src=\"";
-        // line 338
+        // line 331
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.js", 1 => "assets/js/bootstrap.min.js"));
-        // line 341
+        // line 334
         echo "\"></script>
 
     ";
-        // line 343
+        // line 336
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 344
+        // line 337
         echo "    ";
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
-        // line 345
+        // line 338
         echo "    ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 346
+        // line 339
         echo "
 
     </div>
@@ -490,7 +492,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
     public function getDebugInfo()
     {
-        return array (  469 => 346,  465 => 345,  461 => 344,  454 => 343,  450 => 341,  448 => 338,  444 => 336,  442 => 335,  437 => 332,  433 => 330,  366 => 266,  356 => 258,  354 => 257,  340 => 245,  331 => 239,  326 => 236,  321 => 233,  317 => 231,  315 => 230,  305 => 223,  301 => 222,  297 => 220,  295 => 219,  292 => 218,  266 => 195,  245 => 176,  243 => 175,  236 => 171,  232 => 170,  228 => 169,  224 => 168,  220 => 167,  216 => 165,  208 => 160,  205 => 159,  203 => 158,  197 => 154,  193 => 152,  189 => 150,  187 => 149,  89 => 56,  54 => 23,  52 => 16,  49 => 15,  46 => 14,  42 => 13,  36 => 10,  32 => 9,  27 => 7,  19 => 1,);
+        return array (  471 => 339,  467 => 338,  463 => 337,  456 => 336,  452 => 334,  450 => 331,  446 => 329,  444 => 328,  439 => 325,  435 => 323,  403 => 294,  376 => 270,  371 => 268,  366 => 266,  356 => 258,  354 => 257,  340 => 245,  331 => 239,  326 => 236,  321 => 233,  317 => 231,  315 => 230,  305 => 223,  301 => 222,  297 => 220,  295 => 219,  292 => 218,  266 => 195,  245 => 176,  243 => 175,  236 => 171,  232 => 170,  228 => 169,  224 => 168,  220 => 167,  216 => 165,  208 => 160,  205 => 159,  203 => 158,  197 => 154,  193 => 152,  189 => 150,  187 => 149,  89 => 56,  54 => 23,  52 => 16,  49 => 15,  46 => 14,  42 => 13,  36 => 10,  32 => 9,  27 => 7,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -760,9 +762,9 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*                 <div class="media">*/
 /*                     <a href="#" class="media-left"><img src="{{ 'assets/admin/images/placeholder.jpg'|theme }}" class="img-circle img-sm" alt=""></a>*/
 /*                     <div class="media-body">*/
-/*                         <span class="media-heading text-semibold">Victoria Baker</span>*/
+/*                         <span class="media-heading text-semibold">{{ user.name }}</span>*/
 /*                         <div class="text-size-mini text-muted">*/
-/*                             <i class="icon-pin text-size-small"></i> &nbsp;Santa Ana, CA*/
+/*                             <i class="glyphicon glyphicon-envelope text-size-small"></i> &nbsp;{{ user.email }}*/
 /*                         </div>*/
 /*                     </div>*/
 /* */
@@ -786,32 +788,25 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /* */
 /*                     <!-- Main -->*/
 /*                     <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>*/
-/*                     <li class="active"><a href="index.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>*/
+/*                     <li class="active"><a href="{{ '/' }}"><i class="icon-home4"></i> <span>HOME</span></a></li>*/
 /*                     <li>*/
-/*                         <a href="#"><i class="icon-stack2"></i> <span>Page layouts</span></a>*/
+/*                         <a href="#"><i class="icon-stack2"></i> <span>Files</span></a>*/
 /*                         <ul>*/
-/*                             <li><a href="layout_navbar_fixed.html">Fixed navbar</a></li>*/
-/*                             <li><a href="layout_navbar_sidebar_fixed.html">Fixed navbar &amp; sidebar</a></li>*/
-/*                             <li><a href="layout_sidebar_fixed_native.html">Fixed sidebar native scroll</a></li>*/
-/*                             <li><a href="layout_navbar_hideable.html">Hideable navbar</a></li>*/
-/*                             <li><a href="layout_navbar_hideable_sidebar.html">Hideable &amp; fixed sidebar</a></li>*/
-/*                             <li><a href="layout_footer_fixed.html">Fixed footer</a></li>*/
+/*                             <li><a href="scripts:void();">Files all</a></l*/
 /*                             <li class="navigation-divider"></li>*/
-/*                             <li><a href="boxed_default.html">Boxed with default sidebar</a></li>*/
-/*                             <li><a href="boxed_mini.html">Boxed with mini sidebar</a></li>*/
-/*                             <li><a href="boxed_full.html">Boxed full width</a></li>*/
+/*                             <li><a href="scripts:void();">test</a></li>*/
 /*                         </ul>*/
 /*                     </li>*/
 /* */
-/*                     <li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog <span class="label bg-blue-400">1.2</span></span></a></li>*/
-/*                     <li><a href="../RTL/index.html"><i class="icon-width"></i> <span>RTL version</span></a></li>*/
+/*                     <li><a href="scripts:void();"><i class="glyphicon glyphicon-comment"></i> <span>Messages <span class="label bg-blue-400">1</span></span></a></li>*/
+/*                     <li>*/
+/*                         <a*/
+/*                                 href="javascript:;"*/
+/*                                 onclick="$('#accountDeactivateForm').toggle()"><i class="glyphicon glyphicon-circle-arrow-down"></i>*/
+/*                             <span>Deactivate account</span>*/
+/*                         </a>*/
+/*                     </li>*/
 /*                     <!-- /main -->*/
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
 /* */
 /*                 </ul>*/
 /*             </div>*/

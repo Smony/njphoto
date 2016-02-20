@@ -16,15 +16,17 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<a
-    href=\"javascript:;\"
-    onclick=\"\$('#accountDeactivateForm').toggle()\">
-    Deactivate account
-</a>
+        echo "<!--
+    <a
+        href=\"javascript:;\"
+        onclick=\"\$('#accountDeactivateForm').toggle()\">
+        Deactivate account
+    </a>
+-->
 
 <div id=\"accountDeactivateForm\" style=\"display: none\">
     ";
-        // line 8
+        // line 10
         echo call_user_func_array($this->env->getFunction('form_ajax')->getCallable(), array("ajax", "onDeactivate"));
         echo "
         <hr />
@@ -46,7 +48,7 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
             I changed my mind
         </a>
     ";
-        // line 27
+        // line 29
         echo call_user_func_array($this->env->getFunction('form_close')->getCallable(), array("close"));
         echo "
 </div>
@@ -65,14 +67,16 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
 
     public function getDebugInfo()
     {
-        return array (  50 => 27,  28 => 8,  19 => 1,);
+        return array (  52 => 29,  30 => 10,  19 => 1,);
     }
 }
-/* <a*/
-/*     href="javascript:;"*/
-/*     onclick="$('#accountDeactivateForm').toggle()">*/
-/*     Deactivate account*/
-/* </a>*/
+/* <!--*/
+/*     <a*/
+/*         href="javascript:;"*/
+/*         onclick="$('#accountDeactivateForm').toggle()">*/
+/*         Deactivate account*/
+/*     </a>*/
+/* -->*/
 /* */
 /* <div id="accountDeactivateForm" style="display: none">*/
 /*     {{ form_ajax('onDeactivate') }}*/
