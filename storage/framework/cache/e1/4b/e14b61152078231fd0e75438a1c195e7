@@ -1,4 +1,4 @@
-1455989436s:32823:"a:6:{s:5:"mtime";i:1455986021;s:7:"content";s:16331:"description = "Admin layout"
+1456144707s:39095:"a:6:{s:5:"mtime";i:1456137612;s:7:"content";s:19467:"description = "Admin layout"
 
 ==
 <!DOCTYPE html>
@@ -26,28 +26,27 @@
         ]|theme }}" rel="stylesheet">
     <!-- /global stylesheets -->
 
-
-
-
-
     <!-- Core JS files -->
-    <script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
-    <script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="{{ [
+            'assets/admin/js/plugins/loaders/pace.min.js',
+            'assets/admin/js/plugins/loaders/blockui.min.js',
+            'assets/admin/js/core/app.js',
+            'assets/admin/js/pages/dashboard.js',
+            'assets/admin/js/core/libraries/jquery.min.js',
+            'assets/admin/js/core/libraries/bootstrap.min.js'
+        ]|theme }}"></script>
     <!-- /core JS files -->
 
     <!-- Theme JS files -->
-    <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
-
-    <script type="text/javascript" src="assets/js/core/app.js"></script>
-    <script type="text/javascript" src="assets/js/pages/dashboard.js"></script>
+    <script src="{{ [
+            'assets/admin/js/plugins/forms/styling/switchery.min.js',
+            'assets/admin/js/plugins/forms/styling/uniform.min.js',
+            'assets/admin/js/plugins/forms/selects/bootstrap_multiselect.js',
+            'assets/admin/js/plugins/ui/moment/moment.min.js',
+            'assets/admin/js/plugins/pickers/daterangepicker.js',
+            'assets/admin/js/plugins/visualization/d3/d3.min.js',
+            'assets/admin/js/plugins/visualization/d3/d3_tooltip.js'
+        ]|theme }}"></script>
     <!-- /theme JS files -->
 
 </head>
@@ -326,9 +325,82 @@
 
 {% endif %}
 
+        <!-- Main content -->
+        <div class="content-wrapper">
+
+            <!-- Page header -->
+            <div class="page-header">
+                <div class="page-header-content">
+                    <div class="page-title">
+                        <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Account</h4>
+                    </div>
+                    <!--
+                        <div class="heading-elements">
+                            <div class="heading-btn-group">
+                                <a href="#" class="btn btn-link btn-float has-text"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
+                                <a href="#" class="btn btn-link btn-float has-text"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
+                                <a href="#" class="btn btn-link btn-float has-text"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
+                            </div>
+                        </div>
+                    -->
+                </div>
+
+                <div class="breadcrumb-line">
+                    <ul class="breadcrumb">
+                        <li><a href="{{ '/' }}"><i class="icon-home2 position-left"></i> Home</a></li>
+                        <li class="active">Account</li>
+                    </ul>
+                    <!--
+                        <ul class="breadcrumb-elements">
+                            <li><a href="#"><i class="icon-comment-discussion position-left"></i> Support</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="icon-gear position-left"></i>
+                                    Settings
+                                    <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="#"><i class="icon-user-lock"></i> Account security</a></li>
+                                    <li><a href="#"><i class="icon-statistics"></i> Analytics</a></li>
+                                    <li><a href="#"><i class="icon-accessibility"></i> Accessibility</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#"><i class="icon-gear"></i> All settings</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    -->
+                </div>
+            </div>
+            <!-- /page header -->
+
+            <!-- Main content -->
+            <div class="content">
+
+                <!-- Input group addons -->
+                <div class="panel panel-flat">
+                    <div class="panel-heading">
+                        <h5 class="panel-title"></h5>
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="form-horizontal">
+
+                            {% page %}                                  <!-- INCLUDE TEMPLATE PAGE -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /input group addons -->
 
 
-    {% page %}
+
+
+            </div>
+
+
+
+        </div>
 
     <!-- Scripts -->
     <script src="{{ [
@@ -348,7 +420,7 @@
 <!-- /page container -->
 
 </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:12:"Admin layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:16295:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:12:"Admin layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:19431:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -373,28 +445,27 @@
         ]|theme }}" rel="stylesheet">
     <!-- /global stylesheets -->
 
-
-
-
-
     <!-- Core JS files -->
-    <script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
-    <script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="{{ [
+            'assets/admin/js/plugins/loaders/pace.min.js',
+            'assets/admin/js/plugins/loaders/blockui.min.js',
+            'assets/admin/js/core/app.js',
+            'assets/admin/js/pages/dashboard.js',
+            'assets/admin/js/core/libraries/jquery.min.js',
+            'assets/admin/js/core/libraries/bootstrap.min.js'
+        ]|theme }}"></script>
     <!-- /core JS files -->
 
     <!-- Theme JS files -->
-    <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
-    <script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
-
-    <script type="text/javascript" src="assets/js/core/app.js"></script>
-    <script type="text/javascript" src="assets/js/pages/dashboard.js"></script>
+    <script src="{{ [
+            'assets/admin/js/plugins/forms/styling/switchery.min.js',
+            'assets/admin/js/plugins/forms/styling/uniform.min.js',
+            'assets/admin/js/plugins/forms/selects/bootstrap_multiselect.js',
+            'assets/admin/js/plugins/ui/moment/moment.min.js',
+            'assets/admin/js/plugins/pickers/daterangepicker.js',
+            'assets/admin/js/plugins/visualization/d3/d3.min.js',
+            'assets/admin/js/plugins/visualization/d3/d3_tooltip.js'
+        ]|theme }}"></script>
     <!-- /theme JS files -->
 
 </head>
@@ -673,9 +744,82 @@
 
 {% endif %}
 
+        <!-- Main content -->
+        <div class="content-wrapper">
+
+            <!-- Page header -->
+            <div class="page-header">
+                <div class="page-header-content">
+                    <div class="page-title">
+                        <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Account</h4>
+                    </div>
+                    <!--
+                        <div class="heading-elements">
+                            <div class="heading-btn-group">
+                                <a href="#" class="btn btn-link btn-float has-text"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
+                                <a href="#" class="btn btn-link btn-float has-text"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
+                                <a href="#" class="btn btn-link btn-float has-text"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
+                            </div>
+                        </div>
+                    -->
+                </div>
+
+                <div class="breadcrumb-line">
+                    <ul class="breadcrumb">
+                        <li><a href="{{ '/' }}"><i class="icon-home2 position-left"></i> Home</a></li>
+                        <li class="active">Account</li>
+                    </ul>
+                    <!--
+                        <ul class="breadcrumb-elements">
+                            <li><a href="#"><i class="icon-comment-discussion position-left"></i> Support</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="icon-gear position-left"></i>
+                                    Settings
+                                    <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="#"><i class="icon-user-lock"></i> Account security</a></li>
+                                    <li><a href="#"><i class="icon-statistics"></i> Analytics</a></li>
+                                    <li><a href="#"><i class="icon-accessibility"></i> Accessibility</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#"><i class="icon-gear"></i> All settings</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    -->
+                </div>
+            </div>
+            <!-- /page header -->
+
+            <!-- Main content -->
+            <div class="content">
+
+                <!-- Input group addons -->
+                <div class="panel panel-flat">
+                    <div class="panel-heading">
+                        <h5 class="panel-title"></h5>
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="form-horizontal">
+
+                            {% page %}                                  <!-- INCLUDE TEMPLATE PAGE -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /input group addons -->
 
 
-    {% page %}
+
+
+            </div>
+
+
+
+        </div>
 
     <!-- Scripts -->
     <script src="{{ [

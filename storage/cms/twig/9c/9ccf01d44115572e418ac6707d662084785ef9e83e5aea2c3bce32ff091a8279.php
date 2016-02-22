@@ -30,11 +30,30 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
         echo call_user_func_array($this->env->getFunction('form_ajax')->getCallable(), array("ajax", "onDeactivate"));
         echo "
         <hr />
-        <h3>Deactivate your account?</h3>
-        <p>
-            Your account will be disabled and your details removed from the site.
-            You can reactivate your account any time by signing back in.
-        </p>
+
+        <fieldset class=\"content-group\">
+            <legend class=\"text-bold\">Deactivate your account?</legend>
+
+            <p>
+                Your account will be disabled and your details removed from the site.
+                You can reactivate your account any time by signing back in.
+            </p>
+
+            <label for=\"accountDeletePassword\">To continue, please enter your password:</label>
+            <input name=\"password\" type=\"password\" class=\"form-control\" id=\"accountDeletePassword\" />
+            <br />
+            <button type=\"submit\" class=\"btn btn-danger\">
+                Confirm Deactivate Account
+            </button>
+            <a
+                    href=\"javascript:;\"
+                    onclick=\"\$('#accountDeactivateForm').toggle()\">
+                I changed my mind
+            </a>
+
+        </fieldset>
+
+        <!--
         <div class=\"form-group\">
             <label for=\"accountDeletePassword\">To continue, please enter your password:</label>
             <input name=\"password\" type=\"password\" class=\"form-control\" id=\"accountDeletePassword\" />
@@ -46,9 +65,9 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
             href=\"javascript:;\"
             onclick=\"\$('#accountDeactivateForm').toggle()\">
             I changed my mind
-        </a>
+        </a>-->
     ";
-        // line 29
+        // line 48
         echo call_user_func_array($this->env->getFunction('form_close')->getCallable(), array("close"));
         echo "
 </div>
@@ -67,7 +86,7 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
 
     public function getDebugInfo()
     {
-        return array (  52 => 29,  30 => 10,  19 => 1,);
+        return array (  71 => 48,  30 => 10,  19 => 1,);
     }
 }
 /* <!--*/
@@ -81,11 +100,30 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
 /* <div id="accountDeactivateForm" style="display: none">*/
 /*     {{ form_ajax('onDeactivate') }}*/
 /*         <hr />*/
-/*         <h3>Deactivate your account?</h3>*/
-/*         <p>*/
-/*             Your account will be disabled and your details removed from the site.*/
-/*             You can reactivate your account any time by signing back in.*/
-/*         </p>*/
+/* */
+/*         <fieldset class="content-group">*/
+/*             <legend class="text-bold">Deactivate your account?</legend>*/
+/* */
+/*             <p>*/
+/*                 Your account will be disabled and your details removed from the site.*/
+/*                 You can reactivate your account any time by signing back in.*/
+/*             </p>*/
+/* */
+/*             <label for="accountDeletePassword">To continue, please enter your password:</label>*/
+/*             <input name="password" type="password" class="form-control" id="accountDeletePassword" />*/
+/*             <br />*/
+/*             <button type="submit" class="btn btn-danger">*/
+/*                 Confirm Deactivate Account*/
+/*             </button>*/
+/*             <a*/
+/*                     href="javascript:;"*/
+/*                     onclick="$('#accountDeactivateForm').toggle()">*/
+/*                 I changed my mind*/
+/*             </a>*/
+/* */
+/*         </fieldset>*/
+/* */
+/*         <!--*/
 /*         <div class="form-group">*/
 /*             <label for="accountDeletePassword">To continue, please enter your password:</label>*/
 /*             <input name="password" type="password" class="form-control" id="accountDeletePassword" />*/
@@ -97,7 +135,7 @@ class __TwigTemplate_a0c3c407a617943b4ae0c7430536dd9f8d4a889e129357a00c5d4602035
 /*             href="javascript:;"*/
 /*             onclick="$('#accountDeactivateForm').toggle()">*/
 /*             I changed my mind*/
-/*         </a>*/
+/*         </a>-->*/
 /*     {{ form_close() }}*/
 /* </div>*/
 /* */

@@ -54,28 +54,20 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
         echo "\" rel=\"stylesheet\">
     <!-- /global stylesheets -->
 
-
-
-
-
     <!-- Core JS files -->
-    <script type=\"text/javascript\" src=\"assets/js/plugins/loaders/pace.min.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/core/libraries/jquery.min.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/core/libraries/bootstrap.min.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/plugins/loaders/blockui.min.js\"></script>
+    <script src=\"";
+        // line 27
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/admin/js/plugins/loaders/pace.min.js", 1 => "assets/admin/js/plugins/loaders/blockui.min.js", 2 => "assets/admin/js/core/app.js", 3 => "assets/admin/js/pages/dashboard.js", 4 => "assets/admin/js/core/libraries/jquery.min.js", 5 => "assets/admin/js/core/libraries/bootstrap.min.js"));
+        // line 34
+        echo "\"></script>
     <!-- /core JS files -->
 
     <!-- Theme JS files -->
-    <script type=\"text/javascript\" src=\"assets/js/plugins/visualization/d3/d3.min.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/plugins/visualization/d3/d3_tooltip.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/plugins/forms/styling/switchery.min.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/plugins/forms/styling/uniform.min.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/plugins/forms/selects/bootstrap_multiselect.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/plugins/ui/moment/moment.min.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/plugins/pickers/daterangepicker.js\"></script>
-
-    <script type=\"text/javascript\" src=\"assets/js/core/app.js\"></script>
-    <script type=\"text/javascript\" src=\"assets/js/pages/dashboard.js\"></script>
+    <script src=\"";
+        // line 38
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/admin/js/plugins/forms/styling/switchery.min.js", 1 => "assets/admin/js/plugins/forms/styling/uniform.min.js", 2 => "assets/admin/js/plugins/forms/selects/bootstrap_multiselect.js", 3 => "assets/admin/js/plugins/ui/moment/moment.min.js", 4 => "assets/admin/js/plugins/pickers/daterangepicker.js", 5 => "assets/admin/js/plugins/visualization/d3/d3.min.js", 6 => "assets/admin/js/plugins/visualization/d3/d3_tooltip.js"));
+        // line 46
+        echo "\"></script>
     <!-- /theme JS files -->
 
 </head>
@@ -85,7 +77,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 <div class=\"navbar navbar-inverse\">
     <div class=\"navbar-header\">
         <a class=\"navbar-brand\" href=\"";
-        // line 56
+        // line 55
         echo $this->env->getExtension('CMS')->pageFilter("account");
         echo "\"><img src=\"";
         echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/logo_light.png");
@@ -183,28 +175,28 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
         </ul>
 
         ";
-        // line 149
+        // line 148
         if ((isset($context["user"]) ? $context["user"] : null)) {
-            // line 150
+            // line 149
             echo "            <p class=\"navbar-text\"><span class=\"label bg-success-400\">Online</span></p>
         ";
         } else {
-            // line 152
+            // line 151
             echo "            <p class=\"navbar-text\"><span class=\"label bg-warning-400\">Offline</span></p>
         ";
         }
-        // line 154
+        // line 153
         echo "
         <ul class=\"nav navbar-nav navbar-right\">
             <li class=\"dropdown language-switch\">
 
                 ";
-        // line 158
+        // line 157
         if ((isset($context["user"]) ? $context["user"] : null)) {
-            // line 159
+            // line 158
             echo "                <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                     <img src=\"";
-            // line 160
+            // line 159
             echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/gb.png");
             echo "\" class=\"position-left\" alt=\"\">
                     English
@@ -212,36 +204,36 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                 </a>
                 ";
         }
-        // line 165
+        // line 164
         echo "    <!--
                 <ul class=\"dropdown-menu\">
                     <li><a class=\"deutsch\"><img src=\"";
-        // line 167
+        // line 166
         echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/de.png");
         echo "\" alt=\"\"> Deutsch</a></li>
                     <li><a class=\"ukrainian\"><img src=\"";
-        // line 168
+        // line 167
         echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/ua.png");
         echo "\" alt=\"\"> Українська</a></li>
                     <li><a class=\"english\"><img src=\"";
-        // line 169
+        // line 168
         echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/gb.png");
         echo "\" alt=\"\"> English</a></li>
                     <li><a class=\"espana\"><img src=\"";
-        // line 170
+        // line 169
         echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/es.png");
         echo "\" alt=\"\"> España</a></li>
                     <li><a class=\"russian\"><img src=\"";
-        // line 171
+        // line 170
         echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/ru.png");
         echo "\" alt=\"\"> Русский</a></li>
                 </ul>
     -->
             </li>
             ";
-        // line 175
+        // line 174
         if ((isset($context["user"]) ? $context["user"] : null)) {
-            // line 176
+            // line 175
             echo "            <li class=\"dropdown disabled\">
                 <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                     <i class=\"icon-bubbles4\"></i>
@@ -262,7 +254,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                         <li class=\"media\">
                             <div class=\"media-left\">
                                 <img src=\"";
-            // line 195
+            // line 194
             echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
             echo "\" class=\"img-circle img-sm\" alt=\"\">
                                 <span class=\"badge bg-danger-400 media-badge\">5</span>
@@ -288,20 +280,20 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
             </li>
             ";
         }
-        // line 218
+        // line 217
         echo "
             ";
-        // line 219
+        // line 218
         if ($this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array())) {
-            // line 220
+            // line 219
             echo "                <li class=\"dropdown dropdown-user\">
                     <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                         <img src=\"";
-            // line 222
+            // line 221
             echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
             echo "\" alt=\"\">
                         <span>";
-            // line 223
+            // line 222
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
             echo "</span>
                         <i class=\"caret\"></i>
@@ -311,23 +303,23 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                         <li class=\"disabled\"><a href=\"#\"><span class=\"badge bg-teal-400 pull-right\">1</span> <i class=\"icon-comment-discussion\"></i> Messages</a></li>
                         <li class=\"divider\"></li>
                         ";
-            // line 230
+            // line 229
             if ((isset($context["user"]) ? $context["user"] : null)) {
-                // line 231
+                // line 230
                 echo "                            <li><a href=\"scripts:void();\" data-request=\"onLogout\" data-request-data=\"redirect: '/'\"><i class=\"icon-switch2\"></i> Logout</a></li>
                         ";
             }
-            // line 233
+            // line 232
             echo "                    </ul>
                 </li>
             ";
         } else {
-            // line 236
+            // line 235
             echo "            <li class=\"dropdown dropdown-user\">
 
                 <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                     <img src=\"";
-            // line 239
+            // line 238
             echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
             echo "\" alt=\"\">
                     <span>Nobody is logged in</span>
@@ -336,7 +328,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
             </li>
             ";
         }
-        // line 245
+        // line 244
         echo "
 
         </ul>
@@ -350,9 +342,9 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
     <!-- Page content -->
     <div class=\"page-content\">
 ";
-        // line 257
+        // line 256
         if ((isset($context["user"]) ? $context["user"] : null)) {
-            // line 258
+            // line 257
             echo "\t<!-- Main sidebar -->
 <div class=\"sidebar sidebar-main\">
     <div class=\"sidebar-content\">
@@ -362,17 +354,17 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
             <div class=\"category-content\">
                 <div class=\"media\">
                     <a href=\"#\" class=\"media-left\"><img src=\"";
-            // line 266
+            // line 265
             echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
             echo "\" class=\"img-circle img-sm\" alt=\"\"></a>
                     <div class=\"media-body\">
                         <span class=\"media-heading text-semibold\">";
-            // line 268
+            // line 267
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
             echo "</span>
                         <div class=\"text-size-mini text-muted\">
                             <i class=\"glyphicon glyphicon-envelope text-size-small\"></i> &nbsp;";
-            // line 270
+            // line 269
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "email", array()), "html", null, true);
             echo "
                         </div>
@@ -399,7 +391,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                     <!-- Main -->
                     <li class=\"navigation-header\"><span>Main</span> <i class=\"icon-menu\" title=\"Main pages\"></i></li>
                     <li class=\"active\"><a href=\"";
-            // line 294
+            // line 293
             echo $this->env->getExtension('CMS')->pageFilter("account");
             echo "\"><i class=\"icon-home4\"></i> <span>HOME</span></a></li>
                     <li>
@@ -431,43 +423,119 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 <!-- /main sidebar -->
 ";
         } else {
-            // line 323
+            // line 322
             echo "
 ";
         }
-        // line 325
+        // line 324
         echo "
+        <!-- Main content -->
+        <div class=\"content-wrapper\">
 
+            <!-- Page header -->
+            <div class=\"page-header\">
+                <div class=\"page-header-content\">
+                    <div class=\"page-title\">
+                        <h4><i class=\"icon-arrow-left52 position-left\"></i> <span class=\"text-semibold\">Home</span> - Account</h4>
+                    </div>
+                    <!--
+                        <div class=\"heading-elements\">
+                            <div class=\"heading-btn-group\">
+                                <a href=\"#\" class=\"btn btn-link btn-float has-text\"><i class=\"icon-bars-alt text-primary\"></i><span>Statistics</span></a>
+                                <a href=\"#\" class=\"btn btn-link btn-float has-text\"><i class=\"icon-calculator text-primary\"></i> <span>Invoices</span></a>
+                                <a href=\"#\" class=\"btn btn-link btn-float has-text\"><i class=\"icon-calendar5 text-primary\"></i> <span>Schedule</span></a>
+                            </div>
+                        </div>
+                    -->
+                </div>
 
-    ";
-        // line 328
+                <div class=\"breadcrumb-line\">
+                    <ul class=\"breadcrumb\">
+                        <li><a href=\"";
+        // line 347
+        echo "/";
+        echo "\"><i class=\"icon-home2 position-left\"></i> Home</a></li>
+                        <li class=\"active\">Account</li>
+                    </ul>
+                    <!--
+                        <ul class=\"breadcrumb-elements\">
+                            <li><a href=\"#\"><i class=\"icon-comment-discussion position-left\"></i> Support</a></li>
+                            <li class=\"dropdown\">
+                                <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">
+                                    <i class=\"icon-gear position-left\"></i>
+                                    Settings
+                                    <span class=\"caret\"></span>
+                                </a>
+
+                                <ul class=\"dropdown-menu dropdown-menu-right\">
+                                    <li><a href=\"#\"><i class=\"icon-user-lock\"></i> Account security</a></li>
+                                    <li><a href=\"#\"><i class=\"icon-statistics\"></i> Analytics</a></li>
+                                    <li><a href=\"#\"><i class=\"icon-accessibility\"></i> Accessibility</a></li>
+                                    <li class=\"divider\"></li>
+                                    <li><a href=\"#\"><i class=\"icon-gear\"></i> All settings</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    -->
+                </div>
+            </div>
+            <!-- /page header -->
+
+            <!-- Main content -->
+            <div class=\"content\">
+
+                <!-- Input group addons -->
+                <div class=\"panel panel-flat\">
+                    <div class=\"panel-heading\">
+                        <h5 class=\"panel-title\"></h5>
+                    </div>
+
+                    <div class=\"panel-body\">
+                        <div class=\"form-horizontal\">
+
+                            ";
+        // line 386
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 329
-        echo "
+        echo "                                  <!-- INCLUDE TEMPLATE PAGE -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /input group addons -->
+
+
+
+
+            </div>
+
+
+
+        </div>
+
     <!-- Scripts -->
     <script src=\"";
-        // line 331
+        // line 403
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.js", 1 => "assets/js/bootstrap.min.js"));
-        // line 334
+        // line 406
         echo "\"></script>
 
     ";
-        // line 336
+        // line 408
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 337
+        // line 409
         echo "    ";
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
-        // line 338
+        // line 410
         echo "    ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 339
+        // line 411
         echo "
 
     </div>
@@ -492,7 +560,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
     public function getDebugInfo()
     {
-        return array (  471 => 339,  467 => 338,  463 => 337,  456 => 336,  452 => 334,  450 => 331,  446 => 329,  444 => 328,  439 => 325,  435 => 323,  403 => 294,  376 => 270,  371 => 268,  366 => 266,  356 => 258,  354 => 257,  340 => 245,  331 => 239,  326 => 236,  321 => 233,  317 => 231,  315 => 230,  305 => 223,  301 => 222,  297 => 220,  295 => 219,  292 => 218,  266 => 195,  245 => 176,  243 => 175,  236 => 171,  232 => 170,  228 => 169,  224 => 168,  220 => 167,  216 => 165,  208 => 160,  205 => 159,  203 => 158,  197 => 154,  193 => 152,  189 => 150,  187 => 149,  89 => 56,  54 => 23,  52 => 16,  49 => 15,  46 => 14,  42 => 13,  36 => 10,  32 => 9,  27 => 7,  19 => 1,);
+        return array (  539 => 411,  535 => 410,  531 => 409,  524 => 408,  520 => 406,  518 => 403,  498 => 386,  456 => 347,  431 => 324,  427 => 322,  395 => 293,  368 => 269,  363 => 267,  358 => 265,  348 => 257,  346 => 256,  332 => 244,  323 => 238,  318 => 235,  313 => 232,  309 => 230,  307 => 229,  297 => 222,  293 => 221,  289 => 219,  287 => 218,  284 => 217,  258 => 194,  237 => 175,  235 => 174,  228 => 170,  224 => 169,  220 => 168,  216 => 167,  212 => 166,  208 => 164,  200 => 159,  197 => 158,  195 => 157,  189 => 153,  185 => 151,  181 => 149,  179 => 148,  81 => 55,  70 => 46,  68 => 38,  62 => 34,  60 => 27,  54 => 23,  52 => 16,  49 => 15,  46 => 14,  42 => 13,  36 => 10,  32 => 9,  27 => 7,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -520,28 +588,27 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*         ]|theme }}" rel="stylesheet">*/
 /*     <!-- /global stylesheets -->*/
 /* */
-/* */
-/* */
-/* */
-/* */
 /*     <!-- Core JS files -->*/
-/*     <script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>*/
+/*     <script src="{{ [*/
+/*             'assets/admin/js/plugins/loaders/pace.min.js',*/
+/*             'assets/admin/js/plugins/loaders/blockui.min.js',*/
+/*             'assets/admin/js/core/app.js',*/
+/*             'assets/admin/js/pages/dashboard.js',*/
+/*             'assets/admin/js/core/libraries/jquery.min.js',*/
+/*             'assets/admin/js/core/libraries/bootstrap.min.js'*/
+/*         ]|theme }}"></script>*/
 /*     <!-- /core JS files -->*/
 /* */
 /*     <!-- Theme JS files -->*/
-/*     <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>*/
-/* */
-/*     <script type="text/javascript" src="assets/js/core/app.js"></script>*/
-/*     <script type="text/javascript" src="assets/js/pages/dashboard.js"></script>*/
+/*     <script src="{{ [*/
+/*             'assets/admin/js/plugins/forms/styling/switchery.min.js',*/
+/*             'assets/admin/js/plugins/forms/styling/uniform.min.js',*/
+/*             'assets/admin/js/plugins/forms/selects/bootstrap_multiselect.js',*/
+/*             'assets/admin/js/plugins/ui/moment/moment.min.js',*/
+/*             'assets/admin/js/plugins/pickers/daterangepicker.js',*/
+/*             'assets/admin/js/plugins/visualization/d3/d3.min.js',*/
+/*             'assets/admin/js/plugins/visualization/d3/d3_tooltip.js'*/
+/*         ]|theme }}"></script>*/
 /*     <!-- /theme JS files -->*/
 /* */
 /* </head>*/
@@ -820,9 +887,82 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /* */
 /* {% endif %}*/
 /* */
+/*         <!-- Main content -->*/
+/*         <div class="content-wrapper">*/
+/* */
+/*             <!-- Page header -->*/
+/*             <div class="page-header">*/
+/*                 <div class="page-header-content">*/
+/*                     <div class="page-title">*/
+/*                         <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Account</h4>*/
+/*                     </div>*/
+/*                     <!--*/
+/*                         <div class="heading-elements">*/
+/*                             <div class="heading-btn-group">*/
+/*                                 <a href="#" class="btn btn-link btn-float has-text"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>*/
+/*                                 <a href="#" class="btn btn-link btn-float has-text"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>*/
+/*                                 <a href="#" class="btn btn-link btn-float has-text"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                     -->*/
+/*                 </div>*/
+/* */
+/*                 <div class="breadcrumb-line">*/
+/*                     <ul class="breadcrumb">*/
+/*                         <li><a href="{{ '/' }}"><i class="icon-home2 position-left"></i> Home</a></li>*/
+/*                         <li class="active">Account</li>*/
+/*                     </ul>*/
+/*                     <!--*/
+/*                         <ul class="breadcrumb-elements">*/
+/*                             <li><a href="#"><i class="icon-comment-discussion position-left"></i> Support</a></li>*/
+/*                             <li class="dropdown">*/
+/*                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">*/
+/*                                     <i class="icon-gear position-left"></i>*/
+/*                                     Settings*/
+/*                                     <span class="caret"></span>*/
+/*                                 </a>*/
+/* */
+/*                                 <ul class="dropdown-menu dropdown-menu-right">*/
+/*                                     <li><a href="#"><i class="icon-user-lock"></i> Account security</a></li>*/
+/*                                     <li><a href="#"><i class="icon-statistics"></i> Analytics</a></li>*/
+/*                                     <li><a href="#"><i class="icon-accessibility"></i> Accessibility</a></li>*/
+/*                                     <li class="divider"></li>*/
+/*                                     <li><a href="#"><i class="icon-gear"></i> All settings</a></li>*/
+/*                                 </ul>*/
+/*                             </li>*/
+/*                         </ul>*/
+/*                     -->*/
+/*                 </div>*/
+/*             </div>*/
+/*             <!-- /page header -->*/
+/* */
+/*             <!-- Main content -->*/
+/*             <div class="content">*/
+/* */
+/*                 <!-- Input group addons -->*/
+/*                 <div class="panel panel-flat">*/
+/*                     <div class="panel-heading">*/
+/*                         <h5 class="panel-title"></h5>*/
+/*                     </div>*/
+/* */
+/*                     <div class="panel-body">*/
+/*                         <div class="form-horizontal">*/
+/* */
+/*                             {% page %}                                  <!-- INCLUDE TEMPLATE PAGE -->*/
+/* */
+/*                         </div>*/
+/*                     </div>*/
+/*                 </div>*/
+/*                 <!-- /input group addons -->*/
 /* */
 /* */
-/*     {% page %}*/
+/* */
+/* */
+/*             </div>*/
+/* */
+/* */
+/* */
+/*         </div>*/
 /* */
 /*     <!-- Scripts -->*/
 /*     <script src="{{ [*/
