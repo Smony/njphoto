@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20409a66-3168-43e4-8b7c-ee79d6c1fdc9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/aa555e99c91d9152503586d8b8195cc4c16f21fa" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/components/account/deactivate_link.htm" afterPath="$PROJECT_DIR$/plugins/rainlab/user/components/account/deactivate_link.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm" afterPath="$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/13/49/admin.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/13/49/admin.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" afterPath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/3b/3b9078717a0d83b68a0dfa8d58b11d7936da2ccbb962502ddf5f8480b28dd4d9.php" afterPath="$PROJECT_DIR$/storage/cms/twig/3b/3b9078717a0d83b68a0dfa8d58b11d7936da2ccbb962502ddf5f8480b28dd4d9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/9c/9ccf01d44115572e418ac6707d662084785ef9e83e5aea2c3bce32ff091a8279.php" afterPath="$PROJECT_DIR$/storage/cms/twig/9c/9ccf01d44115572e418ac6707d662084785ef9e83e5aea2c3bce32ff091a8279.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/cc/ccddf6bf95bff07572bfd3921e2708734a28c61d7d539bdbb84387c070f29325.php" afterPath="$PROJECT_DIR$/storage/cms/twig/cc/ccddf6bf95bff07572bfd3921e2708734a28c61d7d539bdbb84387c070f29325.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" afterPath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" afterPath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/71/1a719ce1d67517ca86cf61cec540dc6c" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/71/1a719ce1d67517ca86cf61cec540dc6c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" afterPath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" afterPath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/32/65/32659e976bc39bbaef3bab65d5af8d53" afterPath="$PROJECT_DIR$/storage/framework/cache/32/65/32659e976bc39bbaef3bab65d5af8d53" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" afterPath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" afterPath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" afterPath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/76/06/7606910790f048afd194d46541a853e7" afterPath="$PROJECT_DIR$/storage/framework/cache/76/06/7606910790f048afd194d46541a853e7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7a/6c/7a6c520e67fa8046630c8a1a9fcf96a1" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/6c/7a6c520e67fa8046630c8a1a9fcf96a1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7a/ab/7aab106ced8c4d65f1f2244c2591f3af" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/ab/7aab106ced8c4d65f1f2244c2591f3af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7c/d8/7cd8bf128813be90d5c6f277d46d6f0d" afterPath="$PROJECT_DIR$/storage/framework/cache/7c/d8/7cd8bf128813be90d5c6f277d46d6f0d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/93/cd/93cd9ae070de64d500668161acd65da1" afterPath="$PROJECT_DIR$/storage/framework/cache/93/cd/93cd9ae070de64d500668161acd65da1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/96/84/96842edcfe90220aa1fab7159040e9f1" afterPath="$PROJECT_DIR$/storage/framework/cache/96/84/96842edcfe90220aa1fab7159040e9f1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/96/f7/96f7d7ef368d5091d4c6966a30168a30" afterPath="$PROJECT_DIR$/storage/framework/cache/96/f7/96f7d7ef368d5091d4c6966a30168a30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/9c/2a/9c2ab907afc5f3620ff583122af51a23" afterPath="$PROJECT_DIR$/storage/framework/cache/9c/2a/9c2ab907afc5f3620ff583122af51a23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/a4/77/a477cd06a6b21ebb0cc8261f416065b1" afterPath="$PROJECT_DIR$/storage/framework/cache/a4/77/a477cd06a6b21ebb0cc8261f416065b1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b8/0e/b80e59731b7722d79f00f068da276ab0" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/0e/b80e59731b7722d79f00f068da276ab0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ba/70/ba70b3adf2a471bd6908208596f1629b" afterPath="$PROJECT_DIR$/storage/framework/cache/ba/70/ba70b3adf2a471bd6908208596f1629b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c0/55/c0551c22b1258d2aec87bbb1bda49a40" afterPath="$PROJECT_DIR$/storage/framework/cache/c0/55/c0551c22b1258d2aec87bbb1bda49a40" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c2/f1/c2f182c08897d9f02fdffda92e7e6fc6" afterPath="$PROJECT_DIR$/storage/framework/cache/c2/f1/c2f182c08897d9f02fdffda92e7e6fc6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/cc/7d/cc7d9981e9e664d14676c69237bb01ad" afterPath="$PROJECT_DIR$/storage/framework/cache/cc/7d/cc7d9981e9e664d14676c69237bb01ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/e1/4b/e14b61152078231fd0e75438a1c195e7" afterPath="$PROJECT_DIR$/storage/framework/cache/e1/4b/e14b61152078231fd0e75438a1c195e7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/e5/bb/e5bb201b2a574647d5293cd4ff8aca1c" afterPath="$PROJECT_DIR$/storage/framework/cache/e5/bb/e5bb201b2a574647d5293cd4ff8aca1c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/e8/fd/e8fd919b8c6d19c713ff7f9dfcd77fa3" afterPath="$PROJECT_DIR$/storage/framework/cache/e8/fd/e8fd919b8c6d19c713ff7f9dfcd77fa3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f3/ba/f3bad89ba1892ab2604f0c5c17f2ca11" afterPath="$PROJECT_DIR$/storage/framework/cache/f3/ba/f3bad89ba1892ab2604f0c5c17f2ca11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" afterPath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" afterPath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" afterPath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/layouts/admin.htm" afterPath="$PROJECT_DIR$/themes/photonj/layouts/admin.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/pages/account.htm" afterPath="$PROJECT_DIR$/themes/photonj/pages/account.htm" />
     </list>
     <ignored path="october.nj.biz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +49,7 @@
       <file leaf-file-name="account.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8416149">
+            <state vertical-scroll-proportion="0.83128834">
               <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
               <folding />
             </state>
@@ -633,7 +577,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.79498523" order="0" side_tool="false" content_ui="combo" />
@@ -642,7 +586,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24458875" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23593074" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1945629" sideWeight="0.20501475" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1034,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8416149">
+        <state vertical-scroll-proportion="0.83128834">
           <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
           <folding />
         </state>
