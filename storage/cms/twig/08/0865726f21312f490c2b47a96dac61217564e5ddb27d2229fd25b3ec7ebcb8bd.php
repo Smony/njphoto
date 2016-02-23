@@ -21,7 +21,10 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
         <div class=\"col-lg-1\"></div>
         <div class=\"col-lg-10 \">
 
-            
+            ";
+        // line 6
+        echo $this->env->getExtension('debug')->runDump($this->env, $context, (isset($context["account"]) ? $context["account"] : null));
+        echo "
             ";
         // line 7
         $context['__cms_component_params'] = [];
@@ -60,7 +63,7 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 
     public function getDebugInfo()
     {
-        return array (  47 => 16,  40 => 15,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  50 => 16,  43 => 15,  34 => 8,  30 => 7,  26 => 6,  19 => 1,);
     }
 }
 /* <div class="conteiner">*/
@@ -68,7 +71,7 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 /*         <div class="col-lg-1"></div>*/
 /*         <div class="col-lg-10 ">*/
 /* */
-/*             */
+/*             {{ dump(account) }}*/
 /*             {% component 'account' %}*/
 /* */
 /*             */

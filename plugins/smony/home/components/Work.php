@@ -14,7 +14,6 @@ class Work extends ComponentBase
     {
         $this->title = "title text";
         $this->description = "description text";
-
     }
 
     public function componentDetails()
