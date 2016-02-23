@@ -1,4 +1,4 @@
-1456147989s:683:"a:2:{s:5:"mtime";i:1455727281;s:7:"content";s:629:"<div class="row if_you" style="margin-right: 0px;  margin-left: 0px;">
+1456238108s:693:"a:2:{s:5:"mtime";i:1456221567;s:7:"content";s:639:"<div class="row if_you" style="margin-right: 0px;  margin-left: 0px;">
     <span class="indent"></span>
     <div class="col-xs-hidden col-md-1"></div>
 
@@ -10,7 +10,7 @@
 
             <span class="indent"></span>
 
-            <p class="small_if_you">{{ item.description }}</p>
+            <p class="small_if_you">{{ item.description|striptags }}</p>
 
             <span class="indent"></span>
         </div>
