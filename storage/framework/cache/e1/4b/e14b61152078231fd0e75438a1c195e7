@@ -1,6 +1,7 @@
-1456245963s:39095:"a:6:{s:5:"mtime";i:1456137612;s:7:"content";s:19467:"description = "Admin layout"
+1456323737s:39381:"a:6:{s:5:"mtime";i:1456310986;s:7:"content";s:19611:"description = "Admin layout"
 
 ==
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +52,8 @@
 
 </head>
 <body>
-
+{% if not user %}
+{% else %}
 <!-- Main navbar -->
 <div class="navbar navbar-inverse">
     <div class="navbar-header">
@@ -250,12 +252,15 @@
     </div>
 </div>
 <!-- /main navbar -->
+{% endif %}
+
 
 <!-- Page container -->
 <div class="page-container">
 
     <!-- Page content -->
     <div class="page-content">
+
 {% if user %}
 	<!-- Main sidebar -->
 <div class="sidebar sidebar-main">
@@ -320,16 +325,20 @@
 
     </div>
 </div>
+
 <!-- /main sidebar -->
 {% else %}
 
 {% endif %}
+
 
         <!-- Main content -->
         <div class="content-wrapper">
 
             <!-- Page header -->
             <div class="page-header">
+                {% if not user %}
+                {% else %}
                 <div class="page-header-content">
                     <div class="page-title">
                         <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Account</h4>
@@ -344,7 +353,7 @@
                         </div>
                     -->
                 </div>
-
+                {% endif %}
                 <div class="breadcrumb-line">
                     <ul class="breadcrumb">
                         <li><a href="{{ '/' }}"><i class="icon-home2 position-left"></i> Home</a></li>
@@ -373,6 +382,7 @@
                 </div>
             </div>
             <!-- /page header -->
+
 
             <!-- Main content -->
             <div class="content">
@@ -420,7 +430,7 @@
 <!-- /page container -->
 
 </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:12:"Admin layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:19431:"<!DOCTYPE html>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:12:"Admin layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:19573:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -470,7 +480,8 @@
 
 </head>
 <body>
-
+{% if not user %}
+{% else %}
 <!-- Main navbar -->
 <div class="navbar navbar-inverse">
     <div class="navbar-header">
@@ -669,12 +680,15 @@
     </div>
 </div>
 <!-- /main navbar -->
+{% endif %}
+
 
 <!-- Page container -->
 <div class="page-container">
 
     <!-- Page content -->
     <div class="page-content">
+
 {% if user %}
 	<!-- Main sidebar -->
 <div class="sidebar sidebar-main">
@@ -739,16 +753,20 @@
 
     </div>
 </div>
+
 <!-- /main sidebar -->
 {% else %}
 
 {% endif %}
+
 
         <!-- Main content -->
         <div class="content-wrapper">
 
             <!-- Page header -->
             <div class="page-header">
+                {% if not user %}
+                {% else %}
                 <div class="page-header-content">
                     <div class="page-title">
                         <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Account</h4>
@@ -763,7 +781,7 @@
                         </div>
                     -->
                 </div>
-
+                {% endif %}
                 <div class="breadcrumb-line">
                     <ul class="breadcrumb">
                         <li><a href="{{ '/' }}"><i class="icon-home2 position-left"></i> Home</a></li>
@@ -792,6 +810,7 @@
                 </div>
             </div>
             <!-- /page header -->
+
 
             <!-- Main content -->
             <div class="content">

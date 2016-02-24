@@ -20,42 +20,29 @@ class __TwigTemplate_4211e201efd5c5a3518fdc86e222bfc819991184247d3af8fde3bd5e71a
 
     ";
         // line 3
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["home"]) ? $context["home"] : null), "getContactSite", array()));
-        foreach ($context['_seq'] as $context["_key"] => $context["contactSite"]) {
-            // line 4
-            echo "        <p class=\"how_it_works\"> ";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["contactSite"], "title_site", array()), "html", null, true);
-            echo " </p>
-        <div class=\"under_how_it_works\"> ";
-            // line 5
-            echo twig_escape_filter($this->env, $this->getAttribute($context["contactSite"], "description_site", array()), "html", null, true);
-            echo " </div>
-    ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['contactSite'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 7
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('CMS')->partialFunction(((isset($context["__SELF__"]) ? $context["__SELF__"] : null) . "::head")        , $context['__cms_partial_params']        );
+        unset($context['__cms_partial_params']);
+        // line 4
         echo "
     <div class=\"row\" style=\"margin-right: 0px;  margin-left: 0px\";>
         <div class=\"col-xs-hidden col-sm-hidden col-md-1\"></div>
 
         ";
-        // line 11
+        // line 8
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["work"]) ? $context["work"] : null), "works", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
-            // line 12
+            // line 9
             echo "        <div class=\"col-xs-12 col-md-2\" >
             <img class=\"img-responsive img-circle\" src=\"";
-            // line 13
+            // line 10
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], "attachments", array()), "path", array()), "html", null, true);
             echo "\" alt=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], "attachments", array()), "title", array()), "html", null, true);
             echo "\">
             <p class=\"under_plasecholder_sircl\" style=\"word-wrap: break-word;\">";
-            // line 14
+            // line 11
             echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "title", array()), "html", null, true);
             echo "</p>
         </div>
@@ -64,7 +51,7 @@ class __TwigTemplate_4211e201efd5c5a3518fdc86e222bfc819991184247d3af8fde3bd5e71a
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 17
+        // line 14
         echo "
         <div class=\"col-xs-hidden col-sm-hidden col-md-1\" ></div>
     </div>
@@ -84,15 +71,12 @@ class __TwigTemplate_4211e201efd5c5a3518fdc86e222bfc819991184247d3af8fde3bd5e71a
 
     public function getDebugInfo()
     {
-        return array (  68 => 17,  59 => 14,  53 => 13,  50 => 12,  46 => 11,  40 => 7,  32 => 5,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  55 => 14,  46 => 11,  40 => 10,  37 => 9,  33 => 8,  27 => 4,  23 => 3,  19 => 1,);
     }
 }
 /* <div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">*/
 /* */
-/*     {% for contactSite in home.getContactSite %}*/
-/*         <p class="how_it_works"> {{ contactSite.title_site }} </p>*/
-/*         <div class="under_how_it_works"> {{ contactSite.description_site }} </div>*/
-/*     {% endfor %}*/
+/*     {% partial __SELF__ ~ '::head' %}*/
 /* */
 /*     <div class="row" style="margin-right: 0px;  margin-left: 0px";>*/
 /*         <div class="col-xs-hidden col-sm-hidden col-md-1"></div>*/

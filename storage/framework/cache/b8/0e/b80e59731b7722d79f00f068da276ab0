@@ -1,4 +1,4 @@
-1456245962s:2389:"a:6:{s:5:"mtime";i:1456245348;s:7:"content";s:1050:"title = "Account"
+1456323737s:2359:"a:6:{s:5:"mtime";i:1456322421;s:7:"content";s:1035:"title = "Account"
 url = "/account"
 layout = "admin"
 is_hidden = 0
@@ -43,10 +43,8 @@ function onInit()
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
-
-            {{ dump(account) }}
-            {% component 'account' %}
-
+                
+                {% component 'account' %}
             
         </div>
         <div class="col-lg-1"></div>
@@ -71,14 +69,12 @@ function onInit()
 //die();
 
 }
-";s:6:"markup";s:323:"<div class="conteiner">
+";s:6:"markup";s:308:"<div class="conteiner">
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10 ">
-
-            {{ dump(account) }}
-            {% component 'account' %}
-
+                
+                {% component 'account' %}
             
         </div>
         <div class="col-lg-1"></div>

@@ -1,9 +1,0 @@
-# ===================================
-#  Form Field Definitions
-# ===================================
-
-fields:
-    message:
-        label: Message for donator
-        type: richeditor
-

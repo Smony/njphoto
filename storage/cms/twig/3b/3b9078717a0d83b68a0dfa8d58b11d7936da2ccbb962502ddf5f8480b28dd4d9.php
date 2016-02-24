@@ -72,16 +72,20 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
 </head>
 <body>
-
-<!-- Main navbar -->
+";
+        // line 51
+        if ( !(isset($context["user"]) ? $context["user"] : null)) {
+        } else {
+            // line 53
+            echo "<!-- Main navbar -->
 <div class=\"navbar navbar-inverse\">
     <div class=\"navbar-header\">
         <a class=\"navbar-brand\" href=\"";
-        // line 55
-        echo $this->env->getExtension('CMS')->pageFilter("account");
-        echo "\"><img src=\"";
-        echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/logo_light.png");
-        echo "\" alt=\"\"></a>
+            // line 56
+            echo $this->env->getExtension('CMS')->pageFilter("account");
+            echo "\"><img src=\"";
+            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/logo_light.png");
+            echo "\" alt=\"\"></a>
 
         <ul class=\"nav navbar-nav visible-xs-block\">
             <li><a data-toggle=\"collapse\" data-target=\"#navbar-mobile\"><i class=\"icon-tree5\"></i></a></li>
@@ -175,66 +179,66 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
         </ul>
 
         ";
-        // line 148
-        if ((isset($context["user"]) ? $context["user"] : null)) {
             // line 149
-            echo "            <p class=\"navbar-text\"><span class=\"label bg-success-400\">Online</span></p>
+            if ((isset($context["user"]) ? $context["user"] : null)) {
+                // line 150
+                echo "            <p class=\"navbar-text\"><span class=\"label bg-success-400\">Online</span></p>
         ";
-        } else {
-            // line 151
-            echo "            <p class=\"navbar-text\"><span class=\"label bg-warning-400\">Offline</span></p>
+            } else {
+                // line 152
+                echo "            <p class=\"navbar-text\"><span class=\"label bg-warning-400\">Offline</span></p>
         ";
-        }
-        // line 153
-        echo "
+            }
+            // line 154
+            echo "
         <ul class=\"nav navbar-nav navbar-right\">
             <li class=\"dropdown language-switch\">
 
                 ";
-        // line 157
-        if ((isset($context["user"]) ? $context["user"] : null)) {
             // line 158
-            echo "                <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">
+            if ((isset($context["user"]) ? $context["user"] : null)) {
+                // line 159
+                echo "                <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                     <img src=\"";
-            // line 159
-            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/gb.png");
-            echo "\" class=\"position-left\" alt=\"\">
+                // line 160
+                echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/gb.png");
+                echo "\" class=\"position-left\" alt=\"\">
                     English
                     <!--<span class=\"caret\"></span>-->
                 </a>
                 ";
-        }
-        // line 164
-        echo "    <!--
+            }
+            // line 165
+            echo "    <!--
                 <ul class=\"dropdown-menu\">
                     <li><a class=\"deutsch\"><img src=\"";
-        // line 166
-        echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/de.png");
-        echo "\" alt=\"\"> Deutsch</a></li>
+            // line 167
+            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/de.png");
+            echo "\" alt=\"\"> Deutsch</a></li>
                     <li><a class=\"ukrainian\"><img src=\"";
-        // line 167
-        echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/ua.png");
-        echo "\" alt=\"\"> Українська</a></li>
+            // line 168
+            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/ua.png");
+            echo "\" alt=\"\"> Українська</a></li>
                     <li><a class=\"english\"><img src=\"";
-        // line 168
-        echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/gb.png");
-        echo "\" alt=\"\"> English</a></li>
+            // line 169
+            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/gb.png");
+            echo "\" alt=\"\"> English</a></li>
                     <li><a class=\"espana\"><img src=\"";
-        // line 169
-        echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/es.png");
-        echo "\" alt=\"\"> España</a></li>
+            // line 170
+            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/es.png");
+            echo "\" alt=\"\"> España</a></li>
                     <li><a class=\"russian\"><img src=\"";
-        // line 170
-        echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/ru.png");
-        echo "\" alt=\"\"> Русский</a></li>
+            // line 171
+            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/flags/ru.png");
+            echo "\" alt=\"\"> Русский</a></li>
                 </ul>
     -->
             </li>
             ";
-        // line 174
-        if ((isset($context["user"]) ? $context["user"] : null)) {
             // line 175
-            echo "            <li class=\"dropdown disabled\">
+            if ((isset($context["user"]) ? $context["user"] : null)) {
+                // line 176
+                echo "            <li class=\"dropdown disabled\">
                 <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                     <i class=\"icon-bubbles4\"></i>
                     <span class=\"visible-xs-inline-block position-right\">Messages</span>
@@ -254,9 +258,9 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                         <li class=\"media\">
                             <div class=\"media-left\">
                                 <img src=\"";
-            // line 194
-            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
-            echo "\" class=\"img-circle img-sm\" alt=\"\">
+                // line 195
+                echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
+                echo "\" class=\"img-circle img-sm\" alt=\"\">
                                 <span class=\"badge bg-danger-400 media-badge\">5</span>
                             </div>
 
@@ -279,23 +283,23 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                 </div>-->
             </li>
             ";
-        }
-        // line 217
-        echo "
+            }
+            // line 218
+            echo "
             ";
-        // line 218
-        if ($this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array())) {
             // line 219
-            echo "                <li class=\"dropdown dropdown-user\">
+            if ($this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array())) {
+                // line 220
+                echo "                <li class=\"dropdown dropdown-user\">
                     <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                         <img src=\"";
-            // line 221
-            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
-            echo "\" alt=\"\">
+                // line 222
+                echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
+                echo "\" alt=\"\">
                         <span>";
-            // line 222
-            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
-            echo "</span>
+                // line 223
+                echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
+                echo "</span>
                         <i class=\"caret\"></i>
                     </a>
 
@@ -303,48 +307,53 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                         <li class=\"disabled\"><a href=\"#\"><span class=\"badge bg-teal-400 pull-right\">1</span> <i class=\"icon-comment-discussion\"></i> Messages</a></li>
                         <li class=\"divider\"></li>
                         ";
-            // line 229
-            if ((isset($context["user"]) ? $context["user"] : null)) {
                 // line 230
-                echo "                            <li><a href=\"scripts:void();\" data-request=\"onLogout\" data-request-data=\"redirect: '/'\"><i class=\"icon-switch2\"></i> Logout</a></li>
+                if ((isset($context["user"]) ? $context["user"] : null)) {
+                    // line 231
+                    echo "                            <li><a href=\"scripts:void();\" data-request=\"onLogout\" data-request-data=\"redirect: '/'\"><i class=\"icon-switch2\"></i> Logout</a></li>
                         ";
-            }
-            // line 232
-            echo "                    </ul>
+                }
+                // line 233
+                echo "                    </ul>
                 </li>
             ";
-        } else {
-            // line 235
-            echo "            <li class=\"dropdown dropdown-user\">
+            } else {
+                // line 236
+                echo "            <li class=\"dropdown dropdown-user\">
 
                 <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                     <img src=\"";
-            // line 238
-            echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
-            echo "\" alt=\"\">
+                // line 239
+                echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
+                echo "\" alt=\"\">
                     <span>Nobody is logged in</span>
                 </a>
 
             </li>
             ";
-        }
-        // line 244
-        echo "
+            }
+            // line 245
+            echo "
 
         </ul>
     </div>
 </div>
 <!-- /main navbar -->
+";
+        }
+        // line 252
+        echo "
 
 <!-- Page container -->
 <div class=\"page-container\">
 
     <!-- Page content -->
     <div class=\"page-content\">
+
 ";
-        // line 256
+        // line 260
         if ((isset($context["user"]) ? $context["user"] : null)) {
-            // line 257
+            // line 261
             echo "\t<!-- Main sidebar -->
 <div class=\"sidebar sidebar-main\">
     <div class=\"sidebar-content\">
@@ -354,17 +363,17 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
             <div class=\"category-content\">
                 <div class=\"media\">
                     <a href=\"#\" class=\"media-left\"><img src=\"";
-            // line 265
+            // line 269
             echo $this->env->getExtension('CMS')->themeFilter("assets/admin/images/placeholder.jpg");
             echo "\" class=\"img-circle img-sm\" alt=\"\"></a>
                     <div class=\"media-body\">
                         <span class=\"media-heading text-semibold\">";
-            // line 267
+            // line 271
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "name", array()), "html", null, true);
             echo "</span>
                         <div class=\"text-size-mini text-muted\">
                             <i class=\"glyphicon glyphicon-envelope text-size-small\"></i> &nbsp;";
-            // line 269
+            // line 273
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : null), "email", array()), "html", null, true);
             echo "
                         </div>
@@ -391,7 +400,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                     <!-- Main -->
                     <li class=\"navigation-header\"><span>Main</span> <i class=\"icon-menu\" title=\"Main pages\"></i></li>
                     <li class=\"active\"><a href=\"";
-            // line 293
+            // line 297
             echo $this->env->getExtension('CMS')->pageFilter("account");
             echo "\"><i class=\"icon-home4\"></i> <span>HOME</span></a></li>
                     <li>
@@ -420,21 +429,30 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
     </div>
 </div>
+
 <!-- /main sidebar -->
 ";
         } else {
-            // line 322
+            // line 327
             echo "
 ";
         }
-        // line 324
+        // line 329
         echo "
+
         <!-- Main content -->
         <div class=\"content-wrapper\">
 
             <!-- Page header -->
             <div class=\"page-header\">
-                <div class=\"page-header-content\">
+                ";
+        // line 336
+        if ( !(isset($context["user"]) ? $context["user"] : null)) {
+            // line 337
+            echo "                ";
+        } else {
+            // line 338
+            echo "                <div class=\"page-header-content\">
                     <div class=\"page-title\">
                         <h4><i class=\"icon-arrow-left52 position-left\"></i> <span class=\"text-semibold\">Home</span> - Account</h4>
                     </div>
@@ -448,11 +466,13 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                         </div>
                     -->
                 </div>
-
-                <div class=\"breadcrumb-line\">
+                ";
+        }
+        // line 353
+        echo "                <div class=\"breadcrumb-line\">
                     <ul class=\"breadcrumb\">
                         <li><a href=\"";
-        // line 347
+        // line 355
         echo "/";
         echo "\"><i class=\"icon-home2 position-left\"></i> Home</a></li>
                         <li class=\"active\">Account</li>
@@ -481,6 +501,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
             </div>
             <!-- /page header -->
 
+
             <!-- Main content -->
             <div class=\"content\">
 
@@ -494,7 +515,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
                         <div class=\"form-horizontal\">
 
                             ";
-        // line 386
+        // line 395
         echo $this->env->getExtension('CMS')->pageFunction();
         echo "                                  <!-- INCLUDE TEMPLATE PAGE -->
 
@@ -514,28 +535,28 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
     <!-- Scripts -->
     <script src=\"";
-        // line 403
+        // line 412
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.js", 1 => "assets/js/bootstrap.min.js"));
-        // line 406
+        // line 415
         echo "\"></script>
 
     ";
-        // line 408
+        // line 417
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 409
+        // line 418
         echo "    ";
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
-        // line 410
+        // line 419
         echo "    ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 411
+        // line 420
         echo "
 
     </div>
@@ -560,7 +581,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 
     public function getDebugInfo()
     {
-        return array (  539 => 411,  535 => 410,  531 => 409,  524 => 408,  520 => 406,  518 => 403,  498 => 386,  456 => 347,  431 => 324,  427 => 322,  395 => 293,  368 => 269,  363 => 267,  358 => 265,  348 => 257,  346 => 256,  332 => 244,  323 => 238,  318 => 235,  313 => 232,  309 => 230,  307 => 229,  297 => 222,  293 => 221,  289 => 219,  287 => 218,  284 => 217,  258 => 194,  237 => 175,  235 => 174,  228 => 170,  224 => 169,  220 => 168,  216 => 167,  212 => 166,  208 => 164,  200 => 159,  197 => 158,  195 => 157,  189 => 153,  185 => 151,  181 => 149,  179 => 148,  81 => 55,  70 => 46,  68 => 38,  62 => 34,  60 => 27,  54 => 23,  52 => 16,  49 => 15,  46 => 14,  42 => 13,  36 => 10,  32 => 9,  27 => 7,  19 => 1,);
+        return array (  560 => 420,  556 => 419,  552 => 418,  545 => 417,  541 => 415,  539 => 412,  519 => 395,  476 => 355,  472 => 353,  455 => 338,  452 => 337,  450 => 336,  441 => 329,  437 => 327,  404 => 297,  377 => 273,  372 => 271,  367 => 269,  357 => 261,  355 => 260,  345 => 252,  336 => 245,  327 => 239,  322 => 236,  317 => 233,  313 => 231,  311 => 230,  301 => 223,  297 => 222,  293 => 220,  291 => 219,  288 => 218,  262 => 195,  241 => 176,  239 => 175,  232 => 171,  228 => 170,  224 => 169,  220 => 168,  216 => 167,  212 => 165,  204 => 160,  201 => 159,  199 => 158,  193 => 154,  189 => 152,  185 => 150,  183 => 149,  85 => 56,  80 => 53,  77 => 51,  70 => 46,  68 => 38,  62 => 34,  60 => 27,  54 => 23,  52 => 16,  49 => 15,  46 => 14,  42 => 13,  36 => 10,  32 => 9,  27 => 7,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -613,7 +634,8 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /* */
 /* </head>*/
 /* <body>*/
-/* */
+/* {% if not user %}*/
+/* {% else %}*/
 /* <!-- Main navbar -->*/
 /* <div class="navbar navbar-inverse">*/
 /*     <div class="navbar-header">*/
@@ -812,12 +834,15 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*     </div>*/
 /* </div>*/
 /* <!-- /main navbar -->*/
+/* {% endif %}*/
+/* */
 /* */
 /* <!-- Page container -->*/
 /* <div class="page-container">*/
 /* */
 /*     <!-- Page content -->*/
 /*     <div class="page-content">*/
+/* */
 /* {% if user %}*/
 /* 	<!-- Main sidebar -->*/
 /* <div class="sidebar sidebar-main">*/
@@ -882,16 +907,20 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /* */
 /*     </div>*/
 /* </div>*/
+/* */
 /* <!-- /main sidebar -->*/
 /* {% else %}*/
 /* */
 /* {% endif %}*/
+/* */
 /* */
 /*         <!-- Main content -->*/
 /*         <div class="content-wrapper">*/
 /* */
 /*             <!-- Page header -->*/
 /*             <div class="page-header">*/
+/*                 {% if not user %}*/
+/*                 {% else %}*/
 /*                 <div class="page-header-content">*/
 /*                     <div class="page-title">*/
 /*                         <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Account</h4>*/
@@ -906,7 +935,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*                         </div>*/
 /*                     -->*/
 /*                 </div>*/
-/* */
+/*                 {% endif %}*/
 /*                 <div class="breadcrumb-line">*/
 /*                     <ul class="breadcrumb">*/
 /*                         <li><a href="{{ '/' }}"><i class="icon-home2 position-left"></i> Home</a></li>*/
@@ -935,6 +964,7 @@ class __TwigTemplate_3ea2a63f5722e13070ff9ef3779b32fcb02c0bd75859fd3c46dfbd645e2
 /*                 </div>*/
 /*             </div>*/
 /*             <!-- /page header -->*/
+/* */
 /* */
 /*             <!-- Main content -->*/
 /*             <div class="content">*/

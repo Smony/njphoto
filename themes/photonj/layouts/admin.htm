@@ -1,6 +1,7 @@
 description = "Admin layout"
 
 ==
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +52,8 @@ description = "Admin layout"
 
 </head>
 <body>
-
+{% if not user %}
+{% else %}
 <!-- Main navbar -->
 <div class="navbar navbar-inverse">
     <div class="navbar-header">
@@ -250,12 +252,15 @@ description = "Admin layout"
     </div>
 </div>
 <!-- /main navbar -->
+{% endif %}
+
 
 <!-- Page container -->
 <div class="page-container">
 
     <!-- Page content -->
     <div class="page-content">
+
 {% if user %}
 	<!-- Main sidebar -->
 <div class="sidebar sidebar-main">
@@ -320,16 +325,20 @@ description = "Admin layout"
 
     </div>
 </div>
+
 <!-- /main sidebar -->
 {% else %}
 
 {% endif %}
+
 
         <!-- Main content -->
         <div class="content-wrapper">
 
             <!-- Page header -->
             <div class="page-header">
+                {% if not user %}
+                {% else %}
                 <div class="page-header-content">
                     <div class="page-title">
                         <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Account</h4>
@@ -344,7 +353,7 @@ description = "Admin layout"
                         </div>
                     -->
                 </div>
-
+                {% endif %}
                 <div class="breadcrumb-line">
                     <ul class="breadcrumb">
                         <li><a href="{{ '/' }}"><i class="icon-home2 position-left"></i> Home</a></li>
@@ -373,6 +382,7 @@ description = "Admin layout"
                 </div>
             </div>
             <!-- /page header -->
+
 
             <!-- Main content -->
             <div class="content">

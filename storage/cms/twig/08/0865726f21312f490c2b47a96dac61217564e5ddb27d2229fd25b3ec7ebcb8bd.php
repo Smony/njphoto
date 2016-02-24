@@ -20,33 +20,28 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
     <div class=\"row\">
         <div class=\"col-lg-1\"></div>
         <div class=\"col-lg-10 \">
-
-            ";
+                
+                ";
         // line 6
-        echo $this->env->getExtension('debug')->runDump($this->env, $context, (isset($context["account"]) ? $context["account"] : null));
-        echo "
-            ";
-        // line 7
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("account"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 8
-        echo "
-            
+        // line 7
+        echo "            
         </div>
         <div class=\"col-lg-1\"></div>
     </div>
 </div>
 
 ";
-        // line 15
+        // line 13
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 16
+        // line 14
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
     }
@@ -63,17 +58,15 @@ class __TwigTemplate_ae42f42dc15738f891b8b40efd39339ff1f1796d9eef95f68db2e677beb
 
     public function getDebugInfo()
     {
-        return array (  50 => 16,  43 => 15,  34 => 8,  30 => 7,  26 => 6,  19 => 1,);
+        return array (  45 => 14,  38 => 13,  30 => 7,  26 => 6,  19 => 1,);
     }
 }
 /* <div class="conteiner">*/
 /*     <div class="row">*/
 /*         <div class="col-lg-1"></div>*/
 /*         <div class="col-lg-10 ">*/
-/* */
-/*             {{ dump(account) }}*/
-/*             {% component 'account' %}*/
-/* */
+/*                 */
+/*                 {% component 'account' %}*/
 /*             */
 /*         </div>*/
 /*         <div class="col-lg-1"></div>*/
