@@ -180,4 +180,5 @@ class ImageUploader extends ComponentBase
         $this->page['image'] = $image;
     }
 
+
 }

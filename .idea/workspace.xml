@@ -2,630 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20409a66-3168-43e4-8b7c-ee79d6c1fdc9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/smony/home/components/work/head.htm" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/Plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/assets/css/octodonation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/assets/js/octodonations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/classes/Donation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/components/Cancel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/components/Donation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/components/Success.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/components/cancel/default.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/components/donation/alert.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/components/donation/default.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/components/success/default.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/controllers/Donationes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/controllers/donationes/_list_toolbar.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/controllers/donationes/_send_form.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/controllers/donationes/config_form.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/controllers/donationes/config_list.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/controllers/donationes/index.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/models/Donatione.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/models/Settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/models/donatione/_content_email.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/models/donatione/columns.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/models/donatione/fields.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/models/donatione/filter.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/models/settings/fields.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/updates/SeedMailLayoutTable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/updates/create_donationes_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/updates/version.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/composer/ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/composer/autoload_classmap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/composer/autoload_namespaces.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/composer/autoload_psr4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/composer/autoload_real.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/composer/installed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/docs/cover.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/generate-api.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Address.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Agreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementStateDescriptor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementTransaction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementTransactions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Amount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Authorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BankAccountsList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BankToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BaseAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BillingInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CancelNotification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Capture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CarrierAccountToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CartBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ChargeModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Cost.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreateProfileResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Credit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardHistory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Currency.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CurrencyConversion.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CustomAmount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Details.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ErrorDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ExtendedBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FlowConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FmfDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingDetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingInstrument.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingOption.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingSource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FuturePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/HyperSchema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Incentive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InputFields.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InstallmentInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InstallmentOption.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Invoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceSearchResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ItemList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Measurement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/MerchantInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/MerchantPreferences.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Metadata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/NameValuePair.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Notification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdError.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdSession.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdTokeninfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdUserinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Order.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OverrideChargeModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Patch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PatchRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payee.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayerInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentCardToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentDetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentExecution.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentHistory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentInstruction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentOptions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentTerm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutBatch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutBatchHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutItemDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutSenderBatchHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Phone.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Plan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PlanList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Presentation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RecipientBankingInstruction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RedirectUrls.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Refund.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RefundDetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RelatedResources.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Sale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingCost.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Tax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Terms.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Transaction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/TransactionBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Transactions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Webhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventTypeList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/ArrayUtil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalUserAgent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/ReflectionUtil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Converter/FormatConverter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalConfigManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalConstants.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalLoggingLevel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalLoggingManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalConfigurationException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalConnectionException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalInvalidCredentialException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalMissingCredentialException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/IPayPalHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/OauthHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/RestHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/ApiContext.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/IResource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Security/Cipher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/JsonValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ModelAccessorValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/NumericValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/UrlValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/phpunit.integration.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/release_notes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/CreateBillingAgreementWithCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/CreateBillingAgreementWithPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/CreatePlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/DeletePlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/ExecuteAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/GetBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/GetPlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/ListPlans.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/ReactivateBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/SearchBillingTransactions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/SuspendBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/UpdateBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/UpdatePlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/billing/UpdatePlanPaymentDefinitions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/common.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/assets/behavior.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/assets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/CreateBillingAgreementWithCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/CreateBillingAgreementWithPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/CreatePlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/DeletePlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/ExecuteAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/GetBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/GetPlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/ListPlans.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/ReactivateBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/SearchBillingTransactions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/SuspendBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/UpdateBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/UpdatePlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/billing/UpdatePlanPaymentDefinitions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/CancelInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/CreateInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/DeleteInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/GetInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/ListInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/RecordPayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/RecordRefund.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/RemindInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/RetrieveQRCode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/SearchInvoices.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/SendInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/invoice/UpdateInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/lipp/GenerateAccessTokenFromRefreshToken.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/lipp/GetUserInfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/lipp/ObtainUserConsent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/lipp/UserConsentRedirect.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/CreateWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/DeleteAllWebhooks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/DeleteWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/GetWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/ListSubscribedWebhookEventTypes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/ListWebhooks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/SearchWebhookEvents.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/UpdateWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/notifications/WebhookEventTypesList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payment-experience/CreateWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payment-experience/DeleteWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payment-experience/GetWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payment-experience/ListWebProfiles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payment-experience/PartiallyUpdateWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payment-experience/UpdateWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/AuthorizationCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/AuthorizePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/AuthorizePaymentUsingPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/CreateFuturePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/CreatePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/CreatePaymentUsingPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/CreatePaymentUsingSavedCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/ExecutePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/GetAuthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/GetCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/GetPayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/ListPayments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderAuthorize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateForAuthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateForCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateForVoid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateUsingPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderDoVoid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/OrderGet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/Reauthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/RefundCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/UpdatePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payments/VoidAuthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payouts/CancelPayoutItem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payouts/CreateBatchPayout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payouts/CreateSinglePayout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payouts/GetPayoutBatchStatus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/payouts/GetPayoutItemStatus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/sale/GetSale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/sale/RefundSale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/vault/CreateBankAccount.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/vault/CreateCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/vault/DeleteBankAccount.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/vault/DeleteCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/vault/GetBankAccount.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/vault/GetCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/doc/vault/UpdateCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/images/pp_v_rgb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/images/sample_console.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/images/sample_web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/CancelInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/CreateInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/DeleteInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/GetInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/ListInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/RecordPayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/RecordRefund.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/RemindInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/RetrieveQRCode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/SearchInvoices.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/SendInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/UpdateInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/invoice/images/sample.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/lipp/GenerateAccessTokenFromRefreshToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/lipp/GetUserInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/lipp/ObtainUserConsent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/lipp/UserConsentRedirect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/CreateWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/DeleteAllWebhooks.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/DeleteWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/GetWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/ListSubscribedWebhookEventTypes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/ListWebhooks.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/SearchWebhookEvents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/UpdateWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/notifications/WebhookEventTypesList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payment-experience/CreateWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payment-experience/DeleteWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payment-experience/GetWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payment-experience/ListWebProfiles.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payment-experience/PartiallyUpdateWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payment-experience/UpdateWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/AuthorizationCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/AuthorizePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/AuthorizePaymentUsingPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/CreateFuturePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/CreatePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/CreatePaymentUsingPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/CreatePaymentUsingSavedCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/ExecutePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/GetAuthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/GetCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/GetPayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/ListPayments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderAuthorize.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderCreateForAuthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderCreateForCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderCreateForVoid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderCreateUsingPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderDoVoid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/OrderGet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/Reauthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/RefundCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/UpdatePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payments/VoidAuthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payouts/CancelPayoutItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payouts/CreateBatchPayout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payouts/CreateSinglePayout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payouts/GetPayoutBatchStatus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/payouts/GetPayoutItemStatus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/sale/GetSale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/sale/RefundSale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/sdk_config.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/vault/CreateBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/vault/CreateCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/vault/DeleteBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/vault/DeleteCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/vault/GetBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/vault/GetCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/sample/vault/UpdateCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/AddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/AgreementStateDescriptorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/AgreementTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/AgreementTransactionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/AgreementTransactionsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/AmountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/AuthorizationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/BankAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/BankAccountsListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/BankTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/BillingInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CancelNotificationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CaptureTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CarrierAccountTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CartBaseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ChargeModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CostTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CreateProfileResponseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CreditCardHistoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CreditCardListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CreditCardTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CreditCardTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CreditTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CurrencyConversionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CurrencyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/CustomAmountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/DetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ErrorDetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ErrorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ExtendedBankAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/FlowConfigTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/FmfDetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/FundingDetailTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/FundingInstrumentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/FundingOptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/FundingSourceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/HyperSchemaTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ImageTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/IncentiveTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/InputFieldsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/InstallmentInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/InstallmentOptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/InvoiceAddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/InvoiceItemTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/InvoiceSearchResponseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/InvoiceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ItemListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ItemTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/LinksTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/MeasurementTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/MerchantInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/MerchantPreferencesTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/MetadataTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/NameValuePairTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/NotificationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/OpenIdAddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/OpenIdErrorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/OpenIdSessionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/OpenIdTokeninfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/OpenIdUserinfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/OrderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/OverrideChargeModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PatchRequestTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PatchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayeeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayerInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentCardTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentCardTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentDefinitionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentDetailTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentExecutionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentHistoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentInstructionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentOptionsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentTermTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PaymentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayoutBatchHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayoutBatchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayoutItemDetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayoutItemTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayoutSenderBatchHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PayoutTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PhoneTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PlanListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PlanTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/PresentationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/RecipientBankingInstructionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/RedirectUrlsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/RefundDetailTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/RefundTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/RelatedResourcesTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/SaleTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/SearchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ShippingAddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ShippingCostTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/ShippingInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/TaxTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/TermsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/TransactionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/WebProfileTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/WebhookEventListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/WebhookEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/WebhookEventTypeListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/WebhookEventTypeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/WebhookListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Api/WebhookTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Auth/OAuthTokenCredentialTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Cache/AuthorizationCacheTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/ArrayClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/ArrayUtilTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/ChildClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/FormatConverterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/ModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/NestedClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/PayPalModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/SimpleClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Common/UserAgentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Constants.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Core/PPConfigManagerTest.php.skipped" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Core/PayPalCredentialManagerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Core/PayPalHttpConfigTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Core/PayPalLoggingManagerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Exception/PayPalConfigurationExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Exception/PayPalConnectionExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Exception/PayPalInvalidCredentialExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Exception/PayPalMissingCredentialExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Api/BillingAgreementsFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Api/BillingPlansFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Api/InvoiceFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Api/PaymentsFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Api/PayoutsFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Api/WebProfileFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Api/WebhookFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/Setup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testBillBalance.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCancel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCreateCCAgreement.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCreatePayPalAgreement.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCreateWithOverride.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testExecute.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGetCancelled.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGetSuspended.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGetTransactions.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testReactivate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testSetBalance.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testSuspend.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testCreateWithNOChargeModel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testGetList.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testUpdateChangingMerchantPreferences.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testUpdateChangingPD.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testUpdateChangingState.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testCancel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testDelete.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testGetAll.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testQRCode.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testRecordPayment.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testRecordRefund.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testRemind.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testSearch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testSend.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testCreateWallet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testExecute.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testGetPending.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testGetSale.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testRefundSale.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testCancel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testGetItem.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testDelete.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testGetList.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testPartialUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testDelete.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testEventResend.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testEventSearch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGetAll.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGetEvent.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGetSubscribedEventTypes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/webhook_get_available_event_types.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Handler/OauthHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Rest/ApiContextTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Validation/ArgumentValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Validation/JsonValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Validation/ModelAccessValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/PayPal/Test/Validation/NumericValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/vendor/paypal/rest-api-sdk-php/tests/sdk_config.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/views/mail/hi.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jorgeandrade/octodonations/views/mail/thanks.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/68/09/404.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/16/164c6323811c0f851b39612420794abcddb2909e6d797c97a6e1063b04544569.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/6c/6cdd9c5625a940e16dcfd17caae82e4e4284376cdd7f8e2e3d538f5e318a9164.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/7f/7f533b23af0c7783380fe1d3f2ab9920d309511a01a9d03a9e0acc3a376b8667.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/9c/9ccf01d44115572e418ac6707d662084785ef9e83e5aea2c3bce32ff091a8279.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/cc/ccddf6bf95bff07572bfd3921e2708734a28c61d7d539bdbb84387c070f29325.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/cf/cf7a9530c876cfcffc91fc3c9e06deb7e4b67842844f4345bd72e8f0a45a4da4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/db/dbce87fa4cd0c25c6913e7aff9c74661137044ce48340c7da3c8c60b0d4cfb27.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/f9/f94c522459b3e1bf1800c7b463e89064cd6a7573b735196c70a0a105c8afd0fb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6b461cd99fe75b3de97ca915c359bbb4683c4c82" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/50/12/contanct.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/1269d01d32edee724451df6cd9804220" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/3bf49666511533dd02f5736f30e438a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/9bef91f3295aa38e43b6c8cf4fcf41df" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/c469ccba1bcea6727f6799a6915162a9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/dea07924dbb8e1c11a71270fe0fcf1bd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/09/09d8ad522815da3471b37f72de7f5a579a4a2a0ac8ad06a17faf179da339bb00.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/12/12d5de625906ef66e08cd4992852fa79eb4adbd66cb0cbd41c1d4999f35dfd82.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/1d/1d1f8526014b8adbf57ddcff04e96acc2fd2285f06832ac7f5b8ac5c73ce234e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/56/564252a7693462a132987a79146cfc5ac297ae0e05bb38365f531f1968986187.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/86/866dca64702588f6accdfcf8b9f9ec1274d54883a0d563cafeca13dbcbe98273.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/8e/8e6bdb0e6aadc536ba8830614fb0da32fb1e8a881182fa298cec73052e1ab2b0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/bd/bdb424065be3cb719c188b96c0560c60dc756d263585d73d56fa1ad1a2b83ce9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/c2/c23e0d156d2a24ba34cf49ec4300964134afbe56053ae554585f71f0c33384dd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/da/da80e1241606212044c915916e661f8ba0557a4c85d5d3e28a15ed7c079e1352.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/e3/e335d6edd2711e842526397174d4d5b90d7b46720b61a6ea15a0376304b41f2b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/262b6721673d50a17b3fca43b3f1703ec729cf43" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/aed46e6d4e5529d99ade2c39f91282ff0f348065" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/components/account/default.htm" afterPath="$PROJECT_DIR$/plugins/rainlab/user/components/account/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/components/account/register.htm" afterPath="$PROJECT_DIR$/plugins/rainlab/user/components/account/register.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/components/account/signin.htm" afterPath="$PROJECT_DIR$/plugins/rainlab/user/components/account/signin.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/smony/home/components/work/default.htm" afterPath="$PROJECT_DIR$/plugins/smony/home/components/work/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/smony/home/updates/version.yaml" afterPath="$PROJECT_DIR$/plugins/smony/home/updates/version.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/components/Account.php" afterPath="$PROJECT_DIR$/plugins/rainlab/user/components/Account.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/user/models/User.php" afterPath="$PROJECT_DIR$/plugins/rainlab/user/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/responsiv/uploader/components/ImageUploader.php" afterPath="$PROJECT_DIR$/plugins/responsiv/uploader/components/ImageUploader.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/11/54/default.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/11/89/test.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/11/89/test.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/13/49/admin.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/13/49/admin.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/40/singin.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/15/93/footer.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/44/72/s.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/52/08/navigation_footer.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/59/76/navigation.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/65/28/account.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" afterPath="$PROJECT_DIR$/storage/cms/twig/08/0865726f21312f490c2b47a96dac61217564e5ddb27d2229fd25b3ec7ebcb8bd.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/1b/1b0a3b5bee64f2a862ed1fb6aff26823e4e0e8fb28e7d16ad45b0a62c350741f.php" afterPath="$PROJECT_DIR$/storage/cms/twig/1b/1b0a3b5bee64f2a862ed1fb6aff26823e4e0e8fb28e7d16ad45b0a62c350741f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/2c/2c1fef46e87e9df0c091bbfcbcd541874121cc8b4fbf604060d26a014f0a1a06.php" afterPath="$PROJECT_DIR$/storage/cms/twig/2c/2c1fef46e87e9df0c091bbfcbcd541874121cc8b4fbf604060d26a014f0a1a06.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/3b/3b9078717a0d83b68a0dfa8d58b11d7936da2ccbb962502ddf5f8480b28dd4d9.php" afterPath="$PROJECT_DIR$/storage/cms/twig/3b/3b9078717a0d83b68a0dfa8d58b11d7936da2ccbb962502ddf5f8480b28dd4d9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/5e/5effaed31b5b3f30fe4ab68241a30ad28b5f80193f1e911b69e45dfd53645bb0.php" afterPath="$PROJECT_DIR$/storage/cms/twig/5e/5effaed31b5b3f30fe4ab68241a30ad28b5f80193f1e911b69e45dfd53645bb0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/77/7736601023d1fb4aa201065367b7e9fbee68c167ed4614bb4edf242af2138b4b.php" afterPath="$PROJECT_DIR$/storage/cms/twig/77/7736601023d1fb4aa201065367b7e9fbee68c167ed4614bb4edf242af2138b4b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/c2/c23e0d156d2a24ba34cf49ec4300964134afbe56053ae554585f71f0c33384dd.php" afterPath="$PROJECT_DIR$/storage/cms/twig/c2/c23e0d156d2a24ba34cf49ec4300964134afbe56053ae554585f71f0c33384dd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/9f/9fe60d403b9494832d8eb795d3969c0448f699e89c6e41b549cb0db2e1467474.php" afterPath="$PROJECT_DIR$/storage/cms/twig/9f/9fe60d403b9494832d8eb795d3969c0448f699e89c6e41b549cb0db2e1467474.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/b1/b1f5d63a266a9ed748f47383a8b9c63ad2d4cbeb42381a1cd01f8800c0a2b09d.php" afterPath="$PROJECT_DIR$/storage/cms/twig/b1/b1f5d63a266a9ed748f47383a8b9c63ad2d4cbeb42381a1cd01f8800c0a2b09d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/c4/c4cc5005c8927b2753efaa90145bf477ad07b7c3233a8001c6fb5ace217795c1.php" afterPath="$PROJECT_DIR$/storage/cms/twig/c4/c4cc5005c8927b2753efaa90145bf477ad07b7c3233a8001c6fb5ace217795c1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/fa/fa60de466a74d2b9b7a8d803c137a9e31e3c2fbd3fb7c537a87d6be54ba1837d.php" afterPath="$PROJECT_DIR$/storage/cms/twig/fa/fa60de466a74d2b9b7a8d803c137a9e31e3c2fbd3fb7c537a87d6be54ba1837d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/fe/fe003e3b50b4ff90267f7ed6ef051511e4b3bc709f74eb7ff43be29f6d98f76e.php" afterPath="$PROJECT_DIR$/storage/cms/twig/fe/fe003e3b50b4ff90267f7ed6ef051511e4b3bc709f74eb7ff43be29f6d98f76e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" afterPath="$PROJECT_DIR$/storage/framework/cache/00/09/00097aca31b1eccb6dfeaf1a65b1ce92" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" afterPath="$PROJECT_DIR$/storage/framework/cache/02/9e/029ea257c7bc40b49b9db1b14dcc79b0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/07/ab/07ab47e7eb88df594e63669364753951" afterPath="$PROJECT_DIR$/storage/framework/cache/07/ab/07ab47e7eb88df594e63669364753951" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/e3/0ae30f9fefcbd1f346cd97797bc30a06" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/71/1a719ce1d67517ca86cf61cec540dc6c" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/71/1a719ce1d67517ca86cf61cec540dc6c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" afterPath="$PROJECT_DIR$/storage/framework/cache/1d/69/1d69a87c5474704816ac673b43ab6c26" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" afterPath="$PROJECT_DIR$/storage/framework/cache/1e/81/1e81d68e60cf68e1579c6f45c71f2c61" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/24/81/2481563ed515d2ab56ef9f4a868ddaeb" afterPath="$PROJECT_DIR$/storage/framework/cache/24/81/2481563ed515d2ab56ef9f4a868ddaeb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/32/65/32659e976bc39bbaef3bab65d5af8d53" afterPath="$PROJECT_DIR$/storage/framework/cache/32/65/32659e976bc39bbaef3bab65d5af8d53" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/3e/e9/3ee9018fdc0c5ec39d638b380620cffd" afterPath="$PROJECT_DIR$/storage/framework/cache/3e/e9/3ee9018fdc0c5ec39d638b380620cffd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/36/0f/360f2fbc479f3104b6f9fd501f668fff" afterPath="$PROJECT_DIR$/storage/framework/cache/36/0f/360f2fbc479f3104b6f9fd501f668fff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/37/49/37494a40850acbc4f54efcbb0b654f6d" afterPath="$PROJECT_DIR$/storage/framework/cache/37/49/37494a40850acbc4f54efcbb0b654f6d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" afterPath="$PROJECT_DIR$/storage/framework/cache/43/19/4319f6d8c8a23d3b5901eee87e003e67" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" afterPath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5d/07/5d078c76c8000e5f2e8d8cd3f4ef5fc4" afterPath="$PROJECT_DIR$/storage/framework/cache/5d/07/5d078c76c8000e5f2e8d8cd3f4ef5fc4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" afterPath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" afterPath="$PROJECT_DIR$/storage/framework/cache/62/15/621523286a83b34427f4de67ccb8e81f" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" afterPath="$PROJECT_DIR$/storage/framework/cache/65/4c/654cb5f1919a476dc8676280675eac40" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/66/2e/662e6d933c5f07257ec7c37422cb78e4" afterPath="$PROJECT_DIR$/storage/framework/cache/66/2e/662e6d933c5f07257ec7c37422cb78e4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/76/06/7606910790f048afd194d46541a853e7" afterPath="$PROJECT_DIR$/storage/framework/cache/76/06/7606910790f048afd194d46541a853e7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7a/6c/7a6c520e67fa8046630c8a1a9fcf96a1" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/6c/7a6c520e67fa8046630c8a1a9fcf96a1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/7a/ab/7aab106ced8c4d65f1f2244c2591f3af" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/ab/7aab106ced8c4d65f1f2244c2591f3af" />
@@ -649,9 +90,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" afterPath="$PROJECT_DIR$/storage/framework/cache/f8/e2/f8e26f4e2dfd10f1d7e9e6dffe5c5334" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" afterPath="$PROJECT_DIR$/storage/framework/cache/fc/e8/fce8019c78186c824b1bb6c2e0af7dd4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" afterPath="$PROJECT_DIR$/storage/framework/cache/ff/1c/ff1c1af9e7494c9ac01a4d97a2714787" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/layouts/admin.htm" afterPath="$PROJECT_DIR$/themes/photonj/layouts/admin.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/services.json" afterPath="$PROJECT_DIR$/storage/framework/services.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/pages/account.htm" afterPath="$PROJECT_DIR$/themes/photonj/pages/account.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/pages/contanct.htm" afterPath="$PROJECT_DIR$/themes/photonj/pages/contanct.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/photonj/pages/test.htm" afterPath="$PROJECT_DIR$/themes/photonj/pages/test.htm" />
     </list>
     <ignored path="october.nj.biz.iws" />
@@ -674,73 +114,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="account.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="account.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.115385">
-              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.45639536">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/photonj/pages/test.htm">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state vertical-scroll-proportion="-19.923077">
+              <caret line="252" column="4" selection-start-line="252" selection-start-column="4" selection-end-line="254" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deactivate_link.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/account/deactivate_link.htm">
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/models/Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/photonj/pages/s.htm">
+      <file leaf-file-name="version.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/updates/version.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/jiri/map/Plugin.php">
+      <file leaf-file-name="Account.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/Account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-              <folding>
-                <element signature="e#27#39#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleMap.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/jiri/map/components/GoogleMap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.309375">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state vertical-scroll-proportion="-55.576923">
+              <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/jiri/map/components/googlemap/default.htm">
+      <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageUploader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/components/ImageUploader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.884615">
+              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_list_toolbar.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/controllers/carousels/_list_toolbar.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Carousel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/models/Carousel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.923077">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_form.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/controllers/carousels/config_form.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -761,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/photonj/content/coffee_items.htm" />
-        <option value="$PROJECT_DIR$/themes/photonj/content/plan.htm" />
         <option value="$PROJECT_DIR$/themes/photonj/content/How_it_works.htm" />
         <option value="$PROJECT_DIR$/plugins/smony/home/components/Coffee.php" />
         <option value="$PROJECT_DIR$/plugins/smony/home/components/coffee/default.htm" />
@@ -793,8 +259,6 @@
         <option value="$PROJECT_DIR$/plugins/ebussola/feedback/components/feedback/default.htm" />
         <option value="$PROJECT_DIR$/themes/photonj/partials/footer.htm" />
         <option value="$PROJECT_DIR$/themes/photonj/layouts/default.htm" />
-        <option value="$PROJECT_DIR$/plugins/rainlab/user/models/User.php" />
-        <option value="$PROJECT_DIR$/plugins/rainlab/user/components/Account.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/plugins/rainlab/user/components/account/update.htm" />
         <option value="$PROJECT_DIR$/plugins/rainlab/user/components/account/deactivate_link.htm" />
@@ -809,9 +273,13 @@
         <option value="$PROJECT_DIR$/plugins/smony/home/updates/version.yaml" />
         <option value="$PROJECT_DIR$/themes/photonj/pages/s.htm" />
         <option value="$PROJECT_DIR$/config/cms.php" />
-        <option value="$PROJECT_DIR$/themes/photonj/pages/account.htm" />
-        <option value="$PROJECT_DIR$/themes/photonj/pages/test.htm" />
         <option value="$PROJECT_DIR$/plugins/rainlab/user/components/account/signin.htm" />
+        <option value="$PROJECT_DIR$/themes/photonj/pages/test.htm" />
+        <option value="$PROJECT_DIR$/plugins/jiri/map/Plugin.php" />
+        <option value="$PROJECT_DIR$/plugins/rainlab/user/components/Account.php" />
+        <option value="$PROJECT_DIR$/plugins/rainlab/user/models/User.php" />
+        <option value="$PROJECT_DIR$/plugins/responsiv/uploader/components/ImageUploader.php" />
+        <option value="$PROJECT_DIR$/themes/photonj/pages/account.htm" />
       </list>
     </option>
   </component>
@@ -855,7 +323,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -934,11 +401,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rainlab" />
+              <option name="myItemId" value="responsiv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="uploader" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -956,11 +423,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rainlab" />
+              <option name="myItemId" value="responsiv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="uploader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="updates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responsiv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responsiv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploader" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -989,12 +508,30 @@
               <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rainlab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1012,33 +549,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jiri" />
+              <option name="myItemId" value="rainlab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="october.nj.biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="october.nj.biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jiri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map" />
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1060,11 +575,159 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jiri" />
+              <option name="myItemId" value="rainlab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="map" />
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohsin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohsin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohsin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohsin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohsin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="october.nj.biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mohsin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1072,12 +735,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="googlemap" />
+              <option name="myItemId" value="carousel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1148,14 +812,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.84149855" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26492536" sideWeight="0.82479787" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.248104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.15850145" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1969697" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26492536" sideWeight="0.17520216" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1183,97 +847,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0950081">
-          <caret line="119" column="36" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/date/october.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.41396105">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/photonj/partials/navigation.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26086956">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/photonj/partials/singin.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21118012">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/photonj/partials/footer.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/photonj/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/resetpassword/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jorgeandrade/subscribe/components/profile/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0690184">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jorgeandrade/subscribe/components/profile/alert.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jorgeandrade/subscribe/components/subscriber/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2607362">
-          <caret line="10" column="141" selection-start-line="10" selection-start-column="133" selection-end-line="10" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jorgeandrade/subscribe/components/subscriber/alert.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02607362">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/smony/home/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39110428">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/views/mail/welcome.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/views/mail/activate.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1327,17 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1816144">
           <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78139013">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="e#38#47#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537">
           <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1244395">
           <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,9 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7141256">
           <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
-          <folding>
-            <element signature="e#42#51#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
           <caret line="340" column="26" selection-start-line="340" selection-start-column="26" selection-end-line="340" selection-end-column="26" />
-          <folding>
-            <element signature="e#16886#18116#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.038116593">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.057174888">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846">
           <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="27" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8919753">
           <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3642857">
           <caret line="105" column="79" selection-start-line="105" selection-start-column="79" selection-end-line="105" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5342857">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.10625">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1479,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1487,17 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jiri/map/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding>
-            <element signature="e#27#39#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1505,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85">
           <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1513,15 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10625">
           <caret line="4" column="47" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/Account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.425">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,6 +1047,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jiri/map/components/GoogleMap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74375">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jiri/map/components/googlemap/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/account/deactivate_link.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25872093">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/photonj/pages/test.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1541,42 +1088,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/account/deactivate_link.htm">
+    <entry file="file://$PROJECT_DIR$/plugins/jiri/map/Plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#27#39#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/controllers/Carousels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/models/carousel/fields.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/photonj/pages/test.htm">
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/models/carousel/columns.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/controllers/carousels/config_list.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/components/Carousel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/controllers/carousels/create.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.769231">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/controllers/carousels/_list_toolbar.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/controllers/carousels/config_form.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mohsin/carousel/models/Carousel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/updates/version.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/models/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/components/ImageUploader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.884615">
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/responsiv/uploader/models/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.923077">
+          <caret line="252" column="4" selection-start-line="252" selection-start-column="4" selection-end-line="254" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-55.576923">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/photonj/pages/account.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.115385">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jiri/map/components/googlemap/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jiri/map/components/GoogleMap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.309375">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.45639536">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,11 +1,11 @@
 <?php 
-class Cms56cdba4151643_251032262Class extends \Cms\Classes\PageCode
+class Cms56ced53f5e5a8_1642179018Class extends \Cms\Classes\PageCode
 {
 public function onInit()
 {
     //$this->imageUploader->bindModel('files', Project::find(1));
     //new Project;
-    $this->imageUploader->bindModel('photoTest', new \Rainlab\User\Models\User);
+    $this->imageUploader->bindModel('photo',new \Rainlab\User\Models\User);
 
 
     //var_dump($this->page);

@@ -251,6 +251,6 @@ class User extends UserBase
     }
 
     public $attachMany = [
-        'photoTest' => ['System\Models\File']
+        'photo' => ['System\Models\File']
     ];
 }

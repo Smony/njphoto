@@ -277,6 +277,8 @@ class Account extends ComponentBase
         //user->save();
 
 
+
+
         /*
          * Password has changed, reauthenticate the user
          */
